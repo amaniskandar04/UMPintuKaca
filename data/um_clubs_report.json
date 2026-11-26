@@ -1,0 +1,167 @@
+{
+  "generatedAt": "2026-11-26T16:44:03.704Z",
+  "lastVerified": "2026-11-26",
+  "tabCounts": {
+    "Student Union": 17,
+    "Faculty Society": 33,
+    "Anak Negeri": 13,
+    "College": 13,
+    "Activism": 3,
+    "Development": 4,
+    "Entrepreneurship": 3,
+    "Sports": 35,
+    "Social": 6,
+    "Campus Politics": 6,
+    "Religion": 7,
+    "National Politics Student Wing": 3
+  },
+  "sheetRows": 143,
+  "sheetEntries": 143,
+  "extrasInput": 53,
+  "extrasKept": 33,
+  "extrasDropped": [
+    {
+      "code": "BEPSOC",
+      "name": "Built Environment Postgraduate Society",
+      "reason": "No Instagram or LinkedIn organisation page found"
+    },
+    {
+      "code": "FCSPG",
+      "name": "UM-FCSIT Postgraduate Club",
+      "reason": "No Instagram or LinkedIn organisation page found"
+    },
+    {
+      "code": "IEEE",
+      "name": "IEEE Universiti Malaya Student Branch",
+      "reason": "No Instagram or LinkedIn organisation page found"
+    },
+    {
+      "code": "ISC",
+      "name": "Indian Studies Club",
+      "reason": "No Instagram or LinkedIn organisation page found"
+    },
+    {
+      "code": "ICEUMSC",
+      "name": "Institution of Civil Engineers Universiti Malaya Student Chapter",
+      "reason": "No Instagram or LinkedIn organisation page found"
+    },
+    {
+      "code": "IMECHE",
+      "name": "Institution of Mechanical Engineers Universiti Malaya Student Chapter",
+      "reason": "No Instagram or LinkedIn organisation page found"
+    },
+    {
+      "code": "PPAKK",
+      "name": "Persatuan Pendidikan Awal Kanak-Kanak Universiti Malaya",
+      "reason": "No Instagram or LinkedIn organisation page found"
+    },
+    {
+      "code": "RED",
+      "name": "Robotic Engineering Design",
+      "reason": "No Instagram or LinkedIn organisation page found"
+    },
+    {
+      "code": "SSC",
+      "name": "Science and Studies Club, Faculty of Science",
+      "reason": "No Instagram or LinkedIn organisation page found"
+    },
+    {
+      "code": "DEPAN",
+      "name": "UM Dental Postgraduate Association",
+      "reason": "No Instagram or LinkedIn organisation page found"
+    },
+    {
+      "code": "UMMOOT",
+      "name": "University of Malaya Moot Club",
+      "reason": "No Instagram or LinkedIn organisation page found"
+    },
+    {
+      "code": "UMNURSOC",
+      "name": "Nursing Science Society (NurSoc)",
+      "reason": "No Instagram or LinkedIn organisation page found"
+    },
+    {
+      "code": "KKPUM",
+      "name": "Kelab Kesenian Persembahan Universiti Malaya",
+      "reason": "No Instagram or LinkedIn organisation page found"
+    },
+    {
+      "code": "PBMUM",
+      "name": "Persatuan Bahasa Melayu Universiti Malaya",
+      "reason": "No Instagram or LinkedIn organisation page found"
+    },
+    {
+      "code": "TARIAN",
+      "name": "Persatuan Tarian Singa Universiti Malaya",
+      "reason": "No Instagram or LinkedIn organisation page found"
+    },
+    {
+      "code": "AIESEC",
+      "name": "AIESEC in Universiti Malaya",
+      "reason": "No Instagram or LinkedIn organisation page found"
+    },
+    {
+      "code": "UMGREEN",
+      "name": "UM Green Community",
+      "reason": "No Instagram or LinkedIn organisation page found"
+    },
+    {
+      "code": "UMZWC",
+      "name": "UM Zero Waste Campaign",
+      "reason": "No Instagram or LinkedIn organisation page found"
+    },
+    {
+      "code": "UMUC",
+      "name": "Universiti Malaya UNESCO Club",
+      "reason": "No Instagram or LinkedIn organisation page found"
+    },
+    {
+      "code": "KFUM",
+      "name": "UM Frisbee Club",
+      "reason": "No Instagram or LinkedIn organisation page found"
+    }
+  ],
+  "unmappedStates": [],
+  "unmappedUnions": [],
+  "mergedByCode": [
+    {
+      "code": "PBAUM",
+      "name": "Persatuan Bahasa Arab Um"
+    },
+    {
+      "code": "UMBADMINTON",
+      "name": "UM Badminton Club"
+    },
+    {
+      "code": "UMFC",
+      "name": "Universiti Malaya FC (UMFC)"
+    }
+  ],
+  "duplicateCodes": [],
+  "duplicateIds": [],
+  "counts": {
+    "total": 172,
+    "byCategory": {
+      "Student Union": 17,
+      "Faculty Society": 45,
+      "Independent": 5,
+      "Religious": 10,
+      "Sports": 33,
+      "Campus Politics": 6,
+      "Service": 4,
+      "Activism": 3,
+      "Residential College": 13,
+      "National Politics": 3,
+      "Development": 4,
+      "Social": 6,
+      "State": 13,
+      "Cultural": 3,
+      "International": 4,
+      "Entrepreneurship": 3
+    },
+    "bySource": {
+      "suara-siswa-2026": 139,
+      "extras": 33
+    }
+  }
+}

@@ -1,0 +1,1364 @@
+{
+  "generatedAt": "2026-11-26T16:42:54.014Z",
+  "lastVerified": "2026-11-25",
+  "sourcePages": [
+    {
+      "url": "https://study.um.edu.my/academy-of-islamic-studies-courses",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "level": "undergraduate",
+      "ok": true,
+      "bytes": 15678,
+      "programmes": [
+        {
+          "name": "Bachelor of Islamic Studies and Science",
+          "href": "bachelor-of-islamic-studies-and-science"
+        },
+        {
+          "name": "Bachelor of Muamalat Management",
+          "href": "bachelor-of-muamalat-management"
+        },
+        {
+          "name": "Bachelor of Al-Quran and Al-Hadith",
+          "href": "bachelor-of-al-quran-and-al-hadith"
+        },
+        {
+          "name": "Bachelor of Shariah and Law",
+          "href": "bachelor-of-shariah-and-law"
+        },
+        {
+          "name": "Bachelor of Shariah",
+          "href": "bachelor-of-shariah"
+        },
+        {
+          "name": "Bachelor of Usuluddin",
+          "href": "bachelor-of-usuluddin"
+        },
+        {
+          "name": "Bachelor of Islamic Education",
+          "href": "bachelor-of-islamic-education"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/malay-studies-courses",
+      "faculty": "ACADEMY OF MALAY STUDIES",
+      "level": "undergraduate",
+      "ok": true,
+      "bytes": 14902,
+      "programmes": [
+        {
+          "name": "Bachelor of Professional Malay Language",
+          "href": "bachelor-of-proffesional-malay-language"
+        },
+        {
+          "name": "Bachelor of Malay Linguistics",
+          "href": "bachelor-of-malay-linguistic"
+        },
+        {
+          "name": "Bachelor of Malay Literature",
+          "href": "bachelor-of-malay-literature"
+        },
+        {
+          "name": "Bachelor of Malay Studies",
+          "href": "bachelor-of-malay-studies"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/faculty-arts-social-science-courses",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "level": "undergraduate",
+      "ok": true,
+      "bytes": 17077,
+      "programmes": [
+        {
+          "name": "Bachelor of Arts Anthropology and Sociology",
+          "href": "bachelor-of-arts-anthropology-and-sociology"
+        },
+        {
+          "name": "Bachelor of Geography",
+          "href": "bachelor-of-geography"
+        },
+        {
+          "name": "Bachelor of Environmental Studies",
+          "href": "bachelor-of-environmental-studies"
+        },
+        {
+          "name": "Bachelor of Arts International and Strategic Studies",
+          "href": "bachelor-of-arts-international-and-strategic-studies"
+        },
+        {
+          "name": "Bachelor of Arts Southeast Asian Studies",
+          "href": "bachelor-of-arts-southeast-asians-studies"
+        },
+        {
+          "name": "Bachelor of East Asian Studies",
+          "href": "bachelor-of-east-asian-studies"
+        },
+        {
+          "name": "Bachelor of Social Administration",
+          "href": "bachelor-of-social-administration"
+        },
+        {
+          "name": "Bachelor of Arts History",
+          "href": "bachelor-of-arts-history"
+        },
+        {
+          "name": "Bachelor of Arts Indian Studies",
+          "href": "bachelor-of-arts-indian-studies"
+        },
+        {
+          "name": "Bachelor of Arts Chinese Studies",
+          "href": "bachelor-of-arts-chinese-studies"
+        },
+        {
+          "name": "Bachelor of Arts English",
+          "href": "bachelor-of-arts-english"
+        },
+        {
+          "name": "Bachelor of Media Studies",
+          "href": "bachelor-of-media-studies"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/faculty-of-built-environment",
+      "faculty": "FACULTY OF BUILT ENVIRONMENT",
+      "level": "undergraduate",
+      "ok": true,
+      "bytes": 15123,
+      "programmes": [
+        {
+          "name": "Bachelor of Science in Architecture",
+          "href": "bachelor-of-science-in-architecture"
+        },
+        {
+          "name": "Bachelor of Building Surveying",
+          "href": "bachelor-of-building-surveying"
+        },
+        {
+          "name": "Bachelor of Quantity Surveying",
+          "href": "bachelor-of-quantity-surveying"
+        },
+        {
+          "name": "Bachelor of Urban and Regional",
+          "href": "bachelor-of-urban-and-regional-planning"
+        },
+        {
+          "name": "Bachelor of Real Estate",
+          "href": "bachelor-of-real-estate"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/faculty-of-business-and-economic",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "level": "undergraduate",
+      "ok": true,
+      "bytes": 14826,
+      "programmes": [
+        {
+          "name": "Bachelor of Business Administration",
+          "href": "bachelor-of-business-administration"
+        },
+        {
+          "name": "Bachelor in Accounting",
+          "href": "bachelor-in-accounting"
+        },
+        {
+          "name": "Bachelor of Finance",
+          "href": "bachelor-of-finance"
+        },
+        {
+          "name": "Bachelor of Economics",
+          "href": "bachelor-of-economics"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/faculty-of-computer-science",
+      "faculty": "FACULTY OF COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
+      "level": "undergraduate",
+      "ok": true,
+      "bytes": 15599,
+      "programmes": [
+        {
+          "name": "Bachelor of Computer Science (AI)",
+          "href": "bachelor-of-computer-science-artificial-intelligence"
+        },
+        {
+          "name": "Bachelor of Computer Science (Software Engineering)",
+          "href": "bachelor-of-computer-science-software-engineering"
+        },
+        {
+          "name": "Bachelor of Computer Science (Computer System and Network)",
+          "href": "bachelor-of-computer-science-computer-system-and-network"
+        },
+        {
+          "name": "Bachelor of Computer Science (Multimedia Computing)",
+          "href": "bachelor-of-computer-science-multimedia-computing"
+        },
+        {
+          "name": "Bachelor of Computer Science (Data Science)",
+          "href": "bachelor-of-computer-science-data-science"
+        },
+        {
+          "name": "Bachelor of Computer Science (Information System)",
+          "href": "bachelor-of-computer-science-information-system"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/faculty-of-creative-arts",
+      "faculty": "FACULTY OF CREATIVE ARTS",
+      "level": "undergraduate",
+      "ok": true,
+      "bytes": 14738,
+      "programmes": [
+        {
+          "name": "Bachelor of Dance",
+          "href": "bachelor-of-dance"
+        },
+        {
+          "name": "Bachelor of Drama",
+          "href": "bachelor-of-drama"
+        },
+        {
+          "name": "Bachelor of Music",
+          "href": "bachelor-of-music"
+        },
+        {
+          "name": "Bachelor of Performing Arts",
+          "href": "bachelor-of-performing-arts"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/faculty-of-dentistry",
+      "faculty": "FACULTY OF DENTISTRY",
+      "level": "undergraduate",
+      "ok": true,
+      "bytes": 14125,
+      "programmes": [
+        {
+          "name": "Bachelor of Dental Surgery",
+          "href": "bachelor-of-dental-surgery"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/faculty-of-education",
+      "faculty": "FACULTY OF EDUCATION",
+      "level": "undergraduate",
+      "ok": true,
+      "bytes": 14546,
+      "programmes": [
+        {
+          "name": "Bachelor of Counseling",
+          "href": "bachelor-of-counseling"
+        },
+        {
+          "name": "Bachelor of Education TESL",
+          "href": "bachelor-of-teaching-english-as-second-language"
+        },
+        {
+          "name": "Bachelor of Early Childhood Education",
+          "href": "bachelor-of-childhood-education"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/faculty-of-engineering",
+      "faculty": "FACULTY OF ENGINEERING",
+      "level": "undergraduate",
+      "ok": true,
+      "bytes": 15102,
+      "programmes": [
+        {
+          "name": "Bachelor of Civil Engineering",
+          "href": "bachelor-of-civil-engineering"
+        },
+        {
+          "name": "Bachelor of Biomedical Engineering",
+          "href": "bachelor-of-biomedical-engineering"
+        },
+        {
+          "name": "Bachelor of Mechanical Engineering",
+          "href": "bachelor-of-mechanical-engineering"
+        },
+        {
+          "name": "Bachelor of Electrical Engineering",
+          "href": "bachelor-of-electrical-engineering"
+        },
+        {
+          "name": "Bachelor of Chemical Engineering",
+          "href": "bachelor-of-chemical-engineering"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/faculty-of-languages-and-linguistics",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "level": "undergraduate",
+      "ok": true,
+      "bytes": 16475,
+      "programmes": [
+        {
+          "name": "Bachelor of English Language and Linguistics",
+          "href": "bachelor-of-english-language-and-linguistics"
+        },
+        {
+          "name": "Bachelor of Chinese Language and Linguistics",
+          "href": "bachelor-of-chinese-language-and-linguistics"
+        },
+        {
+          "name": "Bachelor of Arabic Language and Linguistics",
+          "href": "bachelor-of-arabic-language-and-linguistics"
+        },
+        {
+          "name": "Bachelor of Tamil Language and Linguistics",
+          "href": "bachelor-of-tamil-language-and-linguistics"
+        },
+        {
+          "name": "Bachelor of Japanese Language and Linguistics",
+          "href": "bachelor-of-japanese-language-and-linguistic"
+        },
+        {
+          "name": "Bachelor of French Language and Linguistics",
+          "href": "bachelor-of-french-language-and-linguistics"
+        },
+        {
+          "name": "Bachelor of German Language and Linguistics",
+          "href": "bachelor-of-german-language-and-linguistics"
+        },
+        {
+          "name": "Bachelor of Spanish Language and Linguistics",
+          "href": "bachelor-of-spanish-language-and-linguistics"
+        },
+        {
+          "name": "Bachelor of Italian Language and Linguistics",
+          "href": "bachelor-of-italian-language-and-linguistics"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/faculty-of-law",
+      "faculty": "FACULTY OF LAW",
+      "level": "undergraduate",
+      "ok": true,
+      "bytes": 13928,
+      "programmes": [
+        {
+          "name": "Bachelor of Laws",
+          "href": "bachelor-of-laws"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/faculty-of-medicine",
+      "faculty": "FACULTY OF MEDICINE",
+      "level": "undergraduate",
+      "ok": true,
+      "bytes": 14288,
+      "programmes": [
+        {
+          "name": "Bachelor of Medicine and Bachelor of Surgery",
+          "href": "bachelor-of-medicine-and-bachelor-of-surgery"
+        },
+        {
+          "name": "Bachelor of Biomedical Science",
+          "href": "bachelor-of-biomedical-science"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/faculty-of-nursing",
+      "faculty": "FACULTY OF NURSING",
+      "level": "undergraduate",
+      "ok": true,
+      "bytes": 13980,
+      "programmes": [
+        {
+          "name": "Bachelor of Nursing Science",
+          "href": "bachelor-of-nursing-science"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/faculty-of-pharmacy",
+      "faculty": "FACULTY OF PHARMACY",
+      "level": "undergraduate",
+      "ok": true,
+      "bytes": 13992,
+      "programmes": [
+        {
+          "name": "Bachelor of Pharmacy with Honours",
+          "href": "bachelor-of-pharmacy-with-honours"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/faculty-of-science",
+      "faculty": "FACULTY OF SCIENCE",
+      "level": "undergraduate",
+      "ok": true,
+      "bytes": 17084,
+      "programmes": [
+        {
+          "name": "Bachelor of Science in Chemistry",
+          "href": "bachelor-of-science-in-chemistry"
+        },
+        {
+          "name": "Bachelor of Science in Ecology and Biodiversity",
+          "href": "bachelor-of-science-in-ecology"
+        },
+        {
+          "name": "Bachelor of Science in Physics",
+          "href": "bachelor-of-science-in-physics"
+        },
+        {
+          "name": "Bachelor of Science in Environmental Management",
+          "href": "bachelor-of-science-in-environment"
+        },
+        {
+          "name": "Bachelor of Science in Applied Geology",
+          "href": "bachelor-of-science-in-applied-geology"
+        },
+        {
+          "name": "Bachelor of Science in Biochemistry",
+          "href": "bachelor-of-science-in-biochemistry"
+        },
+        {
+          "name": "Bachelor of Science in Mathematics",
+          "href": "bachelor-of-science-of-mathematics"
+        },
+        {
+          "name": "Bachelor of Science in Biotechnology",
+          "href": "bachelor-of-science-in-biotechnology"
+        },
+        {
+          "name": "Bachelor of Science with Education",
+          "href": "bachelor-of-science-with-education"
+        },
+        {
+          "name": "Bachelor of Actuarial Science",
+          "href": "bachelor-of-actuarial-science"
+        },
+        {
+          "name": "Bachelor of Science in Microbiology and Molecular Genetics",
+          "href": "bachelor-of-science-in-microbiology-and-molecular-genetics"
+        },
+        {
+          "name": "Bachelor of Science in Statistics",
+          "href": "bachelor-of-science-in-statistics"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/faculty-of-sports-and-exercise-science",
+      "faculty": "FACULTY OF SPORTS AND EXERCISE SCIENCE",
+      "level": "undergraduate",
+      "ok": true,
+      "bytes": 14377,
+      "programmes": [
+        {
+          "name": "Bachelor of Sports Management",
+          "href": "bachelor-of-sports-management"
+        },
+        {
+          "name": "Bachelor of Sports Science (Exercise Science)",
+          "href": "bachelor-of-sport-sciences"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/pg-academy-of-islamic-studies",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "level": "postgraduate",
+      "ok": true,
+      "bytes": 18160,
+      "programmes": [
+        {
+          "name": "Master of Shariah",
+          "href": "master-of-shariah"
+        },
+        {
+          "name": "Master of Usuluddin",
+          "href": "master-of-usuluddin"
+        },
+        {
+          "name": "Master of Islamic Studies",
+          "href": "master-of-islamic-studies"
+        },
+        {
+          "name": "Master of Shariah (Contemporary Studies)",
+          "href": "master-of-shariah-contemporary-studies"
+        },
+        {
+          "name": "Master of Usuluddin (Islamic Thought and Civilization)",
+          "href": "master-of-usuluddin-islamic-thought-and-civilization"
+        },
+        {
+          "name": "Master of Al-Quran and Al-Hadith",
+          "href": "master-of-al-quran-and-al-hadith"
+        },
+        {
+          "name": "Master of Dakwah Development",
+          "href": "master-of-dakwah-development"
+        },
+        {
+          "name": "Master of Islamic Management and Finance",
+          "href": "master-of-islamic-management-and-finance"
+        },
+        {
+          "name": "Master of Halal Management",
+          "href": "master-of-halal-management"
+        },
+        {
+          "name": "Doctor of Philosophy",
+          "href": "doctor-of-philosophy-krsivaftcv03-krsivaftpp01"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/pg-academy-of-malay-studies",
+      "faculty": "ACADEMY OF MALAY STUDIES",
+      "level": "postgraduate",
+      "ok": true,
+      "bytes": 16309,
+      "programmes": [
+        {
+          "name": "Master of Arts in Malay Studies",
+          "href": "master-of-arts-in-malay-studies"
+        },
+        {
+          "name": "Master of Malay Studies",
+          "href": "master-of-malay-studies"
+        },
+        {
+          "name": "Doctor of Philosophy (Academy of Malay Studies)",
+          "href": "doctor-of-philosophy-krsjvaftcv03-krsjvaptcv03-krsjvaftpp01"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/pg-asia-europe-institute",
+      "faculty": "ASIA-EUROPE INSTITUTE",
+      "level": "postgraduate",
+      "ok": true,
+      "bytes": 16265,
+      "programmes": [
+        {
+          "name": "Master of European Studies",
+          "href": "master-of-european-studies"
+        },
+        {
+          "name": "Master of ASEAN Studies",
+          "href": "master-of-asean-studies"
+        },
+        {
+          "name": "Doctor of Philosophy (Asia Europe Institute)",
+          "href": "doctor-of-philosophy-asia-europe-institute"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/pg-faculty-arts-amp-social-science",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "level": "postgraduate",
+      "ok": true,
+      "bytes": 19217,
+      "programmes": [
+        {
+          "name": "Master of Arts",
+          "href": "master-of-arts"
+        },
+        {
+          "name": "Master of Information Science",
+          "href": "master-information-science-research"
+        },
+        {
+          "name": "Master of Media Studies",
+          "href": "master-of-media-studies-coursework"
+        },
+        {
+          "name": "Master of Chinese Studies",
+          "href": "master-of-chinese-studies-coursework"
+        },
+        {
+          "name": "Master of Library and Information Science",
+          "href": "master-of-library-and-information-science-coursework"
+        },
+        {
+          "name": "Master of Gender Studies",
+          "href": "master-of-gender-studies-coursework"
+        },
+        {
+          "name": "Master of Arts (English Literature)",
+          "href": "master-of-arts-english-literature-mixed-mode"
+        },
+        {
+          "name": "Master of Arts (Southeast Asian History)",
+          "href": "master-of-arts-southeast-asian-history-mixed-mode"
+        },
+        {
+          "name": "Master of Arts (Malaysian History)",
+          "href": "master-of-arts-malaysian-history-mixed-mode"
+        },
+        {
+          "name": "Master of Arts (Southeast Asian Studies)",
+          "href": "master-of-arts-southeast-asian-studies-mixed-mode"
+        },
+        {
+          "name": "Master of Arts (Publishing Studies)",
+          "href": "master-of-arts-publishing-studies-mixed-mode"
+        },
+        {
+          "name": "Master of Arts (Strategic and Defense Studies)",
+          "href": "master-of-arts-strategic-and-defence-studies-mixed-mode"
+        },
+        {
+          "name": "Doctor of Philosophy (Faculty of Arts & Social Sciences)",
+          "href": "doctor-of-philosophy-faculty-of-arts-and-social-sciences-research"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/pg-faculty-built-environment",
+      "faculty": "FACULTY OF BUILT ENVIRONMENT",
+      "level": "postgraduate",
+      "ok": true,
+      "bytes": 17505,
+      "programmes": [
+        {
+          "name": "Master of Real Estate",
+          "href": "master-of-real-estate-coursework"
+        },
+        {
+          "name": "Master of Project Management",
+          "href": "master-of-project-management-coursework"
+        },
+        {
+          "name": "Master of Facilities and Maintenance Management",
+          "href": "master-of-facilities-and-maintenance-management-coursework"
+        },
+        {
+          "name": "Master of Architecture",
+          "href": "master-of-architecture-coursework"
+        },
+        {
+          "name": "Master of Built Environment",
+          "href": "master-of-built-environment-research"
+        },
+        {
+          "name": "Master of Sustainable Urbanism",
+          "href": "master-of-sustainable-urbanism-coursework"
+        },
+        {
+          "name": "Doctor of Philosophy in Faculty of Built Environment",
+          "href": "doctor-of-philosophy-faculty-of-built-environment-research"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/pg-business-and-economics",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "level": "postgraduate",
+      "ok": true,
+      "bytes": 18364,
+      "programmes": [
+        {
+          "name": "Master of Economics",
+          "href": "master-of-economics-coursework"
+        },
+        {
+          "name": "Master of Applied Statistics",
+          "href": "master-of-applied-statistics-coursework"
+        },
+        {
+          "name": "Master of Development Studies",
+          "href": "master-of-development-studies-coursework"
+        },
+        {
+          "name": "Master of Public Administration",
+          "href": "master-of-public-administration-coursework"
+        },
+        {
+          "name": "Master of Business Administration",
+          "href": "master-of-business-administration-coursework"
+        },
+        {
+          "name": "Master of Management",
+          "href": "master-of-management-coursework"
+        },
+        {
+          "name": "Master of Marketing",
+          "href": "master-of-marketing-coursework"
+        },
+        {
+          "name": "Master of Accounting (Reporting and Management Accountability)",
+          "href": "master-of-accounting-reporting-and-management-accountability-mixed-mode"
+        },
+        {
+          "name": "Doctor of Philosophy Faculty of Business & Economics",
+          "href": "doctor-of-philosophy-faculty-of-business-and-economics-research"
+        },
+        {
+          "name": "Doctor of Business Administration",
+          "href": "doctor-of-business-administration-faculty-of-business-and-economics-coursework"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/pg-faculty-of-computer-science-and-it",
+      "faculty": "FACULTY OF COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
+      "level": "postgraduate",
+      "ok": true,
+      "bytes": 17653,
+      "programmes": [
+        {
+          "name": "Master of Data Science",
+          "href": "master-of-data-science-coursework"
+        },
+        {
+          "name": "Master of Artificial Intelligence",
+          "href": "master-of-artificial-intelligence-coursework"
+        },
+        {
+          "name": "Master of Cybersecurity",
+          "href": "master-of-cybersecurity-coursework"
+        },
+        {
+          "name": "Master of Computer Science (Applied Computing)",
+          "href": "master-of-computer-science-applied-computing-mixed-mode"
+        },
+        {
+          "name": "Master of Software Engineering (Software Technology)",
+          "href": "master-of-software-engineering-software-technology-mixed-mode"
+        },
+        {
+          "name": "Master of Computer Science",
+          "href": "master-of-computer-science-research"
+        },
+        {
+          "name": "Doctor of Philosophy (Faculty of Computer Science & IT)",
+          "href": "doctor-of-philosophy-faculty-of-computer-science-and-information-technology-research"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/pg-of-creative-arts",
+      "faculty": "FACULTY OF CREATIVE ARTS",
+      "level": "postgraduate",
+      "ok": true,
+      "bytes": 17062,
+      "programmes": [
+        {
+          "name": "Master of Arts",
+          "href": "master-of-arts-creative-arts"
+        },
+        {
+          "name": "Master of Dance",
+          "href": "master-of-dance-coursework"
+        },
+        {
+          "name": "Master of Performing Arts (Music)",
+          "href": "master-of-performing-arts-music"
+        },
+        {
+          "name": "Master of Performing Arts (Drama)",
+          "href": "master-of-performing-arts-drama"
+        },
+        {
+          "name": "Master of Arts (Visual Arts)",
+          "href": "master-of-arts-visual-arts-mixed-mode"
+        },
+        {
+          "name": "Doctor of Philosophy (Faculty of Creative Arts)",
+          "href": "doctor-of-philosophy-faculty-of-creative-arts"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/pg-faculty-of-dentistry",
+      "faculty": "FACULTY OF DENTISTRY",
+      "level": "postgraduate",
+      "ok": true,
+      "bytes": 18757,
+      "programmes": [
+        {
+          "name": "Master of Community Oral Health",
+          "href": "master-of-community-oral-health-coursework"
+        },
+        {
+          "name": "Master of Dental Science",
+          "href": "master-of-dental-science-research"
+        },
+        {
+          "name": "Master of Oral Science",
+          "href": "master-of-oral-science-clinical"
+        },
+        {
+          "name": "Doctor of Philosophy (Faculty of Dentistry)",
+          "href": "cc"
+        },
+        {
+          "name": "Doctor in Dental Public Health",
+          "href": "doctor-in-dental-public-health-mixed-mode"
+        },
+        {
+          "name": "Doctor in Orthodontics",
+          "href": "doctor-in-orthodontics-faculty-of-dentistry"
+        },
+        {
+          "name": "Doctor of Periodontology",
+          "href": "doctor-in-periondontology-faculty-of-dentistry"
+        },
+        {
+          "name": "Doctor in Prosthodontics",
+          "href": "doctor-of-prosthodontics-clinical-faculty-of-dentistry"
+        },
+        {
+          "name": "Doctor of Special Care Dentistry",
+          "href": "doctor-in-special-care-dentistry-clinical-faculty-of-dentistry"
+        },
+        {
+          "name": "Doctor in Pediatric Dentistry",
+          "href": "doctor-of-pediatrics-dentistry-clinical"
+        },
+        {
+          "name": "Doctor of Oral Maxillofacial Pathology & Oral Medicine",
+          "href": "doctor-in-oral-maxillofacial-pathology-amp-oral-medicine-clinical"
+        },
+        {
+          "name": "Doctor in Restorative Dentistry",
+          "href": "doctor-in-restorative-dentistry-clinical"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/pg-faculty-of-education",
+      "faculty": "FACULTY OF EDUCATION",
+      "level": "postgraduate",
+      "ok": true,
+      "bytes": 21246,
+      "programmes": [
+        {
+          "name": "Master of Professional Counseling",
+          "href": "master-of-professional-counseling-coursework"
+        },
+        {
+          "name": "Master of Science Education with Information Technology",
+          "href": "master-of-science-education-with-information-technology-coursework"
+        },
+        {
+          "name": "Master of Mathematics Education with Technology",
+          "href": "master-of-mathematics-education-with-technology-coursework"
+        },
+        {
+          "name": "Master of Arabic Language Education",
+          "href": "master-of-arabic-language-education"
+        },
+        {
+          "name": "Master of Education in Malay Language",
+          "href": "master-of-education-in-malay-language-coursework"
+        },
+        {
+          "name": "Master of Islamic Education",
+          "href": "master-of-islamic-education-coursework"
+        },
+        {
+          "name": "Master of Humanities Education",
+          "href": "master-of-humanities-education"
+        },
+        {
+          "name": "Master of Educational Technology",
+          "href": "master-of-educational-technology-coursework"
+        },
+        {
+          "name": "Master of Visual Arts Education",
+          "href": "master-of-visual-arts-education-coursework"
+        },
+        {
+          "name": "Master of Educational Leadership and Management",
+          "href": "master-of-educational-leadership-and-management-coursework"
+        },
+        {
+          "name": "Master of Physical and Health Education",
+          "href": "master-of-physical-and-health-education-coursework"
+        },
+        {
+          "name": "Master of Early Childhood Education",
+          "href": "master-of-early-childhood-education-coursework"
+        },
+        {
+          "name": "Master of Special Education",
+          "href": "master-of-special-education-coursework"
+        },
+        {
+          "name": "Master of Measurement and Assessment",
+          "href": "master-of-measurement-and-assessment-coursework"
+        },
+        {
+          "name": "Master of Education in English as A Second Language",
+          "href": "master-of-education-in-english-as-a-second-language-coursework"
+        },
+        {
+          "name": "Master of Education",
+          "href": "master-of-education-research"
+        },
+        {
+          "name": "Master of Education Psychology",
+          "href": "master-of-education-psychology-coursework"
+        },
+        {
+          "name": "Postgraduate Diploma in Education",
+          "href": "postgraduate-diploma-in-education"
+        },
+        {
+          "name": "Doctor of Philosophy (Mixed-Mode)",
+          "href": "doctor-of-philosophy-faculty-of-education-mixed-mode"
+        },
+        {
+          "name": "Doctor of Philosophy (Research)",
+          "href": "doctor-of-philosophy-faculty-of-education-research"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/pg-faculty-of-engineering",
+      "faculty": "FACULTY OF ENGINEERING",
+      "level": "postgraduate",
+      "ok": true,
+      "bytes": 17248,
+      "programmes": [
+        {
+          "name": "Master of Biomedical Engineering",
+          "href": "master-of-biomedical-engineering-coursework"
+        },
+        {
+          "name": "Master of System Engineering",
+          "href": "master-of-system-engineering-coursework"
+        },
+        {
+          "name": "Master of Safety, Health and Environment Engineering",
+          "href": "master-of-safety-health-and-environment-engineering-coursework"
+        },
+        {
+          "name": "Master of Mechanical Engineering",
+          "href": "master-of-mechanical-enineering-coursework"
+        },
+        {
+          "name": "Master of Road Safety Engineering",
+          "href": "master-of-road-safety-engineering"
+        },
+        {
+          "name": "Master of Engineering Science",
+          "href": "master-of-engineering-science-research"
+        },
+        {
+          "name": "Doctor of Philosophy (Faculty of Engineering)",
+          "href": "doctor-of-philosophy-faculty-of-engineering-research"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/pg-faculty-of-language",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "level": "postgraduate",
+      "ok": true,
+      "bytes": 16146,
+      "programmes": [
+        {
+          "name": "Master of Arts (Linguistics)",
+          "href": "master-of-arts-linguistics"
+        },
+        {
+          "name": "Master of English Language Studies",
+          "href": "master-of-english-language-studies-coursework"
+        },
+        {
+          "name": "Doctor of Philosophy (Languages & Linguistics)",
+          "href": "doctor-of-philosophy-faculty-of-language-amp-linguistic-research"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/pg-faculty-of-law",
+      "faculty": "FACULTY OF LAW",
+      "level": "postgraduate",
+      "ok": true,
+      "bytes": 16467,
+      "programmes": [
+        {
+          "name": "Master of Law",
+          "href": "master-of-laws-coursework"
+        },
+        {
+          "name": "Master of Commercial Law",
+          "href": "master-of-commercial-law-coursework"
+        },
+        {
+          "name": "Master of Criminal Justice",
+          "href": "master-of-criminal-justice-coursework"
+        },
+        {
+          "name": "Master of Legal Studies",
+          "href": "master-of-legal-studies"
+        },
+        {
+          "name": "Doctor of Philosophy (Faculty of Law)",
+          "href": "doctor-of-philosophy-faculty-of-law-research"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/pg-faculty-of-medicine",
+      "faculty": "FACULTY OF MEDICINE",
+      "level": "postgraduate",
+      "ok": true,
+      "bytes": 24448,
+      "programmes": [
+        {
+          "name": "Master of Public Health",
+          "href": "master-public-health-coursework"
+        },
+        {
+          "name": "Master of Medical Physics",
+          "href": "master-of-medical-physics-coursework"
+        },
+        {
+          "name": "Master of Medical Education",
+          "href": "master-of-medical-education"
+        },
+        {
+          "name": "Master of Health Research Ethics",
+          "href": "master-of-health-research-ethics"
+        },
+        {
+          "name": "Master of Medical Parasitology and Entomology",
+          "href": "master-of-medical-parasitology-and-entomology"
+        },
+        {
+          "name": "Master of Epidemiology",
+          "href": "master-of-epidemiology-coursework"
+        },
+        {
+          "name": "Master of Medical Science (Regenerative Medicine)",
+          "href": "master-of-medical-science-regenerative-medicine"
+        },
+        {
+          "name": "Master of Medical Science",
+          "href": "master-of-medical-science-research"
+        },
+        {
+          "name": "Master of Anaesthesiology",
+          "href": "master-of-anaesthesiology-clinical"
+        },
+        {
+          "name": "Master of Clinical Oncology",
+          "href": "master-of-clinical-oncology-clinical"
+        },
+        {
+          "name": "Master of Obstetrics and Gynaecology",
+          "href": "master-of-obsterics-and-gynaecology-clinical"
+        },
+        {
+          "name": "Master of Ophthalmology",
+          "href": "master-of-ophthalmology"
+        },
+        {
+          "name": "Master of Otorhinolaryngology - Head and Neck Surgery",
+          "href": "master-of-otorhinolaryngology-head-and-neck-surgery"
+        },
+        {
+          "name": "Master of Pathology (Haematology)",
+          "href": "master-of-pathology-haematology-clinical"
+        },
+        {
+          "name": "Master of Pathology (Medical Microbiology)",
+          "href": "master-of-pathology-medical-microbiology"
+        },
+        {
+          "name": "Master of Pathology (Anatomic Pathology)",
+          "href": "master-of-pathology-anatomic-pathology"
+        },
+        {
+          "name": "Master of Pathology (Forensic Pathology)",
+          "href": "master-of-pathology-forensic-pathology"
+        },
+        {
+          "name": "Master of Pathology (Chemical Pathology)",
+          "href": "master-of-pathology-chemical-pathology"
+        },
+        {
+          "name": "Master of Paediatrics",
+          "href": "master-of-paediatrics-clinical"
+        },
+        {
+          "name": "Master of Paediatric Surgery",
+          "href": "master-of-paediatric-surgery-clinical"
+        },
+        {
+          "name": "Master of Internal Medicine",
+          "href": "master-of-internal-medicine-clinical"
+        },
+        {
+          "name": "Master of Emergency Medicine",
+          "href": "master-of-emergency-medicine-clinical"
+        },
+        {
+          "name": "Master of Family Medicine",
+          "href": "master-of-family-medicine-clinical"
+        },
+        {
+          "name": "Master of Rehabilitation Medicine",
+          "href": "master-of-rehabilitation-medicine-clinical"
+        },
+        {
+          "name": "Master of Psychological Medicine",
+          "href": "master-of-psychological-medicine-clinical"
+        },
+        {
+          "name": "Master of Sports Medicine",
+          "href": "master-of-sports-medicine"
+        },
+        {
+          "name": "Master of Radiology",
+          "href": "master-of-radiology-clinical"
+        },
+        {
+          "name": "Master of Surgery",
+          "href": "master-of-surgery-clinical"
+        },
+        {
+          "name": "Master of Orthopaedic Surgery",
+          "href": "master-of-orthopaedic-surgery-clinical"
+        },
+        {
+          "name": "Master of Neurosurgery",
+          "href": "master-of-neurosurgery-clinical"
+        },
+        {
+          "name": "Master of Cardiothoracic Surgery",
+          "href": "master-of-cardiothoracic-surgery-clinical"
+        },
+        {
+          "name": "Doctor of Philosophy (Faculty of Medicine)",
+          "href": "doctor-of-philosophy-faculty-of-medicine-research"
+        },
+        {
+          "name": "Doctor of Public Health",
+          "href": "doctor-of-public-health-mixed-mode"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/pg-faculty-of-nursing",
+      "faculty": "FACULTY OF NURSING",
+      "level": "postgraduate",
+      "ok": true,
+      "bytes": 15449,
+      "programmes": [
+        {
+          "name": "Master of Nursing Science",
+          "href": "master-of-nursing-science"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/pg-faculty-of-pharmacy",
+      "faculty": "FACULTY OF PHARMACY",
+      "level": "postgraduate",
+      "ok": true,
+      "bytes": 16445,
+      "programmes": [
+        {
+          "name": "Master of Science in Pharmacy",
+          "href": "master-of-science-in-pharmacy-research"
+        },
+        {
+          "name": "Master of Pharmaceutical Science in Drug Discovery and Development",
+          "href": "master-of-pharmaceutical-science-in-drug-discovery-and-development-coursework"
+        },
+        {
+          "name": "Master of Pharmaceutical Legislation and Regulatory Control",
+          "href": "master-of-pharmaceutical-legislation-and-regulatory-control"
+        },
+        {
+          "name": "Doctor of Philosophy",
+          "href": "doctor-of-philosophy-faculty-of-pharmacy-research"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/pg-faculty-of-science",
+      "faculty": "FACULTY OF SCIENCE",
+      "level": "postgraduate",
+      "ok": true,
+      "bytes": 18858,
+      "programmes": [
+        {
+          "name": "Master of Science in Applied Physics",
+          "href": "master-of-science-in-applied-physics-coursework"
+        },
+        {
+          "name": "Master of Science in Statistics",
+          "href": "master-of-science-in-statistics"
+        },
+        {
+          "name": "Master of Science in Instrumental Analytical Chemistry",
+          "href": "master-of-science-in-instrumental-analytical-chemistry"
+        },
+        {
+          "name": "Master of Petroleum Geoscience",
+          "href": "master-of-petroleum-geoscience"
+        },
+        {
+          "name": "Master of Sustainability Science",
+          "href": "master-of-sustainability-science-coursework"
+        },
+        {
+          "name": "Master of Bioinformatics",
+          "href": "master-of-bioinformatics-coursework"
+        },
+        {
+          "name": "Master of Environmental Management Technology",
+          "href": "master-of-environmental-management-technology-coursework"
+        },
+        {
+          "name": "Master of Science in Biotechnology",
+          "href": "master-of-science-in-biotechnology-coursework"
+        },
+        {
+          "name": "Master of Science in Crop Protection",
+          "href": "master-of-science-in-crop-protection-coursework"
+        },
+        {
+          "name": "Master of Science Communication and Public Engagement",
+          "href": "master-of-science-communication-and-public-engagement-coursework"
+        },
+        {
+          "name": "Master of Science",
+          "href": "master-of-science-research"
+        },
+        {
+          "name": "Doctor of Philosophy (Faculty of Science)",
+          "href": "doctor-of-philosophy-faculty-of-science-research"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/pg-faculty-of-sport-science",
+      "faculty": "FACULTY OF SPORTS AND EXERCISE SCIENCE",
+      "level": "postgraduate",
+      "ok": true,
+      "bytes": 16452,
+      "programmes": [
+        {
+          "name": "Master of Sports Science",
+          "href": "master-of-sports-science-research"
+        },
+        {
+          "name": "Master of Strength and Conditioning",
+          "href": "master-of-strength-and-conditioning"
+        },
+        {
+          "name": "Master of Sports Administrations and Leadership",
+          "href": "master-of-sports-administration-and-leadership-coursework"
+        },
+        {
+          "name": "Doctor of Philosophy",
+          "href": "doctor-of-philosophy-faculty-of-sports-and-exercise-science-research"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/pg-inst-advanced-studies",
+      "faculty": "INSTITUTE FOR ADVANCED STUDIES",
+      "level": "postgraduate",
+      "ok": true,
+      "bytes": 16972,
+      "programmes": [
+        {
+          "name": "Master of Philosophy",
+          "href": "master-of-philosophy-mphill"
+        },
+        {
+          "name": "Master of Renewable Energy",
+          "href": "master-of-renewable-energy"
+        },
+        {
+          "name": "Master of Applied Sciences (Nanotechnology)",
+          "href": "master-of-applied-sciences-nanotechnology-mixed-mode"
+        },
+        {
+          "name": "Master of Advanced Studies",
+          "href": "master-of-advance-studies"
+        },
+        {
+          "name": "Master of Agricultural Biosecurity",
+          "href": "master-of-agricultural-biosecurity-coursework"
+        },
+        {
+          "name": "Doctor of Philosophy (Institute of Advanced Studies)",
+          "href": "doctor-of-philosophy-research-institute-of-advanced-studies"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/pg-international-institute-of-public-policy-and-management",
+      "faculty": "INTERNATIONAL INSTITUTE OF PUBLIC POLICY AND MANAGEMENT",
+      "level": "postgraduate",
+      "ok": true,
+      "bytes": 16031,
+      "programmes": [
+        {
+          "name": "Master of Public Policy",
+          "href": "master-of-public-policy"
+        },
+        {
+          "name": "Doctor of Philosophy (International Institute of Public Policy and Management)",
+          "href": "doctor-of-philosophy-research-international-institute-of-public-policy-and-management"
+        }
+      ],
+      "error": null
+    }
+  ]
+}

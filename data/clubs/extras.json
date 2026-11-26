@@ -1,0 +1,386 @@
+{
+  "source": "Entries retained from the previous UM Reviews catalogue, subject to a strict Instagram/LinkedIn organisation-page check.",
+  "lastReviewed": "2026-11-25",
+  "clubs": [
+    {
+      "code": "ALSA",
+      "name": "Asian Law Students' Association Universiti Malaya",
+      "aliases": ["ALSA UM", "Persatuan Pelajar Undang-Undang Asia"],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF LAW",
+      "instagram": "@alsaumofficial"
+    },
+    {
+      "code": "BMESC",
+      "name": "Biomedical Engineering Student Club",
+      "aliases": ["BMESC UM"],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF ENGINEERING",
+      "instagram": "@bmesc_um"
+    },
+    {
+      "code": "BEPSOC",
+      "name": "Built Environment Postgraduate Society",
+      "aliases": ["BEPSoc"],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF BUILT ENVIRONMENT"
+    },
+    {
+      "code": "CEUC",
+      "name": "Chemical Engineering Undergraduate Club",
+      "aliases": ["CEUC UM"],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF ENGINEERING",
+      "instagram": "@ceuc.um.news"
+    },
+    {
+      "code": "CEEC",
+      "name": "Civil and Environmental Engineering Club Universiti Malaya",
+      "aliases": ["CEEC UM"],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF ENGINEERING",
+      "instagram": "@ceec_um"
+    },
+    {
+      "code": "FCSPG",
+      "name": "UM-FCSIT Postgraduate Club",
+      "aliases": ["FCSIT Postgraduate Club", "Postgraduate Club FCSIT"],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF COMPUTER SCIENCE AND INFORMATION TECHNOLOGY"
+    },
+    {
+      "code": "IEEE",
+      "name": "IEEE Universiti Malaya Student Branch",
+      "aliases": ["IEEE UM SB", "IEEE UM"],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF ENGINEERING"
+    },
+    {
+      "code": "ISC",
+      "name": "Indian Studies Club",
+      "aliases": ["ISCUM", "Indian Studies Club UM"],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES"
+    },
+    {
+      "code": "ICEUMSC",
+      "name": "Institution of Civil Engineers Universiti Malaya Student Chapter",
+      "aliases": ["UMICESC"],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF ENGINEERING"
+    },
+    {
+      "code": "IMECHE",
+      "name": "Institution of Mechanical Engineers Universiti Malaya Student Chapter",
+      "aliases": ["IMechE UM", "IMECHE UM"],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF ENGINEERING"
+    },
+    {
+      "code": "SPAS",
+      "name": "Kelab Sains Pengurusan Alam Sekitar",
+      "aliases": ["SPAS UM"],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF SCIENCE",
+      "instagram": "@spas.um"
+    },
+    {
+      "code": "LIDRA",
+      "name": "Literary and Dramatic Association (LIDRA)",
+      "aliases": ["Persatuan Lidra", "LiDra"],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "linkedin": "lidra-um"
+    },
+    {
+      "code": "PMAPIUM",
+      "name": "Persatuan Mahasiswa Akademi Pengajian Islam Universiti Malaya",
+      "aliases": ["Persatuan Akademi Pengajian Islam"],
+      "category": "Faculty Society",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "instagram": "@mypmapium"
+    },
+    {
+      "code": "PMAPM",
+      "name": "Persatuan Mahasiswa Akademi Pengajian Melayu Universiti Malaya",
+      "aliases": ["PMAPMUM"],
+      "category": "Faculty Society",
+      "faculty": "ACADEMY OF MALAY STUDIES",
+      "instagram": "@pmapmum"
+    },
+    {
+      "code": "PPIPUM",
+      "name": "Persatuan Pelajar Islam Pergigian Universiti Malaya",
+      "aliases": ["PPIPUM"],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF DENTISTRY",
+      "instagram": "@ppipumalaya"
+    },
+    {
+      "code": "PPAKK",
+      "name": "Persatuan Pendidikan Awal Kanak-Kanak Universiti Malaya",
+      "aliases": ["PPAKKUM"],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF EDUCATION"
+    },
+    {
+      "code": "RED",
+      "name": "Robotic Engineering Design",
+      "aliases": ["Robotics Engineering Design UM"],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF ENGINEERING"
+    },
+    {
+      "code": "SSC",
+      "name": "Science and Studies Club, Faculty of Science",
+      "aliases": ["Science and Studies Club"],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF SCIENCE"
+    },
+    {
+      "code": "SPE",
+      "name": "Society of Petroleum Engineers Universiti Malaya Student Chapter",
+      "aliases": ["SPE UM SC"],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF ENGINEERING",
+      "instagram": "@speumsc"
+    },
+    {
+      "code": "DEPAN",
+      "name": "UM Dental Postgraduate Association",
+      "aliases": ["DEPAN"],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF DENTISTRY"
+    },
+    {
+      "code": "UMEBS",
+      "name": "Universiti Malaya Ecology Biodiversity Society",
+      "aliases": ["UM Ecology Biodiversity Society", "EcoBio UM"],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF SCIENCE",
+      "linkedin": "ecology-biodiversity-society-um"
+    },
+    {
+      "code": "UMMMG",
+      "name": "Microbiology and Molecular Genetics Club Universiti Malaya",
+      "aliases": ["UM Microbiology and Molecular Genetics Club", "MMGCUM"],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF SCIENCE",
+      "linkedin": "microbiology-and-molecular-genetics-club-um"
+    },
+    {
+      "code": "UMFUSE",
+      "name": "University of Malaya Future STEM Educators' Society",
+      "aliases": ["UMFUSE"],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF EDUCATION",
+      "instagram": "@umfuse"
+    },
+    {
+      "code": "UMMOOT",
+      "name": "University of Malaya Moot Club",
+      "aliases": ["UM Moot Club"],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF LAW"
+    },
+    {
+      "code": "UMNURSOC",
+      "name": "Nursing Science Society (NurSoc)",
+      "aliases": ["University of Malaya Nursing Science Society", "NurSoc"],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF MEDICINE"
+    },
+    {
+      "code": "KKPUM",
+      "name": "Kelab Kesenian Persembahan Universiti Malaya",
+      "aliases": ["KKPUM"],
+      "category": "Cultural"
+    },
+    {
+      "code": "PBCUM",
+      "name": "Persatuan Bahasa Cina Universiti Malaya",
+      "aliases": ["PBCUM", "Chinese Language Association"],
+      "category": "Cultural",
+      "instagram": "@pbcum_"
+    },
+    {
+      "code": "PBMUM",
+      "name": "Persatuan Bahasa Melayu Universiti Malaya",
+      "aliases": ["PBMUM"],
+      "category": "Cultural"
+    },
+    {
+      "code": "TARIAN",
+      "name": "Persatuan Tarian Singa Universiti Malaya",
+      "aliases": ["Persatuan Seni Kebudayaan Tiong Hua Universiti Malaya", "TARIAN SINGA", "UM Lion Dance"],
+      "category": "Cultural"
+    },
+    {
+      "code": "UMCO",
+      "name": "University of Malaya Chinese Orchestra",
+      "aliases": ["UMCO"],
+      "category": "Cultural",
+      "instagram": "@umco1981"
+    },
+    {
+      "code": "BYIC",
+      "name": "Bursa Young Investor Club Universiti Malaya",
+      "aliases": ["BYIC UM"],
+      "category": "Independent",
+      "instagram": "@byic_um"
+    },
+    {
+      "code": "GPMSUM",
+      "name": "Gabungan Pelajar Melayu Semenanjung Cawangan Khas Universiti Malaya",
+      "aliases": ["GPMSUM"],
+      "category": "Independent",
+      "instagram": "@official_gpmsum"
+    },
+    {
+      "code": "MALAYAMUN",
+      "name": "MalayaMUN",
+      "aliases": ["MUNUM", "Malaya Model United Nations Society", "Persatuan Model Pertubuhan Bangsa-Bangsa Bersatu Universiti Malaya"],
+      "category": "Independent",
+      "instagram": "@malayamunsociety",
+      "linkedin": "malayamun"
+    },
+    {
+      "code": "UMYL",
+      "name": "University of Malaya Young Leaders",
+      "aliases": ["UM Young Leaders", "Persatuan Pimpinan Muda Universiti Malaya", "UM Young Leaders Association"],
+      "category": "Independent",
+      "instagram": "@umyoungleaders"
+    },
+    {
+      "code": "TEDXUM",
+      "name": "TEDxUniversity of Malaya",
+      "aliases": ["TEDxUM", "TEDxUM Club"],
+      "category": "Independent",
+      "instagram": "@tedxuniversityofmalaya"
+    },
+    {
+      "code": "UMGB",
+      "name": "UM Global Buddies",
+      "aliases": ["ISCGB", "International Student Centre Global Buddies", "ISC Global Buddies"],
+      "category": "International",
+      "instagram": "@umglobalbuddies"
+    },
+    {
+      "code": "PPIUM",
+      "name": "Persatuan Pelajar Indonesia Universiti Malaya",
+      "aliases": ["PPI-UM"],
+      "category": "International",
+      "instagram": "@ppiunimalaya",
+      "linkedin": "ppiunimalaya"
+    },
+    {
+      "code": "UMISA",
+      "name": "University Malaya International Students Association",
+      "aliases": ["UMISA"],
+      "category": "International",
+      "instagram": "@official.umisa"
+    },
+    {
+      "code": "UMCSSA",
+      "name": "University of Malaya Chinese Students and Scholars Association",
+      "aliases": ["UMCSSA"],
+      "category": "International",
+      "instagram": "@umcssa_official"
+    },
+    {
+      "code": "KAFA",
+      "name": "Kelab Kemahiran Al-Quran dan Fardu Ain Universiti Malaya",
+      "aliases": ["KAFA UM", "Kelab Kemahiran Al-Quran & Fardu Ain"],
+      "category": "Religious",
+      "instagram": "@kafaum"
+    },
+    {
+      "code": "PEMBINA",
+      "name": "Persatuan Belia Islam Nasional Universiti Malaya",
+      "aliases": ["PEMBINA UM"],
+      "category": "Religious",
+      "instagram": "@pembinaum"
+    },
+    {
+      "code": "PBUDD",
+      "name": "Persatuan Buddhis Universiti Malaya",
+      "aliases": ["PBUM", "Buddhist Association", "Buddhis Association"],
+      "category": "Religious",
+      "instagram": "@pbum1961"
+    },
+    {
+      "code": "AIESEC",
+      "name": "AIESEC in Universiti Malaya",
+      "aliases": ["AIESEC in UM", "AIESEC UM"],
+      "category": "Service"
+    },
+    {
+      "code": "EMPATI",
+      "name": "Empati Mental Health Support Group",
+      "aliases": ["Empati UM"],
+      "category": "Service",
+      "instagram": "@empati_malaysia"
+    },
+    {
+      "code": "RIMBA",
+      "name": "The Rimba Project 2.0",
+      "aliases": ["Rimba Project"],
+      "category": "Service",
+      "linkedin": "the-rimba-project"
+    },
+    {
+      "code": "UMGREEN",
+      "name": "UM Green Community",
+      "aliases": ["UMGC"],
+      "category": "Service"
+    },
+    {
+      "code": "UMZWC",
+      "name": "UM Zero Waste Campaign",
+      "aliases": ["UMZWC", "UM ZWC"],
+      "category": "Service"
+    },
+    {
+      "code": "UMCARES",
+      "name": "UMCares Club",
+      "aliases": ["UMCares", "UMCares UM"],
+      "category": "Service",
+      "instagram": "@myumcares",
+      "linkedin": "universiti-malaya-community-engagement-centre-umcares"
+    },
+    {
+      "code": "UMUC",
+      "name": "Universiti Malaya UNESCO Club",
+      "aliases": ["UMUC"],
+      "category": "Service"
+    },
+    {
+      "code": "WATERWARRIORS",
+      "name": "Water Warriors Universiti Malaya",
+      "aliases": ["Water Warriors UM"],
+      "category": "Service",
+      "instagram": "@water.warriors",
+      "linkedin": "water-warriors-um"
+    },
+    {
+      "code": "UMKFC",
+      "name": "University of Malaya Kung Fu Club",
+      "aliases": ["UMKFC"],
+      "category": "Sports",
+      "instagram": "@umkungfuclub"
+    },
+    {
+      "code": "KFUM",
+      "name": "UM Frisbee Club",
+      "aliases": ["Kelab Frisbee Universiti Malaya", "KFUM"],
+      "category": "Sports"
+    },
+    {
+      "code": "PBTUM",
+      "name": "Tamil Language Society of Universiti Malaya",
+      "aliases": ["PBTUM", "Persatuan Bahasa Tamil Universiti Malaya", "Tamil Peravai", "TLSUM"],
+      "category": "Cultural",
+      "linkedin": "tamil-language-society-of-universiti-malaya-504b04379"
+    }
+  ]
+}

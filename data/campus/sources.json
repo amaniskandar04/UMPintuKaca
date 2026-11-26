@@ -1,0 +1,39 @@
+{
+  "lastVerified": "2026-11-25",
+  "sources": [
+    "https://sites.google.com/um.edu.my/staffonboarding/life-at-um/campus-facilities",
+    "https://www.um.edu.my/office-directory-services",
+    "https://www.um.edu.my/office-directory-administration",
+    "https://www.um.edu.my/perdanasiswa-complex",
+    "https://www.um.edu.my/health-services",
+    "https://www.um.edu.my/recreational",
+    "https://www.um.edu.my/transportation-amp-travel",
+    "https://www.um.edu.my/student-health-clinic",
+    "https://www.um.edu.my/botanical-gardens",
+    "https://www.um.edu.my/um-zero-waste-campaign",
+    "https://www.um.edu.my/um-services",
+    "https://pusatsukan.um.edu.my/facility",
+    "https://pusatsukan.um.edu.my/sports-facility-operation-hours",
+    "https://umlib.um.edu.my/centrallibrary",
+    "https://umlib.um.edu.my/opening-hours-amp-locations",
+    "https://hep.um.edu.my/accommodation",
+    "https://hep.um.edu.my/organization-chart",
+    "https://hep.um.edu.my/student-affairs-department",
+    "https://hep.um.edu.my/strategic-amp-student-residential-ecosystem-department",
+    "https://hep.um.edu.my/centre-for-counselling-and-disability-empowerment",
+    "https://museum.um.edu.my/museum-of-asian-art",
+    "https://artgallery.um.edu.my/",
+    "https://rimbailmu.um.edu.my/exhibition-hall",
+    "https://spm.um.edu.my/student/life-on-campus/",
+    "https://sustainability.um.edu.my/healthy-and-sustainable-food-um",
+    "https://it.um.edu.my/user-support-amp-helpdesk",
+    "https://registrar.um.edu.my/contact-us",
+    "https://jpphb.um.edu.my/transport",
+    "https://umsc.my/facilities-and-amenities/"
+  ],
+  "osm": {
+    "enabled": true,
+    "bbox": [3.11, 101.64, 3.145, 101.68],
+    "timeoutMs": 20000
+  }
+}

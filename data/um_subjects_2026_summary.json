@@ -1,0 +1,39 @@
+{
+  "generatedAt": "2026-11-26T12:18:19.513Z",
+  "source": "data\\timeedit_s1_2026_2027_raw.json",
+  "sourceModules": 29468,
+  "periods": [
+    {
+      "code": "2026/S1",
+      "label": "s1_2026_2027",
+      "name": "Semester 1, 2026/2027",
+      "display": "26/27, Semester 1",
+      "courses": 1849
+    },
+    {
+      "code": "2025/S2",
+      "label": "s2_2025_2026",
+      "name": "Semester 2, 2025/2026",
+      "display": "25/26, Semester 2",
+      "courses": 306
+    }
+  ],
+  "uniqueCourses": 2155,
+  "byLevel": {
+    "undergraduate": 1378,
+    "postgraduate": 777
+  },
+  "overlapCourses": 0,
+  "overlapCodes": [],
+  "duplicates": [
+    {
+      "period": "2026/S1",
+      "code": "BQE7009"
+    },
+    {
+      "period": "2026/S1",
+      "code": "BQE7009"
+    }
+  ],
+  "invalidModules": []
+}

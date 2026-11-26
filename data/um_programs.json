@@ -1,0 +1,2418 @@
+{
+  "generatedAt": "2026-11-26T16:42:54.014Z",
+  "lastVerified": "2026-11-25",
+  "programs": [
+    {
+      "name": "Advanced Diploma in Critical Care Nursing",
+      "level": "diploma",
+      "faculty": "FACULTY OF NURSING",
+      "sourceUrl": "https://study.um.edu.my/dip-faculty-of-nursing",
+      "rawName": "Advanced Diploma in Critical Care Nursing",
+      "code": "ADIP-CCN",
+      "id": "prg_adip_ccn"
+    },
+    {
+      "name": "Advanced Diploma in Emergency Nursing",
+      "level": "diploma",
+      "faculty": "FACULTY OF NURSING",
+      "sourceUrl": "https://study.um.edu.my/dip-faculty-of-nursing",
+      "rawName": "Advanced Diploma in Emergency Nursing",
+      "code": "ADIP-EN",
+      "id": "prg_adip_en"
+    },
+    {
+      "name": "Advanced Diploma in Midwifery Nursing",
+      "level": "diploma",
+      "faculty": "FACULTY OF NURSING",
+      "sourceUrl": "https://study.um.edu.my/dip-faculty-of-nursing",
+      "rawName": "Advanced Diploma in Midwifery Nursing",
+      "code": "ADIP-MN",
+      "id": "prg_adip_mn"
+    },
+    {
+      "name": "Advanced Diploma in Perioperative Nursing",
+      "level": "diploma",
+      "faculty": "FACULTY OF NURSING",
+      "sourceUrl": "https://study.um.edu.my/dip-faculty-of-nursing",
+      "rawName": "Advanced Diploma in Perioperative Nursing",
+      "code": "ADIP-PN",
+      "id": "prg_adip_pn"
+    },
+    {
+      "name": "Diploma in Accounting",
+      "level": "diploma",
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCED)",
+      "sourceUrl": "https://study.um.edu.my/programmes",
+      "rawName": "Diploma in Accounting",
+      "code": "DIP-A-UMCCED",
+      "id": "prg_dip_a_umcced"
+    },
+    {
+      "name": "Diploma in Business Management",
+      "level": "diploma",
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCED)",
+      "sourceUrl": "https://study.um.edu.my/programmes",
+      "rawName": "Diploma in Business Management",
+      "code": "DIP-BM",
+      "id": "prg_dip_bm"
+    },
+    {
+      "name": "Diploma in Human Resource Management",
+      "level": "diploma",
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCED)",
+      "sourceUrl": "https://study.um.edu.my/programmes",
+      "rawName": "Diploma in Human Resource Management",
+      "code": "DIP-HRM",
+      "id": "prg_dip_hrm"
+    },
+    {
+      "name": "Diploma in Management",
+      "level": "diploma",
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCED)",
+      "sourceUrl": "https://study.um.edu.my/programmes",
+      "rawName": "Diploma in Management",
+      "code": "DIP-M",
+      "id": "prg_dip_m"
+    },
+    {
+      "name": "Diploma in Medical Laboratory Technology",
+      "level": "diploma",
+      "faculty": "FACULTY OF MEDICINE",
+      "sourceUrl": "https://study.um.edu.my/dip-faculty-of-medicine",
+      "rawName": "Diploma in Medical Laboratory Technology",
+      "code": "DIP-MLT",
+      "id": "prg_dip_mlt"
+    },
+    {
+      "name": "Diploma in Nursing",
+      "level": "diploma",
+      "faculty": "FACULTY OF NURSING",
+      "sourceUrl": "https://study.um.edu.my/dip-faculty-of-nursing",
+      "rawName": "Diploma in Nursing",
+      "code": "DIP-N",
+      "id": "prg_dip_n"
+    },
+    {
+      "name": "Diploma in Radiography",
+      "level": "diploma",
+      "faculty": "FACULTY OF MEDICINE",
+      "sourceUrl": "https://study.um.edu.my/dip-faculty-of-medicine",
+      "rawName": "Diploma in Radiography",
+      "code": "DIP-R",
+      "id": "prg_dip_r"
+    },
+    {
+      "name": "Executive Diploma in Early Childhood Education",
+      "level": "diploma",
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCED)",
+      "sourceUrl": "https://study.um.edu.my/executive-diploma-in-early-childhood-education",
+      "rawName": "Executive Diploma in Early Childhood Education",
+      "code": "EDIP-ECE",
+      "id": "prg_edip_ece"
+    },
+    {
+      "name": "Executive Diploma in Law Enforcement Management",
+      "level": "diploma",
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCED)",
+      "sourceUrl": "https://study.um.edu.my/executive-diploma-in-law-enforcement-management",
+      "rawName": "Executive Diploma in Law Enforcement Management",
+      "code": "EDIP-LEM",
+      "id": "prg_edip_lem"
+    },
+    {
+      "name": "Executive Diploma in Management (Administration and Operations)",
+      "level": "diploma",
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCED)",
+      "sourceUrl": "https://study.um.edu.my/executive-diploma-in-management-administration-and-operation",
+      "rawName": "Executive Diploma in Management (Administration and Operations)",
+      "code": "EDIP-M-AO",
+      "id": "prg_edip_m_ao"
+    },
+    {
+      "name": "Executive Diploma in Management (Business)",
+      "level": "diploma",
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCED)",
+      "sourceUrl": "https://study.um.edu.my/executive-diploma-in-management-business",
+      "rawName": "Executive Diploma in Management (Business)",
+      "code": "EDIP-M-B",
+      "id": "prg_edip_m_b"
+    },
+    {
+      "name": "Foundation in Islamic Studies",
+      "level": "foundation",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "sourceUrl": "https://study.um.edu.my/page-faculty-foundation",
+      "rawName": "Foundation in Islamic Studies",
+      "code": "FD-IS",
+      "id": "prg_fd_is"
+    },
+    {
+      "name": "Foundation in Islamic Studies and Science",
+      "level": "foundation",
+      "faculty": "CENTRE FOR FOUNDATION STUDIES IN SCIENCE",
+      "sourceUrl": "https://study.um.edu.my/page-faculty-foundation",
+      "rawName": "Foundation in Islamic Studies and Science",
+      "code": "FD-ISS",
+      "id": "prg_fd_iss"
+    },
+    {
+      "name": "Foundation in Life Sciences",
+      "level": "foundation",
+      "faculty": "CENTRE FOR FOUNDATION STUDIES IN SCIENCE",
+      "sourceUrl": "https://study.um.edu.my/page-faculty-foundation",
+      "rawName": "Foundation in Life Sciences",
+      "code": "FD-LS",
+      "id": "prg_fd_ls"
+    },
+    {
+      "name": "Foundation in Physical Sciences",
+      "level": "foundation",
+      "faculty": "CENTRE FOR FOUNDATION STUDIES IN SCIENCE",
+      "sourceUrl": "https://study.um.edu.my/page-faculty-foundation",
+      "rawName": "Foundation in Physical Sciences",
+      "code": "FD-PS",
+      "id": "prg_fd_ps"
+    },
+    {
+      "name": "Foundation in Social Sciences",
+      "level": "foundation",
+      "faculty": "CENTRE FOR FOUNDATION STUDIES IN SCIENCE",
+      "sourceUrl": "https://study.um.edu.my/page-faculty-foundation",
+      "rawName": "Foundation in Social Sciences",
+      "code": "FD-SS",
+      "id": "prg_fd_ss"
+    },
+    {
+      "name": "Doctor in Dental Public Health",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF DENTISTRY",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-dentistry",
+      "rawName": "Doctor in Dental Public Health",
+      "code": "PG-D-DPH",
+      "id": "prg_pg_d_dph"
+    },
+    {
+      "name": "Doctor in Orthodontics",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF DENTISTRY",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-dentistry",
+      "rawName": "Doctor in Orthodontics",
+      "code": "PG-D-O",
+      "id": "prg_pg_d_o"
+    },
+    {
+      "name": "Doctor in Pediatric Dentistry",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF DENTISTRY",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-dentistry",
+      "rawName": "Doctor in Pediatric Dentistry",
+      "code": "PG-D-PD",
+      "id": "prg_pg_d_pd"
+    },
+    {
+      "name": "Doctor in Prosthodontics",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF DENTISTRY",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-dentistry",
+      "rawName": "Doctor in Prosthodontics",
+      "code": "PG-D-P-DENT",
+      "id": "prg_pg_d_p_dent"
+    },
+    {
+      "name": "Doctor in Restorative Dentistry",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF DENTISTRY",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-dentistry",
+      "rawName": "Doctor in Restorative Dentistry",
+      "code": "PG-D-RD",
+      "id": "prg_pg_d_rd"
+    },
+    {
+      "name": "Doctor of Business Administration",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "sourceUrl": "https://study.um.edu.my/pg-business-and-economics",
+      "rawName": "Doctor of Business Administration",
+      "code": "PG-D-BA",
+      "id": "prg_pg_d_ba"
+    },
+    {
+      "name": "Doctor of Oral Maxillofacial Pathology & Oral Medicine",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF DENTISTRY",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-dentistry",
+      "rawName": "Doctor of Oral Maxillofacial Pathology & Oral Medicine",
+      "code": "PG-D-OMP-OM",
+      "id": "prg_pg_d_omp_om"
+    },
+    {
+      "name": "Doctor of Periodontology",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF DENTISTRY",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-dentistry",
+      "rawName": "Doctor of Periodontology",
+      "code": "PG-D-P",
+      "id": "prg_pg_d_p"
+    },
+    {
+      "name": "Doctor of Philosophy (Academy of Islamic Studies)",
+      "level": "postgraduate",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "sourceUrl": "https://study.um.edu.my/pg-academy-of-islamic-studies",
+      "rawName": "Doctor of Philosophy",
+      "code": "PG-PHD-ISL",
+      "id": "prg_pg_phd_isl"
+    },
+    {
+      "name": "Doctor of Philosophy (Academy of Malay Studies)",
+      "level": "postgraduate",
+      "faculty": "ACADEMY OF MALAY STUDIES",
+      "sourceUrl": "https://study.um.edu.my/pg-academy-of-malay-studies",
+      "rawName": "Doctor of Philosophy (Academy of Malay Studies)",
+      "code": "PG-PHD-MAL",
+      "id": "prg_pg_phd_mal"
+    },
+    {
+      "name": "Doctor of Philosophy (Asia-Europe Institute)",
+      "level": "postgraduate",
+      "faculty": "ASIA-EUROPE INSTITUTE",
+      "sourceUrl": "https://study.um.edu.my/pg-asia-europe-institute",
+      "rawName": "Doctor of Philosophy (Asia Europe Institute)",
+      "code": "PG-PHD-AEI",
+      "id": "prg_pg_phd_aei"
+    },
+    {
+      "name": "Doctor of Philosophy (Faculty of Arts & Social Sciences)",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-arts-amp-social-science",
+      "rawName": "Doctor of Philosophy (Faculty of Arts & Social Sciences)",
+      "code": "PG-PHD-ARTS",
+      "id": "prg_pg_phd_arts"
+    },
+    {
+      "name": "Doctor of Philosophy (Faculty of Built Environment)",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF BUILT ENVIRONMENT",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-built-environment",
+      "rawName": "Doctor of Philosophy in Faculty of Built Environment",
+      "code": "PG-PHD-BUILT",
+      "id": "prg_pg_phd_built"
+    },
+    {
+      "name": "Doctor of Philosophy (Faculty of Business & Economics)",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "sourceUrl": "https://study.um.edu.my/pg-business-and-economics",
+      "rawName": "Doctor of Philosophy Faculty of Business & Economics",
+      "code": "PG-PHD-BUS",
+      "id": "prg_pg_phd_bus"
+    },
+    {
+      "name": "Doctor of Philosophy (Faculty of Computer Science & IT)",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-computer-science-and-it",
+      "rawName": "Doctor of Philosophy (Faculty of Computer Science & IT)",
+      "code": "PG-PHD-COMP",
+      "id": "prg_pg_phd_comp"
+    },
+    {
+      "name": "Doctor of Philosophy (Faculty of Creative Arts)",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF CREATIVE ARTS",
+      "sourceUrl": "https://study.um.edu.my/pg-of-creative-arts",
+      "rawName": "Doctor of Philosophy (Faculty of Creative Arts)",
+      "code": "PG-PHD-CREA",
+      "id": "prg_pg_phd_crea"
+    },
+    {
+      "name": "Doctor of Philosophy (Faculty of Dentistry)",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF DENTISTRY",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-dentistry",
+      "rawName": "Doctor of Philosophy (Faculty of Dentistry)",
+      "code": "PG-PHD-DENT",
+      "id": "prg_pg_phd_dent"
+    },
+    {
+      "name": "Doctor of Philosophy (Faculty of Engineering)",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF ENGINEERING",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-engineering",
+      "rawName": "Doctor of Philosophy (Faculty of Engineering)",
+      "code": "PG-PHD-ENGG",
+      "id": "prg_pg_phd_engg"
+    },
+    {
+      "name": "Doctor of Philosophy (Faculty of Law)",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF LAW",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-law",
+      "rawName": "Doctor of Philosophy (Faculty of Law)",
+      "code": "PG-PHD-LAW",
+      "id": "prg_pg_phd_law"
+    },
+    {
+      "name": "Doctor of Philosophy (Faculty of Medicine)",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF MEDICINE",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-medicine",
+      "rawName": "Doctor of Philosophy (Faculty of Medicine)",
+      "code": "PG-PHD-MED",
+      "id": "prg_pg_phd_med"
+    },
+    {
+      "name": "Doctor of Philosophy (Faculty of Pharmacy)",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF PHARMACY",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-pharmacy",
+      "rawName": "Doctor of Philosophy",
+      "code": "PG-PHD-PHAR",
+      "id": "prg_pg_phd_phar"
+    },
+    {
+      "name": "Doctor of Philosophy (Faculty of Science)",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF SCIENCE",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-science",
+      "rawName": "Doctor of Philosophy (Faculty of Science)",
+      "code": "PG-PHD-SCI",
+      "id": "prg_pg_phd_sci"
+    },
+    {
+      "name": "Doctor of Philosophy (Faculty of Sports & Exercise Science)",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF SPORTS AND EXERCISE SCIENCES",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-sport-science",
+      "rawName": "Doctor of Philosophy",
+      "code": "PG-PHD-SPOR",
+      "id": "prg_pg_phd_spor"
+    },
+    {
+      "name": "Doctor of Philosophy (Institute of Advanced Studies)",
+      "level": "postgraduate",
+      "faculty": "INSTITUTE FOR ADVANCED STUDIES",
+      "sourceUrl": "https://study.um.edu.my/pg-inst-advanced-studies",
+      "rawName": "Doctor of Philosophy (Institute of Advanced Studies)",
+      "code": "PG-PHD-IAS",
+      "id": "prg_pg_phd_ias"
+    },
+    {
+      "name": "Doctor of Philosophy (International Institute of Public Policy and Management)",
+      "level": "postgraduate",
+      "faculty": "INTERNATIONAL INSTITUTE OF PUBLIC POLICY AND MANAGEMENT",
+      "sourceUrl": "https://study.um.edu.my/pg-international-institute-of-public-policy-and-management",
+      "rawName": "Doctor of Philosophy (International Institute of Public Policy and Management)",
+      "code": "PG-PHD-INPUMA",
+      "id": "prg_pg_phd_inpuma"
+    },
+    {
+      "name": "Doctor of Philosophy (Languages & Linguistics)",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-language",
+      "rawName": "Doctor of Philosophy (Languages & Linguistics)",
+      "code": "PG-PHD-LANG",
+      "id": "prg_pg_phd_lang"
+    },
+    {
+      "name": "Doctor of Philosophy (Mixed-Mode)",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF EDUCATION",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-education",
+      "rawName": "Doctor of Philosophy (Mixed-Mode)",
+      "code": "PG-PHD-EDUC-MM",
+      "id": "prg_pg_phd_educ_mm"
+    },
+    {
+      "name": "Doctor of Philosophy (Research)",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF EDUCATION",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-education",
+      "rawName": "Doctor of Philosophy (Research)",
+      "code": "PG-PHD-EDUC-RES",
+      "id": "prg_pg_phd_educ_res"
+    },
+    {
+      "name": "Doctor of Public Health",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF MEDICINE",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-medicine",
+      "rawName": "Doctor of Public Health",
+      "code": "PG-D-PH",
+      "id": "prg_pg_d_ph"
+    },
+    {
+      "name": "Doctor of Special Care Dentistry",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF DENTISTRY",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-dentistry",
+      "rawName": "Doctor of Special Care Dentistry",
+      "code": "PG-D-SCD",
+      "id": "prg_pg_d_scd"
+    },
+    {
+      "name": "Master of Accounting (Reporting and Management Accountability)",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "sourceUrl": "https://study.um.edu.my/pg-business-and-economics",
+      "rawName": "Master of Accounting (Reporting and Management Accountability)",
+      "code": "PG-A-RMA",
+      "id": "prg_pg_a_rma"
+    },
+    {
+      "name": "Master of Advanced Studies",
+      "level": "postgraduate",
+      "faculty": "INSTITUTE FOR ADVANCED STUDIES",
+      "sourceUrl": "https://study.um.edu.my/pg-inst-advanced-studies",
+      "rawName": "Master of Advanced Studies",
+      "code": "PG-AS-IAS",
+      "id": "prg_pg_as_ias"
+    },
+    {
+      "name": "Master of Agricultural Biosecurity",
+      "level": "postgraduate",
+      "faculty": "INSTITUTE FOR ADVANCED STUDIES",
+      "sourceUrl": "https://study.um.edu.my/pg-inst-advanced-studies",
+      "rawName": "Master of Agricultural Biosecurity",
+      "code": "PG-AB",
+      "id": "prg_pg_ab"
+    },
+    {
+      "name": "Master of Al-Quran and Al-Hadith",
+      "level": "postgraduate",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "sourceUrl": "https://study.um.edu.my/pg-academy-of-islamic-studies",
+      "rawName": "Master of Al-Quran and Al-Hadith",
+      "code": "PG-AA",
+      "id": "prg_pg_aa"
+    },
+    {
+      "name": "Master of Anaesthesiology",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF MEDICINE",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-medicine",
+      "rawName": "Master of Anaesthesiology",
+      "code": "PG-A-MED",
+      "id": "prg_pg_a_med"
+    },
+    {
+      "name": "Master of Applied Sciences (Nanotechnology)",
+      "level": "postgraduate",
+      "faculty": "INSTITUTE FOR ADVANCED STUDIES",
+      "sourceUrl": "https://study.um.edu.my/pg-inst-advanced-studies",
+      "rawName": "Master of Applied Sciences (Nanotechnology)",
+      "code": "PG-AS-N",
+      "id": "prg_pg_as_n"
+    },
+    {
+      "name": "Master of Applied Statistics",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "sourceUrl": "https://study.um.edu.my/pg-business-and-economics",
+      "rawName": "Master of Applied Statistics",
+      "code": "PG-AS-BUS",
+      "id": "prg_pg_as_bus"
+    },
+    {
+      "name": "Master of Arabic Language Education",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF EDUCATION",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-education",
+      "rawName": "Master of Arabic Language Education",
+      "code": "PG-ALE",
+      "id": "prg_pg_ale"
+    },
+    {
+      "name": "Master of Architecture",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF BUILT ENVIRONMENT",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-built-environment",
+      "rawName": "Master of Architecture",
+      "code": "PG-A-BUILT",
+      "id": "prg_pg_a_built"
+    },
+    {
+      "name": "Master of Artificial Intelligence",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-computer-science-and-it",
+      "rawName": "Master of Artificial Intelligence",
+      "code": "PG-AI",
+      "id": "prg_pg_ai"
+    },
+    {
+      "name": "Master of Arts",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-arts-amp-social-science",
+      "rawName": "Master of Arts",
+      "code": "PG-A-ARTS",
+      "id": "prg_pg_a_arts"
+    },
+    {
+      "name": "Master of Arts",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF CREATIVE ARTS",
+      "sourceUrl": "https://study.um.edu.my/pg-of-creative-arts",
+      "rawName": "Master of Arts",
+      "code": "PG-A-CREA",
+      "id": "prg_pg_a_crea"
+    },
+    {
+      "name": "Master of Arts (English Literature)",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-arts-amp-social-science",
+      "rawName": "Master of Arts (English Literature)",
+      "code": "PG-A-EL",
+      "id": "prg_pg_a_el"
+    },
+    {
+      "name": "Master of Arts (Linguistics)",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-language",
+      "rawName": "Master of Arts (Linguistics)",
+      "code": "PG-A-L",
+      "id": "prg_pg_a_l"
+    },
+    {
+      "name": "Master of Arts (Malaysian History)",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-arts-amp-social-science",
+      "rawName": "Master of Arts (Malaysian History)",
+      "code": "PG-A-MH",
+      "id": "prg_pg_a_mh"
+    },
+    {
+      "name": "Master of Arts (Publishing Studies)",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-arts-amp-social-science",
+      "rawName": "Master of Arts (Publishing Studies)",
+      "code": "PG-A-PS",
+      "id": "prg_pg_a_ps"
+    },
+    {
+      "name": "Master of Arts (Southeast Asian History)",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-arts-amp-social-science",
+      "rawName": "Master of Arts (Southeast Asian History)",
+      "code": "PG-A-SAH",
+      "id": "prg_pg_a_sah"
+    },
+    {
+      "name": "Master of Arts (Southeast Asian Studies)",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-arts-amp-social-science",
+      "rawName": "Master of Arts (Southeast Asian Studies)",
+      "code": "PG-A-SAS",
+      "id": "prg_pg_a_sas"
+    },
+    {
+      "name": "Master of Arts (Strategic and Defence Studies)",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-arts-amp-social-science",
+      "rawName": "Master of Arts (Strategic and Defense Studies)",
+      "code": "PG-A-SDS",
+      "id": "prg_pg_a_sds"
+    },
+    {
+      "name": "Master of Arts (Visual Arts)",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF CREATIVE ARTS",
+      "sourceUrl": "https://study.um.edu.my/pg-of-creative-arts",
+      "rawName": "Master of Arts (Visual Arts)",
+      "code": "PG-A-VA",
+      "id": "prg_pg_a_va"
+    },
+    {
+      "name": "Master of Arts in Malay Studies",
+      "level": "postgraduate",
+      "faculty": "ACADEMY OF MALAY STUDIES",
+      "sourceUrl": "https://study.um.edu.my/pg-academy-of-malay-studies",
+      "rawName": "Master of Arts in Malay Studies",
+      "code": "PG-AMS",
+      "id": "prg_pg_ams"
+    },
+    {
+      "name": "Master of ASEAN Studies",
+      "level": "postgraduate",
+      "faculty": "ASIA-EUROPE INSTITUTE",
+      "sourceUrl": "https://study.um.edu.my/pg-asia-europe-institute",
+      "rawName": "Master of ASEAN Studies",
+      "code": "PG-AS",
+      "id": "prg_pg_as"
+    },
+    {
+      "name": "Master of Bioinformatics",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF SCIENCE",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-science",
+      "rawName": "Master of Bioinformatics",
+      "code": "PG-B",
+      "id": "prg_pg_b"
+    },
+    {
+      "name": "Master of Biomedical Engineering",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF ENGINEERING",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-engineering",
+      "rawName": "Master of Biomedical Engineering",
+      "code": "PG-BE-ENGG",
+      "id": "prg_pg_be_engg"
+    },
+    {
+      "name": "Master of Built Environment",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF BUILT ENVIRONMENT",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-built-environment",
+      "rawName": "Master of Built Environment",
+      "code": "PG-BE",
+      "id": "prg_pg_be"
+    },
+    {
+      "name": "Master of Business Administration",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "sourceUrl": "https://study.um.edu.my/pg-business-and-economics",
+      "rawName": "Master of Business Administration",
+      "code": "PG-MBA",
+      "id": "prg_pg_mba"
+    },
+    {
+      "name": "Master of Cardiothoracic Surgery",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF MEDICINE",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-medicine",
+      "rawName": "Master of Cardiothoracic Surgery",
+      "code": "PG-CS-MED",
+      "id": "prg_pg_cs_med"
+    },
+    {
+      "name": "Master of Chinese Studies",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-arts-amp-social-science",
+      "rawName": "Master of Chinese Studies",
+      "code": "PG-CS",
+      "id": "prg_pg_cs"
+    },
+    {
+      "name": "Master of Clinical Oncology",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF MEDICINE",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-medicine",
+      "rawName": "Master of Clinical Oncology",
+      "code": "PG-CO",
+      "id": "prg_pg_co"
+    },
+    {
+      "name": "Master of Commercial Law",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF LAW",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-law",
+      "rawName": "Master of Commercial Law",
+      "code": "PG-CL",
+      "id": "prg_pg_cl"
+    },
+    {
+      "name": "Master of Community Oral Health",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF DENTISTRY",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-dentistry",
+      "rawName": "Master of Community Oral Health",
+      "code": "PG-COH",
+      "id": "prg_pg_coh"
+    },
+    {
+      "name": "Master of Computer Science",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-computer-science-and-it",
+      "rawName": "Master of Computer Science",
+      "code": "PG-CS-COMP",
+      "id": "prg_pg_cs_comp"
+    },
+    {
+      "name": "Master of Computer Science (Applied Computing)",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-computer-science-and-it",
+      "rawName": "Master of Computer Science (Applied Computing)",
+      "code": "PG-CS-AC",
+      "id": "prg_pg_cs_ac"
+    },
+    {
+      "name": "Master of Criminal Justice",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF LAW",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-law",
+      "rawName": "Master of Criminal Justice",
+      "code": "PG-CJ",
+      "id": "prg_pg_cj"
+    },
+    {
+      "name": "Master of Cybersecurity",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-computer-science-and-it",
+      "rawName": "Master of Cybersecurity",
+      "code": "PG-C",
+      "id": "prg_pg_c"
+    },
+    {
+      "name": "Master of Dakwah Development",
+      "level": "postgraduate",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "sourceUrl": "https://study.um.edu.my/pg-academy-of-islamic-studies",
+      "rawName": "Master of Dakwah Development",
+      "code": "PG-DD",
+      "id": "prg_pg_dd"
+    },
+    {
+      "name": "Master of Dance",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF CREATIVE ARTS",
+      "sourceUrl": "https://study.um.edu.my/pg-of-creative-arts",
+      "rawName": "Master of Dance",
+      "code": "PG-D",
+      "id": "prg_pg_d"
+    },
+    {
+      "name": "Master of Data Science",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-computer-science-and-it",
+      "rawName": "Master of Data Science",
+      "code": "PG-DS-COMP",
+      "id": "prg_pg_ds_comp"
+    },
+    {
+      "name": "Master of Dental Science",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF DENTISTRY",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-dentistry",
+      "rawName": "Master of Dental Science",
+      "code": "PG-DS-DENT",
+      "id": "prg_pg_ds_dent"
+    },
+    {
+      "name": "Master of Development Studies",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "sourceUrl": "https://study.um.edu.my/pg-business-and-economics",
+      "rawName": "Master of Development Studies",
+      "code": "PG-DS",
+      "id": "prg_pg_ds"
+    },
+    {
+      "name": "Master of Early Childhood Education",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF EDUCATION",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-education",
+      "rawName": "Master of Early Childhood Education",
+      "code": "PG-ECE",
+      "id": "prg_pg_ece"
+    },
+    {
+      "name": "Master of Economics",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "sourceUrl": "https://study.um.edu.my/pg-business-and-economics",
+      "rawName": "Master of Economics",
+      "code": "PG-E",
+      "id": "prg_pg_e"
+    },
+    {
+      "name": "Master of Education",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF EDUCATION",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-education",
+      "rawName": "Master of Education",
+      "code": "PG-E-EDUC",
+      "id": "prg_pg_e_educ"
+    },
+    {
+      "name": "Master of Education in English as a Second Language",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF EDUCATION",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-education",
+      "rawName": "Master of Education in English as A Second Language",
+      "code": "PG-EEASL",
+      "id": "prg_pg_eeasl"
+    },
+    {
+      "name": "Master of Education in Malay Language",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF EDUCATION",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-education",
+      "rawName": "Master of Education in Malay Language",
+      "code": "PG-EML",
+      "id": "prg_pg_eml"
+    },
+    {
+      "name": "Master of Educational Leadership and Management",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF EDUCATION",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-education",
+      "rawName": "Master of Educational Leadership and Management",
+      "code": "PG-ELM",
+      "id": "prg_pg_elm"
+    },
+    {
+      "name": "Master of Educational Psychology",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF EDUCATION",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-education",
+      "rawName": "Master of Education Psychology",
+      "code": "PG-EP",
+      "id": "prg_pg_ep"
+    },
+    {
+      "name": "Master of Educational Technology",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF EDUCATION",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-education",
+      "rawName": "Master of Educational Technology",
+      "code": "PG-ET",
+      "id": "prg_pg_et"
+    },
+    {
+      "name": "Master of Emergency Medicine",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF MEDICINE",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-medicine",
+      "rawName": "Master of Emergency Medicine",
+      "code": "PG-EM",
+      "id": "prg_pg_em"
+    },
+    {
+      "name": "Master of Engineering Science",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF ENGINEERING",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-engineering",
+      "rawName": "Master of Engineering Science",
+      "code": "PG-ES-ENGG",
+      "id": "prg_pg_es_engg"
+    },
+    {
+      "name": "Master of English Language Studies",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-language",
+      "rawName": "Master of English Language Studies",
+      "code": "PG-ELS",
+      "id": "prg_pg_els"
+    },
+    {
+      "name": "Master of Environmental Management Technology",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF SCIENCE",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-science",
+      "rawName": "Master of Environmental Management Technology",
+      "code": "PG-EMT",
+      "id": "prg_pg_emt"
+    },
+    {
+      "name": "Master of Epidemiology",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF MEDICINE",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-medicine",
+      "rawName": "Master of Epidemiology",
+      "code": "PG-E-MED",
+      "id": "prg_pg_e_med"
+    },
+    {
+      "name": "Master of European Studies",
+      "level": "postgraduate",
+      "faculty": "ASIA-EUROPE INSTITUTE",
+      "sourceUrl": "https://study.um.edu.my/pg-asia-europe-institute",
+      "rawName": "Master of European Studies",
+      "code": "PG-ES",
+      "id": "prg_pg_es"
+    },
+    {
+      "name": "Master of Facilities and Maintenance Management",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF BUILT ENVIRONMENT",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-built-environment",
+      "rawName": "Master of Facilities and Maintenance Management",
+      "code": "PG-FMM",
+      "id": "prg_pg_fmm"
+    },
+    {
+      "name": "Master of Family Medicine",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF MEDICINE",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-medicine",
+      "rawName": "Master of Family Medicine",
+      "code": "PG-FM",
+      "id": "prg_pg_fm"
+    },
+    {
+      "name": "Master of Gender Studies",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-arts-amp-social-science",
+      "rawName": "Master of Gender Studies",
+      "code": "PG-GS",
+      "id": "prg_pg_gs"
+    },
+    {
+      "name": "Master of Halal Management",
+      "level": "postgraduate",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "sourceUrl": "https://study.um.edu.my/pg-academy-of-islamic-studies",
+      "rawName": "Master of Halal Management",
+      "code": "PG-HM",
+      "id": "prg_pg_hm"
+    },
+    {
+      "name": "Master of Health Research Ethics",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF MEDICINE",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-medicine",
+      "rawName": "Master of Health Research Ethics",
+      "code": "PG-HRE",
+      "id": "prg_pg_hre"
+    },
+    {
+      "name": "Master of Humanities Education",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF EDUCATION",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-education",
+      "rawName": "Master of Humanities Education",
+      "code": "PG-HE",
+      "id": "prg_pg_he"
+    },
+    {
+      "name": "Master of Information Science",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-arts-amp-social-science",
+      "rawName": "Master of Information Science",
+      "code": "PG-IS-ARTS",
+      "id": "prg_pg_is_arts"
+    },
+    {
+      "name": "Master of Internal Medicine",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF MEDICINE",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-medicine",
+      "rawName": "Master of Internal Medicine",
+      "code": "PG-IM",
+      "id": "prg_pg_im"
+    },
+    {
+      "name": "Master of Islamic Education",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF EDUCATION",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-education",
+      "rawName": "Master of Islamic Education",
+      "code": "PG-IE",
+      "id": "prg_pg_ie"
+    },
+    {
+      "name": "Master of Islamic Management and Finance",
+      "level": "postgraduate",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "sourceUrl": "https://study.um.edu.my/pg-academy-of-islamic-studies",
+      "rawName": "Master of Islamic Management and Finance",
+      "code": "PG-IMF",
+      "id": "prg_pg_imf"
+    },
+    {
+      "name": "Master of Islamic Studies",
+      "level": "postgraduate",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "sourceUrl": "https://study.um.edu.my/pg-academy-of-islamic-studies",
+      "rawName": "Master of Islamic Studies",
+      "code": "PG-IS",
+      "id": "prg_pg_is"
+    },
+    {
+      "name": "Master of Laws",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF LAW",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-law",
+      "rawName": "Master of Law",
+      "code": "PG-LLM",
+      "id": "prg_pg_llm"
+    },
+    {
+      "name": "Master of Legal Studies",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF LAW",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-law",
+      "rawName": "Master of Legal Studies",
+      "code": "PG-LS",
+      "id": "prg_pg_ls"
+    },
+    {
+      "name": "Master of Library and Information Science",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-arts-amp-social-science",
+      "rawName": "Master of Library and Information Science",
+      "code": "PG-LIS",
+      "id": "prg_pg_lis"
+    },
+    {
+      "name": "Master of Malay Studies",
+      "level": "postgraduate",
+      "faculty": "ACADEMY OF MALAY STUDIES",
+      "sourceUrl": "https://study.um.edu.my/pg-academy-of-malay-studies",
+      "rawName": "Master of Malay Studies",
+      "code": "PG-MS",
+      "id": "prg_pg_ms"
+    },
+    {
+      "name": "Master of Management",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "sourceUrl": "https://study.um.edu.my/pg-business-and-economics",
+      "rawName": "Master of Management",
+      "code": "PG-M",
+      "id": "prg_pg_m"
+    },
+    {
+      "name": "Master of Marketing",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "sourceUrl": "https://study.um.edu.my/pg-business-and-economics",
+      "rawName": "Master of Marketing",
+      "code": "PG-M-BUS",
+      "id": "prg_pg_m_bus"
+    },
+    {
+      "name": "Master of Mathematics Education with Technology",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF EDUCATION",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-education",
+      "rawName": "Master of Mathematics Education with Technology",
+      "code": "PG-MET",
+      "id": "prg_pg_met"
+    },
+    {
+      "name": "Master of Measurement and Assessment",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF EDUCATION",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-education",
+      "rawName": "Master of Measurement and Assessment",
+      "code": "PG-MA",
+      "id": "prg_pg_ma"
+    },
+    {
+      "name": "Master of Mechanical Engineering",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF ENGINEERING",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-engineering",
+      "rawName": "Master of Mechanical Engineering",
+      "code": "PG-ME",
+      "id": "prg_pg_me"
+    },
+    {
+      "name": "Master of Media Studies",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-arts-amp-social-science",
+      "rawName": "Master of Media Studies",
+      "code": "PG-MS-ARTS",
+      "id": "prg_pg_ms_arts"
+    },
+    {
+      "name": "Master of Medical Education",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF MEDICINE",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-medicine",
+      "rawName": "Master of Medical Education",
+      "code": "PG-ME-MED",
+      "id": "prg_pg_me_med"
+    },
+    {
+      "name": "Master of Medical Parasitology and Entomology",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF MEDICINE",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-medicine",
+      "rawName": "Master of Medical Parasitology and Entomology",
+      "code": "PG-MPE",
+      "id": "prg_pg_mpe"
+    },
+    {
+      "name": "Master of Medical Physics",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF MEDICINE",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-medicine",
+      "rawName": "Master of Medical Physics",
+      "code": "PG-MP",
+      "id": "prg_pg_mp"
+    },
+    {
+      "name": "Master of Medical Science",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF MEDICINE",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-medicine",
+      "rawName": "Master of Medical Science",
+      "code": "PG-MS-MED",
+      "id": "prg_pg_ms_med"
+    },
+    {
+      "name": "Master of Medical Science (Regenerative Medicine)",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF MEDICINE",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-medicine",
+      "rawName": "Master of Medical Science (Regenerative Medicine)",
+      "code": "PG-MS-RM",
+      "id": "prg_pg_ms_rm"
+    },
+    {
+      "name": "Master of Neurosurgery",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF MEDICINE",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-medicine",
+      "rawName": "Master of Neurosurgery",
+      "code": "PG-N",
+      "id": "prg_pg_n"
+    },
+    {
+      "name": "Master of Nursing Science",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF NURSING",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-nursing",
+      "rawName": "Master of Nursing Science",
+      "code": "PG-NS",
+      "id": "prg_pg_ns"
+    },
+    {
+      "name": "Master of Obstetrics and Gynaecology",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF MEDICINE",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-medicine",
+      "rawName": "Master of Obstetrics and Gynaecology",
+      "code": "PG-OG",
+      "id": "prg_pg_og"
+    },
+    {
+      "name": "Master of Ophthalmology",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF MEDICINE",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-medicine",
+      "rawName": "Master of Ophthalmology",
+      "code": "PG-O",
+      "id": "prg_pg_o"
+    },
+    {
+      "name": "Master of Oral Science",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF DENTISTRY",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-dentistry",
+      "rawName": "Master of Oral Science",
+      "code": "PG-OS",
+      "id": "prg_pg_os"
+    },
+    {
+      "name": "Master of Orthopaedic Surgery",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF MEDICINE",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-medicine",
+      "rawName": "Master of Orthopaedic Surgery",
+      "code": "PG-OS-MED",
+      "id": "prg_pg_os_med"
+    },
+    {
+      "name": "Master of Otorhinolaryngology - Head and Neck Surgery",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF MEDICINE",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-medicine",
+      "rawName": "Master of Otorhinolaryngology - Head and Neck Surgery",
+      "code": "PG-O-HNS",
+      "id": "prg_pg_o_hns"
+    },
+    {
+      "name": "Master of Paediatric Surgery",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF MEDICINE",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-medicine",
+      "rawName": "Master of Paediatric Surgery",
+      "code": "PG-PS",
+      "id": "prg_pg_ps"
+    },
+    {
+      "name": "Master of Paediatrics",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF MEDICINE",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-medicine",
+      "rawName": "Master of Paediatrics",
+      "code": "PG-P",
+      "id": "prg_pg_p"
+    },
+    {
+      "name": "Master of Pathology (Anatomic Pathology)",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF MEDICINE",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-medicine",
+      "rawName": "Master of Pathology (Anatomic Pathology)",
+      "code": "PG-P-AP",
+      "id": "prg_pg_p_ap"
+    },
+    {
+      "name": "Master of Pathology (Chemical Pathology)",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF MEDICINE",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-medicine",
+      "rawName": "Master of Pathology (Chemical Pathology)",
+      "code": "PG-P-CP",
+      "id": "prg_pg_p_cp"
+    },
+    {
+      "name": "Master of Pathology (Forensic Pathology)",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF MEDICINE",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-medicine",
+      "rawName": "Master of Pathology (Forensic Pathology)",
+      "code": "PG-P-FP",
+      "id": "prg_pg_p_fp"
+    },
+    {
+      "name": "Master of Pathology (Haematology)",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF MEDICINE",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-medicine",
+      "rawName": "Master of Pathology (Haematology)",
+      "code": "PG-P-H",
+      "id": "prg_pg_p_h"
+    },
+    {
+      "name": "Master of Pathology (Medical Microbiology)",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF MEDICINE",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-medicine",
+      "rawName": "Master of Pathology (Medical Microbiology)",
+      "code": "PG-P-MM",
+      "id": "prg_pg_p_mm"
+    },
+    {
+      "name": "Master of Performing Arts (Drama)",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF CREATIVE ARTS",
+      "sourceUrl": "https://study.um.edu.my/pg-of-creative-arts",
+      "rawName": "Master of Performing Arts (Drama)",
+      "code": "PG-PA-D",
+      "id": "prg_pg_pa_d"
+    },
+    {
+      "name": "Master of Performing Arts (Music)",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF CREATIVE ARTS",
+      "sourceUrl": "https://study.um.edu.my/pg-of-creative-arts",
+      "rawName": "Master of Performing Arts (Music)",
+      "code": "PG-PA-M",
+      "id": "prg_pg_pa_m"
+    },
+    {
+      "name": "Master of Petroleum Geoscience",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF SCIENCE",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-science",
+      "rawName": "Master of Petroleum Geoscience",
+      "code": "PG-PG",
+      "id": "prg_pg_pg"
+    },
+    {
+      "name": "Master of Pharmaceutical Legislation and Regulatory Control",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF PHARMACY",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-pharmacy",
+      "rawName": "Master of Pharmaceutical Legislation and Regulatory Control",
+      "code": "PG-PLRC",
+      "id": "prg_pg_plrc"
+    },
+    {
+      "name": "Master of Pharmaceutical Science in Drug Discovery and Development",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF PHARMACY",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-pharmacy",
+      "rawName": "Master of Pharmaceutical Science in Drug Discovery and Development",
+      "code": "PG-PSDDD",
+      "id": "prg_pg_psddd"
+    },
+    {
+      "name": "Master of Philosophy",
+      "level": "postgraduate",
+      "faculty": "INSTITUTE FOR ADVANCED STUDIES",
+      "sourceUrl": "https://study.um.edu.my/pg-inst-advanced-studies",
+      "rawName": "Master of Philosophy",
+      "code": "PG-P-IAS",
+      "id": "prg_pg_p_ias"
+    },
+    {
+      "name": "Master of Physical and Health Education",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF EDUCATION",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-education",
+      "rawName": "Master of Physical and Health Education",
+      "code": "PG-PHE",
+      "id": "prg_pg_phe"
+    },
+    {
+      "name": "Master of Professional Counselling",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF EDUCATION",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-education",
+      "rawName": "Master of Professional Counseling",
+      "code": "PG-PC",
+      "id": "prg_pg_pc"
+    },
+    {
+      "name": "Master of Project Management",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF BUILT ENVIRONMENT",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-built-environment",
+      "rawName": "Master of Project Management",
+      "code": "PG-PM",
+      "id": "prg_pg_pm"
+    },
+    {
+      "name": "Master of Psychological Medicine",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF MEDICINE",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-medicine",
+      "rawName": "Master of Psychological Medicine",
+      "code": "PG-PM-MED",
+      "id": "prg_pg_pm_med"
+    },
+    {
+      "name": "Master of Public Administration",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "sourceUrl": "https://study.um.edu.my/pg-business-and-economics",
+      "rawName": "Master of Public Administration",
+      "code": "PG-PA",
+      "id": "prg_pg_pa"
+    },
+    {
+      "name": "Master of Public Health",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF MEDICINE",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-medicine",
+      "rawName": "Master of Public Health",
+      "code": "PG-PH",
+      "id": "prg_pg_ph"
+    },
+    {
+      "name": "Master of Public Policy",
+      "level": "postgraduate",
+      "faculty": "INTERNATIONAL INSTITUTE OF PUBLIC POLICY AND MANAGEMENT",
+      "sourceUrl": "https://study.um.edu.my/pg-international-institute-of-public-policy-and-management",
+      "rawName": "Master of Public Policy",
+      "code": "PG-PP",
+      "id": "prg_pg_pp"
+    },
+    {
+      "name": "Master of Radiology",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF MEDICINE",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-medicine",
+      "rawName": "Master of Radiology",
+      "code": "PG-R",
+      "id": "prg_pg_r"
+    },
+    {
+      "name": "Master of Real Estate",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF BUILT ENVIRONMENT",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-built-environment",
+      "rawName": "Master of Real Estate",
+      "code": "PG-RE",
+      "id": "prg_pg_re"
+    },
+    {
+      "name": "Master of Rehabilitation Medicine",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF MEDICINE",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-medicine",
+      "rawName": "Master of Rehabilitation Medicine",
+      "code": "PG-RM",
+      "id": "prg_pg_rm"
+    },
+    {
+      "name": "Master of Renewable Energy",
+      "level": "postgraduate",
+      "faculty": "INSTITUTE FOR ADVANCED STUDIES",
+      "sourceUrl": "https://study.um.edu.my/pg-inst-advanced-studies",
+      "rawName": "Master of Renewable Energy",
+      "code": "PG-RE-IAS",
+      "id": "prg_pg_re_ias"
+    },
+    {
+      "name": "Master of Road Safety Engineering",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF ENGINEERING",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-engineering",
+      "rawName": "Master of Road Safety Engineering",
+      "code": "PG-RSE",
+      "id": "prg_pg_rse"
+    },
+    {
+      "name": "Master of Safety, Health and Environment Engineering",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF ENGINEERING",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-engineering",
+      "rawName": "Master of Safety, Health and Environment Engineering",
+      "code": "PG-SHEE",
+      "id": "prg_pg_shee"
+    },
+    {
+      "name": "Master of Science",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF SCIENCE",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-science",
+      "rawName": "Master of Science",
+      "code": "PG-S-SCI",
+      "id": "prg_pg_s_sci"
+    },
+    {
+      "name": "Master of Science Communication and Public Engagement",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF SCIENCE",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-science",
+      "rawName": "Master of Science Communication and Public Engagement",
+      "code": "PG-SCPE",
+      "id": "prg_pg_scpe"
+    },
+    {
+      "name": "Master of Science Education with Information Technology",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF EDUCATION",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-education",
+      "rawName": "Master of Science Education with Information Technology",
+      "code": "PG-SEIT",
+      "id": "prg_pg_seit"
+    },
+    {
+      "name": "Master of Science in Applied Physics",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF SCIENCE",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-science",
+      "rawName": "Master of Science in Applied Physics",
+      "code": "PG-SAP",
+      "id": "prg_pg_sap"
+    },
+    {
+      "name": "Master of Science in Biotechnology",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF SCIENCE",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-science",
+      "rawName": "Master of Science in Biotechnology",
+      "code": "PG-SB",
+      "id": "prg_pg_sb"
+    },
+    {
+      "name": "Master of Science in Crop Protection",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF SCIENCE",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-science",
+      "rawName": "Master of Science in Crop Protection",
+      "code": "PG-SCP",
+      "id": "prg_pg_scp"
+    },
+    {
+      "name": "Master of Science in Instrumental Analytical Chemistry",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF SCIENCE",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-science",
+      "rawName": "Master of Science in Instrumental Analytical Chemistry",
+      "code": "PG-SIAC",
+      "id": "prg_pg_siac"
+    },
+    {
+      "name": "Master of Science in Pharmacy",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF PHARMACY",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-pharmacy",
+      "rawName": "Master of Science in Pharmacy",
+      "code": "PG-SP",
+      "id": "prg_pg_sp"
+    },
+    {
+      "name": "Master of Science in Statistics",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF SCIENCE",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-science",
+      "rawName": "Master of Science in Statistics",
+      "code": "PG-SS",
+      "id": "prg_pg_ss"
+    },
+    {
+      "name": "Master of Shariah",
+      "level": "postgraduate",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "sourceUrl": "https://study.um.edu.my/pg-academy-of-islamic-studies",
+      "rawName": "Master of Shariah",
+      "code": "PG-S",
+      "id": "prg_pg_s"
+    },
+    {
+      "name": "Master of Shariah (Contemporary Studies)",
+      "level": "postgraduate",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "sourceUrl": "https://study.um.edu.my/pg-academy-of-islamic-studies",
+      "rawName": "Master of Shariah (Contemporary Studies)",
+      "code": "PG-S-CS",
+      "id": "prg_pg_s_cs"
+    },
+    {
+      "name": "Master of Software Engineering (Software Technology)",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-computer-science-and-it",
+      "rawName": "Master of Software Engineering (Software Technology)",
+      "code": "PG-SE-ST",
+      "id": "prg_pg_se_st"
+    },
+    {
+      "name": "Master of Special Education",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF EDUCATION",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-education",
+      "rawName": "Master of Special Education",
+      "code": "PG-SE",
+      "id": "prg_pg_se"
+    },
+    {
+      "name": "Master of Sports Administration and Leadership",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF SPORTS AND EXERCISE SCIENCES",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-sport-science",
+      "rawName": "Master of Sports Administrations and Leadership",
+      "code": "PG-SAL",
+      "id": "prg_pg_sal"
+    },
+    {
+      "name": "Master of Sports Medicine",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF MEDICINE",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-medicine",
+      "rawName": "Master of Sports Medicine",
+      "code": "PG-SM",
+      "id": "prg_pg_sm"
+    },
+    {
+      "name": "Master of Sports Science",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF SPORTS AND EXERCISE SCIENCES",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-sport-science",
+      "rawName": "Master of Sports Science",
+      "code": "PG-SS-SPOR",
+      "id": "prg_pg_ss_spor"
+    },
+    {
+      "name": "Master of Strength and Conditioning",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF SPORTS AND EXERCISE SCIENCES",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-sport-science",
+      "rawName": "Master of Strength and Conditioning",
+      "code": "PG-SC",
+      "id": "prg_pg_sc"
+    },
+    {
+      "name": "Master of Surgery",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF MEDICINE",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-medicine",
+      "rawName": "Master of Surgery",
+      "code": "PG-S-MED",
+      "id": "prg_pg_s_med"
+    },
+    {
+      "name": "Master of Sustainability Science",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF SCIENCE",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-science",
+      "rawName": "Master of Sustainability Science",
+      "code": "PG-SS-SCI",
+      "id": "prg_pg_ss_sci"
+    },
+    {
+      "name": "Master of Sustainable Urbanism",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF BUILT ENVIRONMENT",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-built-environment",
+      "rawName": "Master of Sustainable Urbanism",
+      "code": "PG-SU",
+      "id": "prg_pg_su"
+    },
+    {
+      "name": "Master of Systems Engineering",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF ENGINEERING",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-engineering",
+      "rawName": "Master of System Engineering",
+      "code": "PG-SE-ENGG",
+      "id": "prg_pg_se_engg"
+    },
+    {
+      "name": "Master of Usuluddin",
+      "level": "postgraduate",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "sourceUrl": "https://study.um.edu.my/pg-academy-of-islamic-studies",
+      "rawName": "Master of Usuluddin",
+      "code": "PG-U",
+      "id": "prg_pg_u"
+    },
+    {
+      "name": "Master of Usuluddin (Islamic Thought and Civilization)",
+      "level": "postgraduate",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "sourceUrl": "https://study.um.edu.my/pg-academy-of-islamic-studies",
+      "rawName": "Master of Usuluddin (Islamic Thought and Civilization)",
+      "code": "PG-U-ITC",
+      "id": "prg_pg_u_itc"
+    },
+    {
+      "name": "Master of Visual Arts Education",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF EDUCATION",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-education",
+      "rawName": "Master of Visual Arts Education",
+      "code": "PG-VAE",
+      "id": "prg_pg_vae"
+    },
+    {
+      "name": "Postgraduate Diploma in Education",
+      "level": "postgraduate",
+      "faculty": "FACULTY OF EDUCATION",
+      "sourceUrl": "https://study.um.edu.my/pg-faculty-of-education",
+      "rawName": "Postgraduate Diploma in Education",
+      "code": "PG-PGDE",
+      "id": "prg_pg_pgde"
+    },
+    {
+      "name": "Bachelor in Accounting",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-business-and-economic",
+      "rawName": "Bachelor in Accounting",
+      "code": "UG-BACC",
+      "id": "prg_ug_bacc"
+    },
+    {
+      "name": "Bachelor of Actuarial Science",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF SCIENCE",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-science",
+      "rawName": "Bachelor of Actuarial Science",
+      "code": "UG-AS",
+      "id": "prg_ug_as"
+    },
+    {
+      "name": "Bachelor of Al-Quran and Al-Hadith",
+      "level": "undergraduate",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "sourceUrl": "https://study.um.edu.my/academy-of-islamic-studies-courses",
+      "rawName": "Bachelor of Al-Quran and Al-Hadith",
+      "code": "UG-AA",
+      "id": "prg_ug_aa"
+    },
+    {
+      "name": "Bachelor of Arabic Language and Linguistics",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-languages-and-linguistics",
+      "rawName": "Bachelor of Arabic Language and Linguistics",
+      "code": "UG-ALL",
+      "id": "prg_ug_all"
+    },
+    {
+      "name": "Bachelor of Arts Anthropology and Sociology",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "sourceUrl": "https://study.um.edu.my/faculty-arts-social-science-courses",
+      "rawName": "Bachelor of Arts Anthropology and Sociology",
+      "code": "UG-AAS",
+      "id": "prg_ug_aas"
+    },
+    {
+      "name": "Bachelor of Arts Chinese Studies",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "sourceUrl": "https://study.um.edu.my/faculty-arts-social-science-courses",
+      "rawName": "Bachelor of Arts Chinese Studies",
+      "code": "UG-ACS",
+      "id": "prg_ug_acs"
+    },
+    {
+      "name": "Bachelor of Arts English",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "sourceUrl": "https://study.um.edu.my/faculty-arts-social-science-courses",
+      "rawName": "Bachelor of Arts English",
+      "code": "UG-AE",
+      "id": "prg_ug_ae"
+    },
+    {
+      "name": "Bachelor of Arts History",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "sourceUrl": "https://study.um.edu.my/faculty-arts-social-science-courses",
+      "rawName": "Bachelor of Arts History",
+      "code": "UG-AH",
+      "id": "prg_ug_ah"
+    },
+    {
+      "name": "Bachelor of Arts Indian Studies",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "sourceUrl": "https://study.um.edu.my/faculty-arts-social-science-courses",
+      "rawName": "Bachelor of Arts Indian Studies",
+      "code": "UG-AIS",
+      "id": "prg_ug_ais"
+    },
+    {
+      "name": "Bachelor of Arts International and Strategic Studies",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "sourceUrl": "https://study.um.edu.my/faculty-arts-social-science-courses",
+      "rawName": "Bachelor of Arts International and Strategic Studies",
+      "code": "UG-AISS",
+      "id": "prg_ug_aiss"
+    },
+    {
+      "name": "Bachelor of Arts Southeast Asian Studies",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "sourceUrl": "https://study.um.edu.my/faculty-arts-social-science-courses",
+      "rawName": "Bachelor of Arts Southeast Asian Studies",
+      "code": "UG-ASAS",
+      "id": "prg_ug_asas"
+    },
+    {
+      "name": "Bachelor of Biomedical Engineering",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF ENGINEERING",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-engineering",
+      "rawName": "Bachelor of Biomedical Engineering",
+      "code": "UG-BE",
+      "id": "prg_ug_be"
+    },
+    {
+      "name": "Bachelor of Biomedical Science",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF MEDICINE",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-medicine",
+      "rawName": "Bachelor of Biomedical Science",
+      "code": "UG-BS-MED",
+      "id": "prg_ug_bs_med"
+    },
+    {
+      "name": "Bachelor of Building Surveying",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF BUILT ENVIRONMENT",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-built-environment",
+      "rawName": "Bachelor of Building Surveying",
+      "code": "UG-BS",
+      "id": "prg_ug_bs"
+    },
+    {
+      "name": "Bachelor of Business Administration",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-business-and-economic",
+      "rawName": "Bachelor of Business Administration",
+      "code": "UG-BBA",
+      "id": "prg_ug_bba"
+    },
+    {
+      "name": "Bachelor of Chemical Engineering",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF ENGINEERING",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-engineering",
+      "rawName": "Bachelor of Chemical Engineering",
+      "code": "UG-CE-ENGG",
+      "id": "prg_ug_ce_engg"
+    },
+    {
+      "name": "Bachelor of Chinese Language and Linguistics",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-languages-and-linguistics",
+      "rawName": "Bachelor of Chinese Language and Linguistics",
+      "code": "UG-CLL",
+      "id": "prg_ug_cll"
+    },
+    {
+      "name": "Bachelor of Civil Engineering",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF ENGINEERING",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-engineering",
+      "rawName": "Bachelor of Civil Engineering",
+      "code": "UG-CE",
+      "id": "prg_ug_ce"
+    },
+    {
+      "name": "Bachelor of Computer Science (Artificial Intelligence)",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-computer-science",
+      "rawName": "Bachelor of Computer Science (AI)",
+      "code": "UG-CS-AI",
+      "id": "prg_ug_cs_ai"
+    },
+    {
+      "name": "Bachelor of Computer Science (Computer System and Network)",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-computer-science",
+      "rawName": "Bachelor of Computer Science (Computer System and Network)",
+      "code": "UG-CS-CSN",
+      "id": "prg_ug_cs_csn"
+    },
+    {
+      "name": "Bachelor of Computer Science (Data Science)",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-computer-science",
+      "rawName": "Bachelor of Computer Science (Data Science)",
+      "code": "UG-CS-DS",
+      "id": "prg_ug_cs_ds"
+    },
+    {
+      "name": "Bachelor of Computer Science (Information System)",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-computer-science",
+      "rawName": "Bachelor of Computer Science (Information System)",
+      "code": "UG-CS-IS",
+      "id": "prg_ug_cs_is"
+    },
+    {
+      "name": "Bachelor of Computer Science (Multimedia Computing)",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-computer-science",
+      "rawName": "Bachelor of Computer Science (Multimedia Computing)",
+      "code": "UG-CS-MC",
+      "id": "prg_ug_cs_mc"
+    },
+    {
+      "name": "Bachelor of Computer Science (Software Engineering)",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-computer-science",
+      "rawName": "Bachelor of Computer Science (Software Engineering)",
+      "code": "UG-CS-SE",
+      "id": "prg_ug_cs_se"
+    },
+    {
+      "name": "Bachelor of Counselling",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF EDUCATION",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-education",
+      "rawName": "Bachelor of Counseling",
+      "code": "UG-C",
+      "id": "prg_ug_c"
+    },
+    {
+      "name": "Bachelor of Dance",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF CREATIVE ARTS",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-creative-arts",
+      "rawName": "Bachelor of Dance",
+      "code": "UG-D",
+      "id": "prg_ug_d"
+    },
+    {
+      "name": "Bachelor of Dental Surgery",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF DENTISTRY",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-dentistry",
+      "rawName": "Bachelor of Dental Surgery",
+      "code": "UG-BDS",
+      "id": "prg_ug_bds"
+    },
+    {
+      "name": "Bachelor of Drama",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF CREATIVE ARTS",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-creative-arts",
+      "rawName": "Bachelor of Drama",
+      "code": "UG-D-CREA",
+      "id": "prg_ug_d_crea"
+    },
+    {
+      "name": "Bachelor of Early Childhood Education",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF EDUCATION",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-education",
+      "rawName": "Bachelor of Early Childhood Education",
+      "code": "UG-ECE",
+      "id": "prg_ug_ece"
+    },
+    {
+      "name": "Bachelor of East Asian Studies",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "sourceUrl": "https://study.um.edu.my/faculty-arts-social-science-courses",
+      "rawName": "Bachelor of East Asian Studies",
+      "code": "UG-EAS",
+      "id": "prg_ug_eas"
+    },
+    {
+      "name": "Bachelor of Economics",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-business-and-economic",
+      "rawName": "Bachelor of Economics",
+      "code": "UG-BECON",
+      "id": "prg_ug_becon"
+    },
+    {
+      "name": "Bachelor of Education (Teaching English as a Second Language)",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF EDUCATION",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-education",
+      "rawName": "Bachelor of Education TESL",
+      "code": "UG-EDUC-TESL",
+      "id": "prg_ug_educ_tesl"
+    },
+    {
+      "name": "Bachelor of Electrical Engineering",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF ENGINEERING",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-engineering",
+      "rawName": "Bachelor of Electrical Engineering",
+      "code": "UG-EE",
+      "id": "prg_ug_ee"
+    },
+    {
+      "name": "Bachelor of English Language and Linguistics",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-languages-and-linguistics",
+      "rawName": "Bachelor of English Language and Linguistics",
+      "code": "UG-ELL",
+      "id": "prg_ug_ell"
+    },
+    {
+      "name": "Bachelor of Environmental Studies",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "sourceUrl": "https://study.um.edu.my/faculty-arts-social-science-courses",
+      "rawName": "Bachelor of Environmental Studies",
+      "code": "UG-ES",
+      "id": "prg_ug_es"
+    },
+    {
+      "name": "Bachelor of Finance",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-business-and-economic",
+      "rawName": "Bachelor of Finance",
+      "code": "UG-BFIN",
+      "id": "prg_ug_bfin"
+    },
+    {
+      "name": "Bachelor of French Language and Linguistics",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-languages-and-linguistics",
+      "rawName": "Bachelor of French Language and Linguistics",
+      "code": "UG-FLL",
+      "id": "prg_ug_fll"
+    },
+    {
+      "name": "Bachelor of Geography",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "sourceUrl": "https://study.um.edu.my/faculty-arts-social-science-courses",
+      "rawName": "Bachelor of Geography",
+      "code": "UG-G",
+      "id": "prg_ug_g"
+    },
+    {
+      "name": "Bachelor of German Language and Linguistics",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-languages-and-linguistics",
+      "rawName": "Bachelor of German Language and Linguistics",
+      "code": "UG-GLL",
+      "id": "prg_ug_gll"
+    },
+    {
+      "name": "Bachelor of Islamic Education",
+      "level": "undergraduate",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "sourceUrl": "https://study.um.edu.my/academy-of-islamic-studies-courses",
+      "rawName": "Bachelor of Islamic Education",
+      "code": "UG-IE",
+      "id": "prg_ug_ie"
+    },
+    {
+      "name": "Bachelor of Islamic Studies and Science",
+      "level": "undergraduate",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "sourceUrl": "https://study.um.edu.my/academy-of-islamic-studies-courses",
+      "rawName": "Bachelor of Islamic Studies and Science",
+      "code": "UG-ISS",
+      "id": "prg_ug_iss"
+    },
+    {
+      "name": "Bachelor of Italian Language and Linguistics",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-languages-and-linguistics",
+      "rawName": "Bachelor of Italian Language and Linguistics",
+      "code": "UG-ILL",
+      "id": "prg_ug_ill"
+    },
+    {
+      "name": "Bachelor of Japanese Language and Linguistics",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-languages-and-linguistics",
+      "rawName": "Bachelor of Japanese Language and Linguistics",
+      "code": "UG-JLL",
+      "id": "prg_ug_jll"
+    },
+    {
+      "name": "Bachelor of Jurisprudence (External)",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF LAW",
+      "sourceUrl": "https://jurisprudens.um.edu.my/",
+      "rawName": "Bachelor of Jurisprudence (External)",
+      "code": "UG-BJURIS",
+      "id": "prg_ug_bjuris"
+    },
+    {
+      "name": "Bachelor of Laws",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF LAW",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-law",
+      "rawName": "Bachelor of Laws",
+      "code": "UG-LLB",
+      "id": "prg_ug_llb"
+    },
+    {
+      "name": "Bachelor of Malay Linguistics",
+      "level": "undergraduate",
+      "faculty": "ACADEMY OF MALAY STUDIES",
+      "sourceUrl": "https://study.um.edu.my/malay-studies-courses",
+      "rawName": "Bachelor of Malay Linguistics",
+      "code": "UG-ML",
+      "id": "prg_ug_ml"
+    },
+    {
+      "name": "Bachelor of Malay Literature",
+      "level": "undergraduate",
+      "faculty": "ACADEMY OF MALAY STUDIES",
+      "sourceUrl": "https://study.um.edu.my/malay-studies-courses",
+      "rawName": "Bachelor of Malay Literature",
+      "code": "UG-ML-MAL",
+      "id": "prg_ug_ml_mal"
+    },
+    {
+      "name": "Bachelor of Malay Studies",
+      "level": "undergraduate",
+      "faculty": "ACADEMY OF MALAY STUDIES",
+      "sourceUrl": "https://study.um.edu.my/malay-studies-courses",
+      "rawName": "Bachelor of Malay Studies",
+      "code": "UG-MS",
+      "id": "prg_ug_ms"
+    },
+    {
+      "name": "Bachelor of Mechanical Engineering",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF ENGINEERING",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-engineering",
+      "rawName": "Bachelor of Mechanical Engineering",
+      "code": "UG-ME",
+      "id": "prg_ug_me"
+    },
+    {
+      "name": "Bachelor of Media Studies",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "sourceUrl": "https://study.um.edu.my/faculty-arts-social-science-courses",
+      "rawName": "Bachelor of Media Studies",
+      "code": "UG-MS-ARTS",
+      "id": "prg_ug_ms_arts"
+    },
+    {
+      "name": "Bachelor of Medicine and Bachelor of Surgery",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF MEDICINE",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-medicine",
+      "rawName": "Bachelor of Medicine and Bachelor of Surgery",
+      "code": "UG-MBBS",
+      "id": "prg_ug_mbbs"
+    },
+    {
+      "name": "Bachelor of Muamalat Management",
+      "level": "undergraduate",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "sourceUrl": "https://study.um.edu.my/academy-of-islamic-studies-courses",
+      "rawName": "Bachelor of Muamalat Management",
+      "code": "UG-MM",
+      "id": "prg_ug_mm"
+    },
+    {
+      "name": "Bachelor of Music",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF CREATIVE ARTS",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-creative-arts",
+      "rawName": "Bachelor of Music",
+      "code": "UG-M",
+      "id": "prg_ug_m"
+    },
+    {
+      "name": "Bachelor of Nursing Science",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF NURSING",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-nursing",
+      "rawName": "Bachelor of Nursing Science",
+      "code": "UG-BNURS",
+      "id": "prg_ug_bnurs"
+    },
+    {
+      "name": "Bachelor of Performing Arts",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF CREATIVE ARTS",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-creative-arts",
+      "rawName": "Bachelor of Performing Arts",
+      "code": "UG-PA",
+      "id": "prg_ug_pa"
+    },
+    {
+      "name": "Bachelor of Pharmacy with Honours",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF PHARMACY",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-pharmacy",
+      "rawName": "Bachelor of Pharmacy with Honours",
+      "code": "UG-BPHARM",
+      "id": "prg_ug_bpharm"
+    },
+    {
+      "name": "Bachelor of Professional Malay Language",
+      "level": "undergraduate",
+      "faculty": "ACADEMY OF MALAY STUDIES",
+      "sourceUrl": "https://study.um.edu.my/malay-studies-courses",
+      "rawName": "Bachelor of Professional Malay Language",
+      "code": "UG-PML",
+      "id": "prg_ug_pml"
+    },
+    {
+      "name": "Bachelor of Quantity Surveying",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF BUILT ENVIRONMENT",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-built-environment",
+      "rawName": "Bachelor of Quantity Surveying",
+      "code": "UG-QS",
+      "id": "prg_ug_qs"
+    },
+    {
+      "name": "Bachelor of Real Estate",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF BUILT ENVIRONMENT",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-built-environment",
+      "rawName": "Bachelor of Real Estate",
+      "code": "UG-RE",
+      "id": "prg_ug_re"
+    },
+    {
+      "name": "Bachelor of Science in Applied Geology",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF SCIENCE",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-science",
+      "rawName": "Bachelor of Science in Applied Geology",
+      "code": "UG-SAG",
+      "id": "prg_ug_sag"
+    },
+    {
+      "name": "Bachelor of Science in Architecture",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF BUILT ENVIRONMENT",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-built-environment",
+      "rawName": "Bachelor of Science in Architecture",
+      "code": "UG-SA-BUILT",
+      "id": "prg_ug_sa_built"
+    },
+    {
+      "name": "Bachelor of Science in Biochemistry",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF SCIENCE",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-science",
+      "rawName": "Bachelor of Science in Biochemistry",
+      "code": "UG-SB",
+      "id": "prg_ug_sb"
+    },
+    {
+      "name": "Bachelor of Science in Biotechnology",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF SCIENCE",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-science",
+      "rawName": "Bachelor of Science in Biotechnology",
+      "code": "UG-SB-SCI",
+      "id": "prg_ug_sb_sci"
+    },
+    {
+      "name": "Bachelor of Science in Chemistry",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF SCIENCE",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-science",
+      "rawName": "Bachelor of Science in Chemistry",
+      "code": "UG-SC",
+      "id": "prg_ug_sc"
+    },
+    {
+      "name": "Bachelor of Science in Ecology and Biodiversity",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF SCIENCE",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-science",
+      "rawName": "Bachelor of Science in Ecology and Biodiversity",
+      "code": "UG-SEB",
+      "id": "prg_ug_seb"
+    },
+    {
+      "name": "Bachelor of Science in Environmental Management",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF SCIENCE",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-science",
+      "rawName": "Bachelor of Science in Environmental Management",
+      "code": "UG-SEM",
+      "id": "prg_ug_sem"
+    },
+    {
+      "name": "Bachelor of Science in Mathematics",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF SCIENCE",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-science",
+      "rawName": "Bachelor of Science in Mathematics",
+      "code": "UG-SM",
+      "id": "prg_ug_sm"
+    },
+    {
+      "name": "Bachelor of Science in Microbiology and Molecular Genetics",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF SCIENCE",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-science",
+      "rawName": "Bachelor of Science in Microbiology and Molecular Genetics",
+      "code": "UG-SMMG",
+      "id": "prg_ug_smmg"
+    },
+    {
+      "name": "Bachelor of Science in Physics",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF SCIENCE",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-science",
+      "rawName": "Bachelor of Science in Physics",
+      "code": "UG-SP",
+      "id": "prg_ug_sp"
+    },
+    {
+      "name": "Bachelor of Science in Statistics",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF SCIENCE",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-science",
+      "rawName": "Bachelor of Science in Statistics",
+      "code": "UG-SS",
+      "id": "prg_ug_ss"
+    },
+    {
+      "name": "Bachelor of Science with Education",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF SCIENCE",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-science",
+      "rawName": "Bachelor of Science with Education",
+      "code": "UG-SE",
+      "id": "prg_ug_se"
+    },
+    {
+      "name": "Bachelor of Shariah",
+      "level": "undergraduate",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "sourceUrl": "https://study.um.edu.my/academy-of-islamic-studies-courses",
+      "rawName": "Bachelor of Shariah",
+      "code": "UG-S",
+      "id": "prg_ug_s"
+    },
+    {
+      "name": "Bachelor of Shariah and Law",
+      "level": "undergraduate",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "sourceUrl": "https://study.um.edu.my/academy-of-islamic-studies-courses",
+      "rawName": "Bachelor of Shariah and Law",
+      "code": "UG-SL",
+      "id": "prg_ug_sl"
+    },
+    {
+      "name": "Bachelor of Social Administration",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "sourceUrl": "https://study.um.edu.my/faculty-arts-social-science-courses",
+      "rawName": "Bachelor of Social Administration",
+      "code": "UG-SA",
+      "id": "prg_ug_sa"
+    },
+    {
+      "name": "Bachelor of Spanish Language and Linguistics",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-languages-and-linguistics",
+      "rawName": "Bachelor of Spanish Language and Linguistics",
+      "code": "UG-SLL",
+      "id": "prg_ug_sll"
+    },
+    {
+      "name": "Bachelor of Sports Management",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF SPORTS AND EXERCISE SCIENCES",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-sports-and-exercise-science",
+      "rawName": "Bachelor of Sports Management",
+      "code": "UG-SM-SPOR",
+      "id": "prg_ug_sm_spor"
+    },
+    {
+      "name": "Bachelor of Sports Science (Exercise Science)",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF SPORTS AND EXERCISE SCIENCES",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-sports-and-exercise-science",
+      "rawName": "Bachelor of Sports Science (Exercise Science)",
+      "code": "UG-SS-ES",
+      "id": "prg_ug_ss_es"
+    },
+    {
+      "name": "Bachelor of Tamil Language and Linguistics",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-languages-and-linguistics",
+      "rawName": "Bachelor of Tamil Language and Linguistics",
+      "code": "UG-TLL",
+      "id": "prg_ug_tll"
+    },
+    {
+      "name": "Bachelor of Urban and Regional Planning",
+      "level": "undergraduate",
+      "faculty": "FACULTY OF BUILT ENVIRONMENT",
+      "sourceUrl": "https://study.um.edu.my/faculty-of-built-environment",
+      "rawName": "Bachelor of Urban and Regional",
+      "code": "UG-URP",
+      "id": "prg_ug_urp"
+    },
+    {
+      "name": "Bachelor of Usuluddin",
+      "level": "undergraduate",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "sourceUrl": "https://study.um.edu.my/academy-of-islamic-studies-courses",
+      "rawName": "Bachelor of Usuluddin",
+      "code": "UG-U",
+      "id": "prg_ug_u"
+    }
+  ]
+}

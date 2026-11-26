@@ -1,0 +1,470 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --tg-bg: #0f1115;
+  --tg-bg-2: #171a21;
+  --tg-text: #f3f4f6;
+  --tg-hint: #9ca3af;
+  --tg-link: #4ade80;
+  --tg-button: #0caa41;
+  --tg-button-text: #ffffff;
+  --tg-border: rgba(148, 163, 184, 0.16);
+  --tg-card: rgba(148, 163, 184, 0.08);
+  --tg-danger: #f87171;
+  --tg-success: #4ade80;
+  --tg-warning: #fbbf24;
+
+  --brand: #0caa41;
+  --brand-strong: #0a7f38;
+  --brand-link: #4ade80;
+  --brand-soft: rgba(12, 170, 65, 0.14);
+  --brand-ring: rgba(12, 170, 65, 0.32);
+  --brand-ink: #ffffff;
+
+  --hero-from: #0fb84a;
+  --hero-to: #0a7f38;
+  --btn-from: #10b84a;
+  --btn-to: #0a9c3c;
+  --bar-from: #0caa41;
+  --bar-to: #4ade80;
+  --brand-mark-bg: #ffffff;
+  --brand-mark-text: #0caa41;
+
+  /* Shape/texture tokens. Themes override these instead of only recolouring,
+     so cutesy and gold can change structure without touching components. */
+  --radius-card: 1rem;
+  --radius-control: 0.75rem;
+  --border-w: 1px;
+  --card-shadow: 0 1px 2px rgba(16, 24, 40, 0.05);
+  --card-image: none;
+  --display-font: inherit;
+  --heading-tracking: normal;
+  --hero-image: linear-gradient(135deg, var(--hero-from) 0%, var(--hero-to) 100%);
+  --ring-inner: rgba(255, 255, 255, 0.45);
+  --ring-outer: rgba(255, 255, 255, 0.18);
+  --ring-size: 2px;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--tg-bg);
+  color: var(--tg-text);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  color: var(--brand-link);
+}
+
+@layer components {
+  .card {
+    @apply border p-4;
+    border-radius: var(--radius-card);
+    border-width: var(--border-w);
+    border-color: var(--tg-border);
+    background: var(--tg-card);
+    background-image: var(--card-image);
+    box-shadow: var(--card-shadow);
+  }
+
+  .select {
+    @apply w-full appearance-none rounded-xl border px-3 py-2.5 pr-9 text-sm font-medium;
+    border-color: var(--tg-border);
+    background-color: var(--tg-card);
+    color: var(--tg-text);
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%239ca3af' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M6 9l6 6 6-6'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+  }
+
+  /* Native option popups do not inherit the page palette on Android, so set
+     them explicitly. Without this the list can render light-on-light. */
+  .select option {
+    background: var(--tg-bg-2);
+    color: var(--tg-text);
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 px-4 py-3 text-sm font-semibold transition active:scale-[0.98] disabled:pointer-events-none disabled:opacity-50;
+    border-radius: var(--radius-control);
+  }
+
+  .btn-primary {
+    @apply btn shadow-sm;
+    background: linear-gradient(180deg, var(--btn-from) 0%, var(--btn-to) 100%);
+    color: var(--brand-ink);
+    box-shadow: 0 6px 16px var(--brand-ring);
+  }
+
+  .btn-secondary {
+    @apply btn;
+    background: var(--brand-soft);
+    color: var(--brand-link);
+  }
+
+  .btn-ghost {
+    @apply btn;
+    background: transparent;
+    color: var(--tg-text);
+  }
+
+  .btn-danger {
+    @apply btn;
+    background: rgba(248, 113, 113, 0.14);
+    color: var(--tg-danger);
+  }
+
+  .btn-sm {
+    @apply px-3 py-2 text-xs;
+  }
+
+  .input {
+    @apply w-full rounded-xl border bg-transparent px-4 py-3 text-sm outline-none transition;
+    border-color: var(--tg-border);
+    color: var(--tg-text);
+  }
+
+  .input:focus {
+    border-color: var(--brand);
+    box-shadow: 0 0 0 3px var(--brand-ring);
+  }
+
+  .input::placeholder {
+    color: var(--tg-hint);
+  }
+
+  .label {
+    @apply mb-1.5 block text-xs font-semibold uppercase tracking-wide;
+    color: var(--tg-hint);
+  }
+
+  .chip {
+    @apply inline-flex items-center gap-1 rounded-full border border-[var(--tg-border)] px-2.5 py-1 text-xs font-medium;
+    color: var(--tg-hint);
+  }
+
+  .badge {
+    @apply inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-xs font-semibold;
+  }
+
+  .badge-success {
+    @apply badge;
+    background: var(--brand-soft);
+    color: var(--brand-link);
+  }
+
+  .badge-warning {
+    @apply badge;
+    background: rgba(251, 191, 36, 0.14);
+    color: var(--tg-warning);
+  }
+
+  .badge-danger {
+    @apply badge;
+    background: rgba(248, 113, 113, 0.14);
+    color: var(--tg-danger);
+  }
+
+  .badge-neutral {
+    @apply badge;
+    background: rgba(148, 163, 184, 0.14);
+    color: var(--tg-hint);
+  }
+
+  .bar-track {
+    @apply h-2 w-full overflow-hidden rounded-full;
+    background: rgba(148, 163, 184, 0.16);
+  }
+
+  .bar-fill {
+    @apply h-full rounded-full;
+    background: linear-gradient(90deg, var(--bar-from), var(--bar-to));
+  }
+
+  .nav-link {
+    @apply flex flex-col items-center justify-center gap-1 rounded-xl px-2 py-2 text-[11px] font-medium transition;
+    color: var(--tg-hint);
+  }
+
+  .nav-link-active {
+    color: var(--brand-link);
+    font-weight: 600;
+  }
+
+  .brand-mark {
+    @apply flex h-9 w-9 items-center justify-center;
+    border-radius: var(--radius-control);
+    background: var(--brand-mark-bg);
+    color: var(--brand-mark-text);
+    box-shadow:
+      0 0 0 var(--ring-size) var(--ring-inner),
+      0 0 0 calc(var(--ring-size) * 2.4) var(--ring-outer),
+      0 4px 12px rgba(6, 51, 26, 0.25);
+  }
+
+  .hero {
+    background: var(--hero-image);
+    position: relative;
+  }
+
+  .hero-title {
+    font-family: var(--display-font);
+    letter-spacing: var(--heading-tracking);
+  }
+
+  /* Identity ring shared by the hero mark and the rewards avatar. */
+  .avatar-ring {
+    box-shadow:
+      0 0 0 var(--ring-size) var(--ring-inner),
+      0 0 0 calc(var(--ring-size) * 2.4) var(--ring-outer);
+  }
+
+  .rating-pill {
+    @apply inline-flex items-center gap-1 rounded-lg px-2 py-1 text-sm font-bold;
+    background: var(--brand-soft);
+    color: var(--brand-link);
+  }
+
+  .segmented {
+    @apply grid grid-cols-4 gap-1 rounded-xl p-1;
+    background: var(--tg-card);
+    border: 1px solid var(--tg-border);
+  }
+
+  .divider {
+    @apply my-4 border-t border-[var(--tg-border)];
+  }
+
+  .skeleton {
+    @apply animate-pulse rounded-xl;
+    background: rgba(148, 163, 184, 0.14);
+  }
+}
+
+.safe-bottom {
+  padding-bottom: calc(0.5rem + env(safe-area-inset-bottom));
+}
+
+.safe-top {
+  padding-top: env(safe-area-inset-top);
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* ---------------------------------------------------------------------------
+   Cutesy — soft, chunky, playful. Changes shape and texture, not just hue.
+   --------------------------------------------------------------------------- */
+html[data-theme="cutesy"] {
+  --radius-card: 1.6rem;
+  --radius-control: 9999px;
+  --border-w: 2px;
+  --display-font: ui-rounded, "Nunito", "Quicksand", system-ui, sans-serif;
+  --heading-tracking: 0.01em;
+  --card-shadow: 0 14px 30px -18px rgba(236, 72, 153, 0.55), inset 0 1px 0 rgba(255, 255, 255, 0.75);
+  --hero-image: linear-gradient(135deg, #ffd9e8 0%, #e6d6ff 42%, #c9f2e4 100%);
+  --ring-inner: #fdf2f8;
+  --ring-outer: rgba(236, 72, 153, 0.45);
+}
+
+html[data-theme="cutesy"] body {
+  background-image:
+    radial-gradient(circle at 12% 8%, rgba(244, 114, 182, 0.16), transparent 38%),
+    radial-gradient(circle at 88% 18%, rgba(167, 139, 250, 0.14), transparent 36%),
+    radial-gradient(circle at 22% 62%, rgba(52, 211, 153, 0.12), transparent 34%),
+    radial-gradient(circle at 82% 72%, rgba(96, 165, 250, 0.12), transparent 34%),
+    radial-gradient(circle at 50% 98%, rgba(251, 146, 60, 0.10), transparent 38%),
+    radial-gradient(rgba(167, 139, 250, 0.18) 1px, transparent 1px);
+  background-size: auto, auto, auto, auto, auto, 18px 18px;
+  background-attachment: fixed;
+}
+
+/* A five-pastel rotation so the rating bars are not all one colour. */
+html[data-theme="cutesy"] .rating-row:nth-child(5n + 1) .bar-fill {
+  background: linear-gradient(90deg, #f9a8d4, #f472b6);
+}
+html[data-theme="cutesy"] .rating-row:nth-child(5n + 2) .bar-fill {
+  background: linear-gradient(90deg, #d8b4fe, #a78bfa);
+}
+html[data-theme="cutesy"] .rating-row:nth-child(5n + 3) .bar-fill {
+  background: linear-gradient(90deg, #a7f3d0, #34d399);
+}
+html[data-theme="cutesy"] .rating-row:nth-child(5n + 4) .bar-fill {
+  background: linear-gradient(90deg, #bae6fd, #60a5fa);
+}
+html[data-theme="cutesy"] .rating-row:nth-child(5n) .bar-fill {
+  background: linear-gradient(90deg, #fed7aa, #fb923c);
+}
+
+html[data-theme="cutesy"] .hero {
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  border-bottom: 2px dashed rgba(190, 24, 93, 0.3);
+  box-shadow: 0 16px 34px -20px rgba(236, 72, 153, 0.75);
+}
+
+/* The pastel hero is light, so the white hero text has to flip to dark. */
+html[data-theme="cutesy"] .hero,
+html[data-theme="cutesy"] .hero [class*="text-white"] {
+  color: #3f2a3f;
+}
+
+html[data-theme="cutesy"] .hero-title {
+  text-shadow: 0 2px 0 rgba(255, 255, 255, 0.55);
+}
+
+html[data-theme="cutesy"] .btn-primary:active,
+html[data-theme="cutesy"] .btn-secondary:active,
+html[data-theme="cutesy"] .btn-ghost:active,
+html[data-theme="cutesy"] .btn-danger:active {
+  transform: scale(0.95) rotate(-0.6deg);
+}
+
+html[data-theme="cutesy"] .chip {
+  border-style: dashed;
+}
+
+html[data-theme="cutesy"] .card {
+  border-color: rgba(236, 72, 153, 0.28);
+}
+
+html[data-theme="cutesy"] .input,
+html[data-theme="cutesy"] .select {
+  border-radius: 1.1rem;
+  border-color: rgba(236, 72, 153, 0.28);
+}
+
+/* ---------------------------------------------------------------------------
+   Ocean — cool, deep, calm. Early unlock, so it stays restrained.
+   --------------------------------------------------------------------------- */
+html[data-theme="ocean"] {
+  --ring-inner: #a5f3fc;
+  --ring-outer: rgba(34, 211, 238, 0.45);
+}
+
+html[data-theme="ocean"] body {
+  background-image:
+    radial-gradient(circle at 15% 0%, rgba(34, 211, 238, 0.10), transparent 42%),
+    radial-gradient(circle at 85% 25%, rgba(59, 130, 246, 0.09), transparent 38%);
+  background-attachment: fixed;
+}
+
+/* ---------------------------------------------------------------------------
+   Gold premium — deep, metallic, restrained.
+   --------------------------------------------------------------------------- */
+html[data-theme="gold"] {
+  --radius-card: 0.85rem;
+  --radius-control: 0.55rem;
+  --border-w: 1px;
+  --display-font: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  --heading-tracking: 0.05em;
+  --card-image: linear-gradient(180deg, rgba(212, 175, 55, 0.09), rgba(212, 175, 55, 0.02));
+  --card-shadow: inset 0 1px 0 rgba(248, 231, 161, 0.10), 0 14px 34px -20px rgba(212, 175, 55, 0.6);
+  --hero-image: linear-gradient(120deg, #100e08 0%, #241d0e 32%, #4a3a12 62%, #8a6a1f 100%);
+  --ring-inner: #f8e7a1;
+  --ring-outer: rgba(212, 175, 55, 0.55);
+}
+
+html[data-theme="gold"] body {
+  background-image:
+    radial-gradient(circle at 20% 0%, rgba(212, 175, 55, 0.12), transparent 42%),
+    radial-gradient(circle at 80% 20%, rgba(212, 175, 55, 0.07), transparent 36%),
+    repeating-linear-gradient(115deg, rgba(255, 255, 255, 0.012) 0 2px, transparent 2px 4px);
+  background-attachment: fixed;
+}
+
+html[data-theme="gold"] .card {
+  border-color: rgba(212, 175, 55, 0.34);
+}
+
+html[data-theme="gold"] .hero {
+  overflow: hidden;
+}
+
+html[data-theme="gold"] .hero > * {
+  position: relative;
+  z-index: 1;
+}
+
+html[data-theme="gold"] .hero::after {
+  content: "";
+  position: absolute;
+  inset: -20%;
+  background: linear-gradient(115deg, transparent 38%, rgba(255, 246, 214, 0.22) 48%, transparent 58%);
+  transform: translateX(-90%);
+  animation: gold-sheen 7s ease-in-out infinite;
+  pointer-events: none;
+}
+
+@keyframes gold-sheen {
+  0%, 55% { transform: translateX(-90%); }
+  78%, 100% { transform: translateX(90%); }
+}
+
+html[data-theme="gold"] .hero-title {
+  background: linear-gradient(180deg, #fffbe8 0%, #f3d97a 45%, #b98f1f 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  text-shadow: none;
+}
+
+html[data-theme="gold"] .label,
+html[data-theme="gold"] .chip {
+  letter-spacing: 0.06em;
+}
+
+html[data-theme="gold"] .btn-primary {
+  background: linear-gradient(180deg, #f7e7a8 0%, #d4af37 52%, #a67c00 100%);
+  box-shadow:
+    0 10px 24px -12px rgba(212, 175, 55, 0.7),
+    inset 0 1px 0 rgba(255, 250, 220, 0.65);
+}
+
+html[data-theme="gold"] .bar-fill {
+  background: linear-gradient(90deg, #8a6a1f, #d4af37 55%, #f8e7a1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html[data-theme="gold"] .hero::after {
+    animation: none;
+  }
+  html[data-theme="cutesy"] .btn-primary:active,
+  html[data-theme="cutesy"] .btn-secondary:active,
+  html[data-theme="cutesy"] .btn-ghost:active,
+  html[data-theme="cutesy"] .btn-danger:active {
+    transform: none;
+  }
+}
+
+html[data-theme="light"] body {
+  background-image: none;
+}

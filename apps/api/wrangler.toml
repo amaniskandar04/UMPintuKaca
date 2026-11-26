@@ -1,0 +1,22 @@
+name = "um-reviews-api"
+main = "src/index.ts"
+compatibility_date = "2024-12-01"
+compatibility_flags = ["nodejs_compat"]
+workers_dev = true
+
+[[d1_databases]]
+binding = "DB"
+database_name = "um_reviews"
+database_id = "07ba00b8-691b-4f38-b47c-ad92e350b412"
+migrations_dir = "migrations"
+
+[triggers]
+crons = ["0 3 * * *"]
+
+[vars]
+ENVIRONMENT = "development"
+WEB_ORIGIN = "http://localhost:5173"
+WEB_APP_URL = "http://localhost:5173"
+BOT_USERNAME = ""
+ALLOWED_EMAIL_DOMAINS = "siswa.um.edu.my"
+AUTO_HIDE_REPORT_THRESHOLD = "3"

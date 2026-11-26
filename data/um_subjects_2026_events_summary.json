@@ -1,0 +1,29 @@
+{
+  "generatedAt": "2026-11-26T13:13:29.197Z",
+  "source": "cloud.timeedit.net/my_um/web/students (TimeEdit ri.json inside authenticated viewer)",
+  "windows": {
+    "s2_2025_2026": {
+      "p": "20260201-20260731",
+      "display": "25/26, Semester 2"
+    },
+    "s1_2026_2027": {
+      "p": "20260801-20270228",
+      "display": "26/27, Semester 1"
+    }
+  },
+  "catalogModules": 29450,
+  "modulesWithEvents": 4367,
+  "s2_2025_2026": {
+    "total": 2700,
+    "fromEvents": 2582,
+    "fromMetadata": 118
+  },
+  "s1_2026_2027": {
+    "total": 2849,
+    "fromEvents": 2693,
+    "fromMetadata": 156
+  },
+  "combined": 4636,
+  "requests": 2940,
+  "elapsedSeconds": 14
+}

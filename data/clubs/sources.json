@@ -1,0 +1,106 @@
+{
+  "suaraSiswa": {
+    "spreadsheetId": "12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68",
+    "tabs": [
+      {
+        "name": "Student Union",
+        "gid": 0,
+        "mode": "faculty-union",
+        "category": "Student Union",
+        "nameColumn": 1,
+        "instagramColumn": 4
+      },
+      {
+        "name": "Faculty Society",
+        "gid": 157222999,
+        "mode": "faculty-society",
+        "category": "Faculty Society",
+        "nameColumn": 2,
+        "facultyColumn": 1,
+        "instagramColumn": 6
+      },
+      {
+        "name": "Anak Negeri",
+        "gid": 653863907,
+        "mode": "state",
+        "category": "State",
+        "nameColumn": 1,
+        "instagramColumn": 4
+      },
+      {
+        "name": "College",
+        "gid": 1441135521,
+        "mode": "college",
+        "category": "Residential College",
+        "nameColumn": 1,
+        "instagramColumn": 5
+      },
+      {
+        "name": "Activism",
+        "gid": 2109082201,
+        "mode": "rows",
+        "category": "Activism",
+        "nameColumn": 0,
+        "instagramColumn": 4
+      },
+      {
+        "name": "Development",
+        "gid": 1235962870,
+        "mode": "rows",
+        "category": "Development",
+        "nameColumn": 0,
+        "instagramColumn": 4
+      },
+      {
+        "name": "Entrepreneurship",
+        "gid": 57558888,
+        "mode": "rows",
+        "category": "Entrepreneurship",
+        "nameColumn": 0,
+        "instagramColumn": 4
+      },
+      {
+        "name": "Sports",
+        "gid": 966212369,
+        "mode": "rows",
+        "category": "Sports",
+        "nameColumn": 0,
+        "instagramColumn": 4
+      },
+      {
+        "name": "Social",
+        "gid": 774424116,
+        "mode": "rows",
+        "category": "Social",
+        "nameColumn": 0,
+        "instagramColumn": 4
+      },
+      {
+        "name": "Campus Politics",
+        "gid": 529707404,
+        "mode": "rows",
+        "category": "Campus Politics",
+        "nameColumn": 0,
+        "instagramColumn": 5
+      },
+      {
+        "name": "Religion",
+        "gid": 1929487026,
+        "mode": "rows",
+        "category": "Religious",
+        "nameColumn": 0,
+        "instagramColumn": 5
+      },
+      {
+        "name": "National Politics Student Wing",
+        "gid": 623464991,
+        "mode": "rows",
+        "category": "National Politics",
+        "nameColumn": 0,
+        "instagramColumn": 5
+      }
+    ]
+  },
+  "extrasFile": "data/clubs/extras.json",
+  "excludedTabs": ["How To Use", "Website", "Sheet22"]
+}

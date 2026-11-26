@@ -1,0 +1,35 @@
+{
+  "source": "cloud.timeedit.net/my_um/web/students (TimeEdit)",
+  "extractedAt": "2026-11-26T12:18:19.513Z",
+  "requestedSemester": "Semester 2, 2025/2026",
+  "yearPeriod": "2025/S2",
+  "sourceRaw": "data\\timeedit_s1_2026_2027_raw.json",
+  "sourceModules": 29468,
+  "matchedModules": 306,
+  "uniqueCourses": 306,
+  "byLevel": {
+    "undergraduate": 61,
+    "postgraduate": 245
+  },
+  "byFaculty": {
+    "FACULTY OF ARTS AND SOCIAL SCIENCES": 17,
+    "FACULTY OF BUILT ENVIRONMENT": 6,
+    "FACULTY OF BUSINESS AND ECONOMICS": 8,
+    "FACULTY OF DENTISTRY": 5,
+    "FACULTY OF LAW": 32,
+    "FACULTY OF CREATIVE ARTS": 4,
+    "ACADEMY OF MALAY STUDIES": 9,
+    "FACULTY OF SPORTS AND EXERCISE SCIENCES": 10,
+    "FACULTY OF MEDICINE": 26,
+    "INSTITUTE FOR ADVANCED STUDIES": 3,
+    "ACADEMY OF ISLAMIC STUDIES": 10,
+    "FACULTY OF ENGINEERING": 40,
+    "FACULTY OF EDUCATION": 106,
+    "FACULTY OF SCIENCE": 18,
+    "FACULTY OF LANGUAGES AND LINGUISTICS": 3,
+    "FACULTY OF COMPUTER SCIENCE AND INFORMATION TECHNOLOGY": 5,
+    "INTERNATIONAL INSTITUTE OF PUBLIC POLICY AND MANAGEMENT": 4
+  },
+  "duplicates": [],
+  "invalidCodes": 0
+}

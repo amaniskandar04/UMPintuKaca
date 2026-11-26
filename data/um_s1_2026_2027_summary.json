@@ -1,0 +1,40 @@
+{
+  "source": "cloud.timeedit.net/my_um/web/students (TimeEdit)",
+  "extractedAt": "2026-11-26T12:18:19.513Z",
+  "requestedSemester": "Semester 1, 2026/2027",
+  "yearPeriod": "2026/S1",
+  "sourceRaw": "data\\timeedit_s1_2026_2027_raw.json",
+  "sourceModules": 29468,
+  "matchedModules": 1851,
+  "uniqueCourses": 1849,
+  "byLevel": {
+    "undergraduate": 1317,
+    "postgraduate": 532
+  },
+  "byFaculty": {
+    "FACULTY OF BUSINESS AND ECONOMICS": 96,
+    "FACULTY OF ARTS AND SOCIAL SCIENCES": 276,
+    "FACULTY OF BUILT ENVIRONMENT": 123,
+    "FACULTY OF DENTISTRY": 17,
+    "ACADEMY OF ISLAMIC STUDIES": 150,
+    "FACULTY OF MEDICINE": 88,
+    "FACULTY OF SPORTS AND EXERCISE SCIENCES": 57,
+    "FACULTY OF PHARMACY": 37,
+    "FACULTY OF CREATIVE ARTS": 75,
+    "ACADEMY OF MALAY STUDIES": 85,
+    "FACULTY OF SCIENCE": 250,
+    "FACULTY OF LANGUAGES AND LINGUISTICS": 81,
+    "FACULTY OF LAW": 68,
+    "INSTITUTE FOR ADVANCED STUDIES": 13,
+    "FACULTY OF ENGINEERING": 189,
+    "FACULTY OF EDUCATION": 175,
+    "ASIA-EUROPE INSTITUTE": 7,
+    "FACULTY OF COMPUTER SCIENCE AND INFORMATION TECHNOLOGY": 47,
+    "INTERNATIONAL INSTITUTE OF PUBLIC POLICY AND MANAGEMENT": 15
+  },
+  "duplicates": [
+    "BQE7009",
+    "BQE7009"
+  ],
+  "invalidCodes": 0
+}

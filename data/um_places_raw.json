@@ -1,0 +1,1967 @@
+{
+  "generatedAt": "2026-11-25T16:06:32.796Z",
+  "lastVerified": "2026-11-25",
+  "curated": [
+    {
+      "code": "FACULTY-MEDICINE-LIBRARY",
+      "name": "Faculty of Medicine Library",
+      "kind": "facility",
+      "category": "Study & Libraries",
+      "location": "Faculty of Medicine",
+      "description": "Medical and health sciences library serving the Faculty of Medicine and UMMC.",
+      "sourceUrls": [
+        "https://umlib.um.edu.my/opening-hours-amp-locations"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Mon-Fri 8:00-20:00; Sat-Sun 9:00-16:00; public holidays closed",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_faculty_medicine_library"
+    },
+    {
+      "code": "FACULTY-LAW-LIBRARY",
+      "name": "Faculty of Law Library",
+      "kind": "facility",
+      "category": "Study & Libraries",
+      "location": "Faculty of Law",
+      "description": "Law library with statutes, case reports, journals, and study spaces.",
+      "sourceUrls": [
+        "https://umlib.um.edu.my/opening-hours-amp-locations"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Mon-Fri 8:00-18:00; Sat-Sun 9:00-16:00; public holidays closed",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_faculty_law_library"
+    },
+    {
+      "code": "FASS-LIBRARY",
+      "name": "Faculty of Arts and Social Sciences Library",
+      "kind": "facility",
+      "category": "Study & Libraries",
+      "location": "Bangunan Za'ba, Faculty of Arts and Social Sciences",
+      "description": "Arts, humanities, and social sciences library named after Zainal Abidin bin Ahmad.",
+      "sourceUrls": [
+        "https://umlib.um.edu.my/opening-hours-amp-locations"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Mon-Thu 8:00-16:00; Fri 8:00-12:00; weekends closed",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_fass_library"
+    },
+    {
+      "code": "FASS-LIBRARY-EAST-ASIAN",
+      "name": "Faculty of Arts and Social Sciences Library (East Asian Studies)",
+      "kind": "facility",
+      "category": "Study & Libraries",
+      "location": "4th Floor, Za'ba Memorial Library",
+      "description": "East Asian studies collection and reading space.",
+      "sourceUrls": [
+        "https://umlib.um.edu.my/opening-hours-amp-locations"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Mon-Thu 8:00-16:00; Fri 8:00-12:00; weekends closed",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_fass_library_east_asian"
+    },
+    {
+      "code": "FASS-LIBRARY-INDIAN",
+      "name": "Faculty of Arts and Social Sciences Library (Indian Studies)",
+      "kind": "facility",
+      "category": "Study & Libraries",
+      "location": "5th Floor, Za'ba Memorial Library",
+      "description": "Indian studies collection and reading area.",
+      "sourceUrls": [
+        "https://umlib.um.edu.my/opening-hours-amp-locations"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Mon-Thu 8:00-16:00; Fri 8:00-12:00; weekends closed",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_fass_library_indian"
+    },
+    {
+      "code": "FACULTY-BUILT-ENVIRONMENT-LIBRARY",
+      "name": "Faculty of Built Environment Library",
+      "kind": "facility",
+      "category": "Study & Libraries",
+      "location": "Ground Floor, Mercu Alam Bina, Faculty of Built Environment",
+      "description": "Library for architecture, built environment, and related programmes.",
+      "sourceUrls": [
+        "https://umlib.um.edu.my/opening-hours-amp-locations"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Mon-Thu 8:00-16:00; Fri 8:00-12:00; weekends closed",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_faculty_built_environment_library"
+    },
+    {
+      "code": "FACULTY-DENTISTRY-LIBRARY",
+      "name": "Faculty of Dentistry Library",
+      "kind": "facility",
+      "category": "Study & Libraries",
+      "location": "2nd Floor, Balai Ungku Aziz, Faculty of Dentistry",
+      "description": "Dentistry library supporting clinical and academic programmes.",
+      "sourceUrls": [
+        "https://umlib.um.edu.my/opening-hours-amp-locations"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Mon-Fri 9:00-17:00; Fri 9:00-12:45; Sat-Sun 9:00-16:00",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_faculty_dentistry_library"
+    },
+    {
+      "code": "FACULTY-EDUCATION-LIBRARY",
+      "name": "Faculty of Education Library",
+      "kind": "facility",
+      "category": "Study & Libraries",
+      "location": "Ground Floor, Block C, Faculty of Education",
+      "description": "Education library for teaching, curriculum, and education research.",
+      "sourceUrls": [
+        "https://umlib.um.edu.my/opening-hours-amp-locations"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Mon-Thu 8:00-16:00; Fri 8:00-12:00; weekends closed",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_faculty_education_library"
+    },
+    {
+      "code": "FACULTY-ENGINEERING-LIBRARY",
+      "name": "Faculty of Engineering Library",
+      "kind": "facility",
+      "category": "Study & Libraries",
+      "location": "6th Floor, Laboratory Wing, Faculty of Engineering",
+      "description": "Engineering collection and study space.",
+      "sourceUrls": [
+        "https://umlib.um.edu.my/opening-hours-amp-locations"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Mon-Thu 8:00-16:00; Fri 8:00-12:00; weekends closed",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_faculty_engineering_library"
+    },
+    {
+      "code": "FACULTY-LANGUAGES-LIBRARY",
+      "name": "Faculty of Languages and Linguistics Library",
+      "kind": "facility",
+      "category": "Study & Libraries",
+      "location": "Ground Floor, Faculty of Languages and Linguistics",
+      "description": "Language and linguistics collection and study space.",
+      "sourceUrls": [
+        "https://umlib.um.edu.my/opening-hours-amp-locations"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Mon-Thu 8:00-16:00; Fri 8:00-12:00; weekends closed",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_faculty_languages_library"
+    },
+    {
+      "code": "ACADEMY-ISLAMIC-STUDIES-LIBRARY",
+      "name": "Academy of Islamic Studies Library",
+      "kind": "facility",
+      "category": "Study & Libraries",
+      "location": "Academy of Islamic Studies, main campus",
+      "description": "Islamic studies library at the Academy of Islamic Studies.",
+      "sourceUrls": [
+        "https://umlib.um.edu.my/opening-hours-amp-locations"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Mon-Thu 8:00-16:00; Fri 8:00-12:00; weekends closed",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_academy_islamic_studies_library"
+    },
+    {
+      "code": "ACADEMY-MALAY-STUDIES-LIBRARY",
+      "name": "Academy of Malay Studies Library",
+      "kind": "facility",
+      "category": "Study & Libraries",
+      "location": "Academy of Malay Studies",
+      "description": "Malay studies, literature, and culture collection.",
+      "sourceUrls": [
+        "https://umlib.um.edu.my/opening-hours-amp-locations"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Mon-Thu 8:00-16:00; Fri 8:00-12:00; weekends closed",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_academy_malay_studies_library"
+    },
+    {
+      "code": "UM-LIBRARY",
+      "name": "UM Library",
+      "kind": "facility",
+      "category": "Study & Libraries",
+      "location": "Central Library, main campus",
+      "description": "Main UM library with reading areas, computer labs, discussion rooms, carrels, and media collections.",
+      "sourceUrls": [
+        "https://umlib.um.edu.my/centrallibrary",
+        "https://umlib.um.edu.my/opening-hours-amp-locations"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Mon-Fri 8:00-22:00; Sat-Sun 9:00-16:00; public holidays closed",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_um_library"
+    },
+    {
+      "code": "KAFE-KK1",
+      "name": "Kafe KK1",
+      "kind": "outlet",
+      "category": "Food & Drink",
+      "location": "Kolej Kediaman 1 (KK1)",
+      "description": "Residential college cafeteria serving KK1 residents.",
+      "sourceUrls": [
+        "https://sustainability.um.edu.my/healthy-and-sustainable-food-um",
+        "https://hep.um.edu.my/accommodation"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Varies by college",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_kafe_kk1"
+    },
+    {
+      "code": "KAFE-KK2",
+      "name": "Kafe KK2",
+      "kind": "outlet",
+      "category": "Food & Drink",
+      "location": "Kolej Kediaman 2 (KK2)",
+      "description": "Residential college cafeteria serving KK2 residents.",
+      "sourceUrls": [
+        "https://sustainability.um.edu.my/healthy-and-sustainable-food-um",
+        "https://hep.um.edu.my/accommodation"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Varies by college",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_kafe_kk2"
+    },
+    {
+      "code": "KAFE-KK3",
+      "name": "Kafe KK3",
+      "kind": "outlet",
+      "category": "Food & Drink",
+      "location": "Kolej Kediaman 3 (KK3)",
+      "description": "Residential college cafeteria serving KK3 residents.",
+      "sourceUrls": [
+        "https://sustainability.um.edu.my/healthy-and-sustainable-food-um",
+        "https://hep.um.edu.my/accommodation"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Varies by college",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_kafe_kk3"
+    },
+    {
+      "code": "KAFE-KK4",
+      "name": "Kafe KK4",
+      "kind": "outlet",
+      "category": "Food & Drink",
+      "location": "Kolej Kediaman 4 (KK4)",
+      "description": "Residential college cafeteria serving KK4 residents.",
+      "sourceUrls": [
+        "https://sustainability.um.edu.my/healthy-and-sustainable-food-um",
+        "https://hep.um.edu.my/accommodation"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Varies by college",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_kafe_kk4"
+    },
+    {
+      "code": "KAFE-KK5",
+      "name": "Kafe KK5",
+      "kind": "outlet",
+      "category": "Food & Drink",
+      "location": "Kolej Kediaman 5 (KK5)",
+      "description": "Residential college cafeteria serving KK5 residents.",
+      "sourceUrls": [
+        "https://sustainability.um.edu.my/healthy-and-sustainable-food-um",
+        "https://hep.um.edu.my/accommodation"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Varies by college",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_kafe_kk5"
+    },
+    {
+      "code": "KAFE-KK6",
+      "name": "Kafe KK6",
+      "kind": "outlet",
+      "category": "Food & Drink",
+      "location": "Kolej Kediaman 6 (KK6)",
+      "description": "Residential college cafeteria serving KK6 residents.",
+      "sourceUrls": [
+        "https://sustainability.um.edu.my/healthy-and-sustainable-food-um",
+        "https://hep.um.edu.my/accommodation"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Varies by college",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_kafe_kk6"
+    },
+    {
+      "code": "KAFE-KK7",
+      "name": "Kafe KK7",
+      "kind": "outlet",
+      "category": "Food & Drink",
+      "location": "Kolej Kediaman 7 (KK7)",
+      "description": "Residential college cafeteria serving KK7 residents.",
+      "sourceUrls": [
+        "https://sustainability.um.edu.my/healthy-and-sustainable-food-um",
+        "https://hep.um.edu.my/accommodation"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Varies by college",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_kafe_kk7"
+    },
+    {
+      "code": "KAFE-KK8",
+      "name": "Kafe KK8",
+      "kind": "outlet",
+      "category": "Food & Drink",
+      "location": "Kolej Kediaman 8 (KK8)",
+      "description": "Residential college cafeteria serving KK8 residents.",
+      "sourceUrls": [
+        "https://sustainability.um.edu.my/healthy-and-sustainable-food-um",
+        "https://hep.um.edu.my/accommodation"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Varies by college",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_kafe_kk8"
+    },
+    {
+      "code": "KAFE-KK9",
+      "name": "Kafe KK9",
+      "kind": "outlet",
+      "category": "Food & Drink",
+      "location": "Kolej Kediaman 9 (KK9)",
+      "description": "Residential college cafeteria serving KK9 residents.",
+      "sourceUrls": [
+        "https://sustainability.um.edu.my/healthy-and-sustainable-food-um",
+        "https://hep.um.edu.my/accommodation"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Varies by college",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_kafe_kk9"
+    },
+    {
+      "code": "KAFE-KK10",
+      "name": "Kafe KK10",
+      "kind": "outlet",
+      "category": "Food & Drink",
+      "location": "Kolej Kediaman 10 (KK10)",
+      "description": "Residential college cafeteria serving KK10 residents.",
+      "sourceUrls": [
+        "https://sustainability.um.edu.my/healthy-and-sustainable-food-um",
+        "https://hep.um.edu.my/accommodation"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Varies by college",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_kafe_kk10"
+    },
+    {
+      "code": "KAFE-KK11",
+      "name": "Kafe KK11",
+      "kind": "outlet",
+      "category": "Food & Drink",
+      "location": "Kolej Kediaman 11 (KK11)",
+      "description": "Residential college cafeteria serving KK11 residents.",
+      "sourceUrls": [
+        "https://sustainability.um.edu.my/healthy-and-sustainable-food-um",
+        "https://hep.um.edu.my/accommodation"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Varies by college",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_kafe_kk11"
+    },
+    {
+      "code": "KAFE-KK12",
+      "name": "Kafe KK12",
+      "kind": "outlet",
+      "category": "Food & Drink",
+      "location": "Kolej Kediaman 12 (KK12)",
+      "description": "Residential college cafeteria serving KK12 residents.",
+      "sourceUrls": [
+        "https://sustainability.um.edu.my/healthy-and-sustainable-food-um",
+        "https://hep.um.edu.my/accommodation"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Varies by college",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_kafe_kk12"
+    },
+    {
+      "code": "KAFE-KK13",
+      "name": "Kafe KK13",
+      "kind": "outlet",
+      "category": "Food & Drink",
+      "location": "Kolej Kediaman 13 (KK13)",
+      "description": "Residential college cafeteria serving KK13 residents.",
+      "sourceUrls": [
+        "https://sustainability.um.edu.my/healthy-and-sustainable-food-um",
+        "https://hep.um.edu.my/accommodation"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Varies by college",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_kafe_kk13"
+    },
+    {
+      "code": "KAFE-FAKULTI-ISLAMIC-STUDIES",
+      "name": "Kafe Fakulti Islamic Studies",
+      "kind": "outlet",
+      "category": "Food & Drink",
+      "location": "Academy of Islamic Studies",
+      "description": "Affordable local food at the Academy of Islamic Studies.",
+      "sourceUrls": [
+        "https://spm.um.edu.my/student/life-on-campus/",
+        "https://sustainability.um.edu.my/healthy-and-sustainable-food-um"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Weekdays daytime",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_kafe_fakulti_islamic_studies"
+    },
+    {
+      "code": "KAFE-FAKULTI-MEDICINE",
+      "name": "Kafe Fakulti Medicine",
+      "kind": "outlet",
+      "category": "Food & Drink",
+      "location": "Level 3, Faculty of Medicine",
+      "description": "Cooked meals near the medical library.",
+      "sourceUrls": [
+        "https://spm.um.edu.my/student/life-on-campus/"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Daytime",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_kafe_fakulti_medicine"
+    },
+    {
+      "code": "KAFE-FAKULTI-MEDICINE-IBNU-SINA",
+      "name": "Kafe Fakulti Medicine (Ibnu Sina)",
+      "kind": "outlet",
+      "category": "Food & Drink",
+      "location": "Near NOCERAL, Faculty of Medicine",
+      "description": "Faculty of Medicine cafe.",
+      "sourceUrls": [
+        "https://spm.um.edu.my/student/life-on-campus/"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Daytime",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_kafe_fakulti_medicine_ibnu_sina"
+    },
+    {
+      "code": "KAFE-FAKULTI-COMPUTER-SCIENCE",
+      "name": "Kafe Fakulti Computer Science",
+      "kind": "outlet",
+      "category": "Food & Drink",
+      "location": "Block M23, Faculty of Computer Science and Information Technology",
+      "description": "Faculty food court.",
+      "sourceUrls": [
+        "https://spm.um.edu.my/student/life-on-campus/",
+        "https://sustainability.um.edu.my/healthy-and-sustainable-food-um"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Weekdays daytime",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_kafe_fakulti_computer_science"
+    },
+    {
+      "code": "KAFE-FAKULTI-ENGINEERING",
+      "name": "Kafe Fakulti Engineering",
+      "kind": "outlet",
+      "category": "Food & Drink",
+      "location": "Level 4, Faculty of Engineering",
+      "description": "Faculty of Engineering cafe.",
+      "sourceUrls": [
+        "https://sustainability.um.edu.my/healthy-and-sustainable-food-um"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Weekdays daytime",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_kafe_fakulti_engineering"
+    },
+    {
+      "code": "KAFE-FAKULTI-ARTS",
+      "name": "Kafe Fakulti Arts and Social Sciences",
+      "kind": "outlet",
+      "category": "Food & Drink",
+      "location": "Ground Floor, Dean's Office Block, Faculty of Arts and Social Sciences",
+      "description": "Cafe and bistro at FASS.",
+      "sourceUrls": [
+        "https://sustainability.um.edu.my/healthy-and-sustainable-food-um"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Weekdays daytime",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_kafe_fakulti_arts"
+    },
+    {
+      "code": "KAFE-FAKULTI-BUSINESS",
+      "name": "Kafe Fakulti Business and Economics",
+      "kind": "outlet",
+      "category": "Food & Drink",
+      "location": "Postgraduate Building H12, Faculty of Business and Economics",
+      "description": "Faculty of Business and Economics cafeteria.",
+      "sourceUrls": [
+        "https://sustainability.um.edu.my/healthy-and-sustainable-food-um"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Weekdays daytime",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_kafe_fakulti_business"
+    },
+    {
+      "code": "KAFE-FAKULTI-SCIENCE",
+      "name": "Kafe Fakulti Science",
+      "kind": "outlet",
+      "category": "Food & Drink",
+      "location": "Block J31, Faculty of Science",
+      "description": "Science faculty cafeteria.",
+      "sourceUrls": [
+        "https://sustainability.um.edu.my/healthy-and-sustainable-food-um"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Weekdays daytime",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_kafe_fakulti_science"
+    },
+    {
+      "code": "KOLEJ-KEDIAMAN-1",
+      "name": "Kolej Kediaman 1 (Tuanku Abdul Rahman)",
+      "kind": "facility",
+      "category": "Accommodation",
+      "location": "KK1, main campus",
+      "description": "Student accommodation at Kolej Kediaman 1 (Tuanku Abdul Rahman).",
+      "sourceUrls": [
+        "https://hep.um.edu.my/accommodation",
+        "https://hep.um.edu.my/organization-chart"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_kolej_kediaman_1"
+    },
+    {
+      "code": "KOLEJ-KEDIAMAN-2",
+      "name": "Kolej Kediaman 2 (Tuanku Bahiyah)",
+      "kind": "facility",
+      "category": "Accommodation",
+      "location": "KK2, main campus",
+      "description": "Student accommodation at Kolej Kediaman 2 (Tuanku Bahiyah).",
+      "sourceUrls": [
+        "https://hep.um.edu.my/accommodation",
+        "https://hep.um.edu.my/organization-chart"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_kolej_kediaman_2"
+    },
+    {
+      "code": "KOLEJ-KEDIAMAN-3",
+      "name": "Kolej Kediaman 3 (Tunku Kurshiah)",
+      "kind": "facility",
+      "category": "Accommodation",
+      "location": "KK3, main campus",
+      "description": "Student accommodation at Kolej Kediaman 3 (Tunku Kurshiah).",
+      "sourceUrls": [
+        "https://hep.um.edu.my/accommodation",
+        "https://hep.um.edu.my/organization-chart"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_kolej_kediaman_3"
+    },
+    {
+      "code": "KOLEJ-KEDIAMAN-4",
+      "name": "Kolej Kediaman 4 (Bestari)",
+      "kind": "facility",
+      "category": "Accommodation",
+      "location": "KK4, main campus",
+      "description": "Student accommodation at Kolej Kediaman 4 (Bestari).",
+      "sourceUrls": [
+        "https://hep.um.edu.my/accommodation",
+        "https://hep.um.edu.my/organization-chart"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_kolej_kediaman_4"
+    },
+    {
+      "code": "KOLEJ-KEDIAMAN-5",
+      "name": "Kolej Kediaman 5 (Dayasari)",
+      "kind": "facility",
+      "category": "Accommodation",
+      "location": "KK5, main campus",
+      "description": "Student accommodation at Kolej Kediaman 5 (Dayasari).",
+      "sourceUrls": [
+        "https://hep.um.edu.my/accommodation",
+        "https://hep.um.edu.my/organization-chart"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_kolej_kediaman_5"
+    },
+    {
+      "code": "KOLEJ-KEDIAMAN-6",
+      "name": "Kolej Kediaman 6 (Ibnu Sina)",
+      "kind": "facility",
+      "category": "Accommodation",
+      "location": "KK6, main campus",
+      "description": "Student accommodation at Kolej Kediaman 6 (Ibnu Sina).",
+      "sourceUrls": [
+        "https://hep.um.edu.my/accommodation",
+        "https://hep.um.edu.my/organization-chart"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_kolej_kediaman_6"
+    },
+    {
+      "code": "KOLEJ-KEDIAMAN-7",
+      "name": "Kolej Kediaman 7 (Za'ba)",
+      "kind": "facility",
+      "category": "Accommodation",
+      "location": "KK7, main campus",
+      "description": "Student accommodation at Kolej Kediaman 7 (Za'ba).",
+      "sourceUrls": [
+        "https://hep.um.edu.my/accommodation",
+        "https://hep.um.edu.my/organization-chart"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_kolej_kediaman_7"
+    },
+    {
+      "code": "KOLEJ-KEDIAMAN-8",
+      "name": "Kolej Kediaman 8 (Kinabalu)",
+      "kind": "facility",
+      "category": "Accommodation",
+      "location": "KK8, main campus",
+      "description": "Student accommodation at Kolej Kediaman 8 (Kinabalu).",
+      "sourceUrls": [
+        "https://hep.um.edu.my/accommodation",
+        "https://hep.um.edu.my/organization-chart"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_kolej_kediaman_8"
+    },
+    {
+      "code": "KOLEJ-KEDIAMAN-9",
+      "name": "Kolej Kediaman 9 (Tun Syed Zahiruddin)",
+      "kind": "facility",
+      "category": "Accommodation",
+      "location": "KK9, main campus",
+      "description": "Student accommodation at Kolej Kediaman 9 (Tun Syed Zahiruddin).",
+      "sourceUrls": [
+        "https://hep.um.edu.my/accommodation",
+        "https://hep.um.edu.my/organization-chart"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_kolej_kediaman_9"
+    },
+    {
+      "code": "KOLEJ-KEDIAMAN-10",
+      "name": "Kolej Kediaman 10 (Tun Ahmad Zaidi)",
+      "kind": "facility",
+      "category": "Accommodation",
+      "location": "KK10, main campus",
+      "description": "Student accommodation at Kolej Kediaman 10 (Tun Ahmad Zaidi).",
+      "sourceUrls": [
+        "https://hep.um.edu.my/accommodation",
+        "https://hep.um.edu.my/organization-chart"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_kolej_kediaman_10"
+    },
+    {
+      "code": "KOLEJ-KEDIAMAN-11",
+      "name": "Kolej Kediaman 11 (Ungku Aziz)",
+      "kind": "facility",
+      "category": "Accommodation",
+      "location": "KK11, main campus",
+      "description": "Student accommodation at Kolej Kediaman 11 (Ungku Aziz).",
+      "sourceUrls": [
+        "https://hep.um.edu.my/accommodation",
+        "https://hep.um.edu.my/organization-chart"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_kolej_kediaman_11"
+    },
+    {
+      "code": "KOLEJ-KEDIAMAN-12",
+      "name": "Kolej Kediaman 12 (Raja Dr. Nazrin Shah)",
+      "kind": "facility",
+      "category": "Accommodation",
+      "location": "KK12, main campus",
+      "description": "Student accommodation at Kolej Kediaman 12 (Raja Dr. Nazrin Shah).",
+      "sourceUrls": [
+        "https://hep.um.edu.my/accommodation",
+        "https://hep.um.edu.my/organization-chart"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_kolej_kediaman_12"
+    },
+    {
+      "code": "KOLEJ-KEDIAMAN-13",
+      "name": "Kolej Kediaman 13",
+      "kind": "facility",
+      "category": "Accommodation",
+      "location": "KK13, off-campus UM-managed accommodation",
+      "description": "Student accommodation at Kolej Kediaman 13.",
+      "sourceUrls": [
+        "https://hep.um.edu.my/accommodation",
+        "https://hep.um.edu.my/organization-chart"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_kolej_kediaman_13"
+    },
+    {
+      "code": "MUSEUM-ANATOMY-MUSEUM",
+      "name": "Anatomy Museum",
+      "kind": "facility",
+      "category": "Arts, Museums & Nature",
+      "location": "Faculty of Medicine",
+      "description": "Anatomy teaching museum for medical and health programmes.",
+      "sourceUrls": [
+        "https://sites.google.com/um.edu.my/staffonboarding/life-at-um/campus-facilities"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Academic access",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_museum_anatomy_museum"
+    },
+    {
+      "code": "MUSEUM-GEOLOGY-MUSEUM",
+      "name": "Geology Museum",
+      "kind": "facility",
+      "category": "Arts, Museums & Nature",
+      "location": "Department of Geology, Faculty of Science",
+      "description": "Geology museum with rock, mineral, and fossil collections.",
+      "sourceUrls": [
+        "https://sites.google.com/um.edu.my/staffonboarding/life-at-um/campus-facilities"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Weekdays",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_museum_geology_museum"
+    },
+    {
+      "code": "MUSEUM-MALAY-ETHNOGRAPHIC-MUSEUM",
+      "name": "Malay Ethnographic Museum",
+      "kind": "facility",
+      "category": "Arts, Museums & Nature",
+      "location": "Academy of Malay Studies",
+      "description": "Museum of Malay ethnography and material culture.",
+      "sourceUrls": [
+        "https://sites.google.com/um.edu.my/staffonboarding/life-at-um/campus-facilities"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Mon-Thu 9:00-17:00; Fri 9:00-15:00; weekends closed",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_museum_malay_ethnographic_museum"
+    },
+    {
+      "code": "MUSEUM-MUSEUM-OF-ASIAN-ART",
+      "name": "Museum of Asian Art",
+      "kind": "facility",
+      "category": "Arts, Museums & Nature",
+      "location": "Jalan Ilmu, main campus",
+      "description": "Museum of Asian art with ceramics, textiles, stone carvings, and water vessels.",
+      "sourceUrls": [
+        "https://museum.um.edu.my/museum-of-asian-art"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Mon-Thu 9:00-16:30; Fri 9:00-12:15; weekends closed",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_museum_museum_of_asian_art"
+    },
+    {
+      "code": "MUSEUM-PATHOLOGY-MUSEUM",
+      "name": "Pathology Museum",
+      "kind": "facility",
+      "category": "Arts, Museums & Nature",
+      "location": "Faculty of Medicine",
+      "description": "Pathology teaching museum.",
+      "sourceUrls": [
+        "https://sites.google.com/um.edu.my/staffonboarding/life-at-um/campus-facilities"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Academic access",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_museum_pathology_museum"
+    },
+    {
+      "code": "MUSEUM-ZOOLOGY-MUSEUM",
+      "name": "Zoology Museum",
+      "kind": "facility",
+      "category": "Arts, Museums & Nature",
+      "location": "Faculty of Science",
+      "description": "Zoological collection and teaching museum.",
+      "sourceUrls": [
+        "https://sites.google.com/um.edu.my/staffonboarding/life-at-um/campus-facilities"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Weekdays",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_museum_zoology_museum"
+    },
+    {
+      "code": "PPUM",
+      "name": "PPUM",
+      "kind": "facility",
+      "category": "Health & Wellbeing",
+      "location": "Jalan Profesor Diraja Ungku Aziz, Lembah Pantai",
+      "description": "Teaching hospital with emergency, specialist, surgical, and inpatient services.",
+      "sourceUrls": [
+        "https://www.um.edu.my/health-services"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "24-hour hospital",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_ppum"
+    },
+    {
+      "code": "UM-CLINIC",
+      "name": "UM Clinic",
+      "kind": "facility",
+      "category": "Health & Wellbeing",
+      "location": "Ground Floor, Bangunan Siswarama, Faculty of Arts and Social Sciences",
+      "description": "Campus clinic offering consultation, treatment, pharmacy, vaccination, medical check-ups, and referrals.",
+      "sourceUrls": [
+        "https://www.um.edu.my/student-health-clinic",
+        "https://www.um.edu.my/health-services"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Mon-Thu 8:00-13:00, 14:00-17:00; Fri 8:00-12:15, 14:45-17:00; weekends closed",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_um_clinic"
+    },
+    {
+      "code": "UM-SPECIALIST-CENTER",
+      "name": "UM Specialist Center",
+      "kind": "facility",
+      "category": "Health & Wellbeing",
+      "location": "Lembah Pantai",
+      "description": "Private specialist outpatient centre on the UM campus.",
+      "sourceUrls": [
+        "https://umsc.my/facilities-and-amenities/"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Outpatient and specialist hours vary",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_um_specialist_center"
+    },
+    {
+      "code": "FOOD-COURT-KPS",
+      "name": "Food Court KPS",
+      "kind": "facility",
+      "category": "Food & Drink",
+      "location": "Kompleks Perdanasiswa",
+      "description": "Main student food court with local and Western stalls.",
+      "sourceUrls": [
+        "https://spm.um.edu.my/student/life-on-campus/",
+        "https://www.um.edu.my/perdanasiswa-complex"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Weekdays breakfast to lunch",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_food_court_kps"
+    },
+    {
+      "code": "HE-AND-SHE-KK12",
+      "name": "He and She KK12",
+      "kind": "outlet",
+      "category": "Food & Drink",
+      "location": "KK12, Universiti Malaya",
+      "description": "Coffee, pastries, and light Western food.",
+      "sourceUrls": [
+        "https://spm.um.edu.my/student/life-on-campus/"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "10:30-18:30",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_he_and_she_kk12"
+    },
+    {
+      "code": "HE-AND-SHE-UM-CENTRAL",
+      "name": "He and She UM Central",
+      "kind": "outlet",
+      "category": "Food & Drink",
+      "location": "UM Central, behind the Central Library",
+      "description": "Coffee, pastries, and light meals at UM Central.",
+      "sourceUrls": [
+        "https://www.heandshe.coffee/outlets-1"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_he_and_she_um_central"
+    },
+    {
+      "code": "STUDENT-LOUNGE-KPS",
+      "name": "Student Lounge KPS",
+      "kind": "facility",
+      "category": "Study & Libraries",
+      "location": "Kompleks Perdanasiswa",
+      "description": "Student study lounge at Kompleks Perdanasiswa.",
+      "sourceUrls": [
+        "https://www.um.edu.my/perdanasiswa-complex"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_student_lounge_kps"
+    },
+    {
+      "code": "UM-GYM",
+      "name": "UM Gym",
+      "kind": "facility",
+      "category": "Sports & Fitness",
+      "location": "Sports Centre",
+      "description": "Weight-training gym with professional-grade equipment.",
+      "sourceUrls": [
+        "https://pusatsukan.um.edu.my/facility",
+        "https://pusatsukan.um.edu.my/sports-facility-operation-hours"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Mon-Thu open sessions 8:00-16:00; UM session 17:00-22:00; Fri UM session 17:00-22:00",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_um_gym"
+    },
+    {
+      "code": "GMC",
+      "name": "GMC",
+      "kind": "service",
+      "category": "Student Services",
+      "location": "Global Mobility Centre, Universiti Malaya",
+      "description": "Global Mobility Centre for exchange and mobility students.",
+      "sourceUrls": [
+        "https://studyabroad.um.edu.my/"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_gmc"
+    },
+    {
+      "code": "VISA-UNIT",
+      "name": "Visa Unit",
+      "kind": "service",
+      "category": "Student Services",
+      "location": "Universiti Malaya",
+      "description": "Visa and immigration support unit for international students.",
+      "sourceUrls": [
+        "https://www.um.edu.my/"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_visa_unit"
+    },
+    {
+      "code": "UM-HELPDESK",
+      "name": "UM Helpdesk",
+      "kind": "service",
+      "category": "Student Services",
+      "location": "Universiti Malaya",
+      "description": "IT and general university helpdesk.",
+      "sourceUrls": [
+        "https://it.um.edu.my/user-support-amp-helpdesk"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_um_helpdesk"
+    },
+    {
+      "code": "KAYAK",
+      "name": "Kayak",
+      "kind": "facility",
+      "category": "Sports & Fitness",
+      "location": "Varsity Lake",
+      "description": "Kayak activity at the campus lake.",
+      "sourceUrls": [
+        "https://pusatsukan.um.edu.my/facility",
+        "https://www.um.edu.my/recreational"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Subject to Sports Centre availability",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_kayak"
+    },
+    {
+      "code": "LADANG-MINI-ISB",
+      "name": "Ladang Mini ISB",
+      "kind": "facility",
+      "category": "Arts, Museums & Nature",
+      "location": "Institute of Biological Sciences, main campus",
+      "description": "Campus farm and outdoor learning space.",
+      "sourceUrls": [
+        "https://sites.google.com/um.edu.my/staffonboarding/life-at-um/campus-facilities"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Daytime",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_ladang_mini_isb"
+    },
+    {
+      "code": "KOLAM-RENANG-UM",
+      "name": "Kolam Renang UM (UM Pool)",
+      "kind": "facility",
+      "category": "Sports & Fitness",
+      "location": "Sports Centre",
+      "description": "Olympic-size 50m x 25m outdoor pool with eight lanes.",
+      "sourceUrls": [
+        "https://pusatsukan.um.edu.my/facility",
+        "https://pusatsukan.um.edu.my/sports-facility-operation-hours"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Mon closed; Tue 14:30-18:40 and 20:00-21:40; Wed-Sun 8:00-18:40",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_kolam_renang_um"
+    },
+    {
+      "code": "ESM-PICKTERS",
+      "name": "ESM Pickters (Pickleball Kolam Renang UM)",
+      "kind": "facility",
+      "category": "Sports & Fitness",
+      "location": "Kolam Renang UM",
+      "description": "Pickleball courts at Kolam Renang UM.",
+      "sourceUrls": [
+        "https://www.um.edu.my/"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_esm_pickters"
+    },
+    {
+      "code": "POS-MALAYSIA-UM",
+      "name": "Pos Malaysia UM",
+      "kind": "service",
+      "category": "Retail, Banking & Post",
+      "location": "Kompleks Perdanasiswa",
+      "description": "Postal services on campus.",
+      "sourceUrls": [
+        "https://www.um.edu.my/office-directory-services"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Post office hours",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_pos_malaysia_um"
+    },
+    {
+      "code": "RIMBA-ILMU",
+      "name": "Rimba Ilmu",
+      "kind": "facility",
+      "category": "Arts, Museums & Nature",
+      "location": "Rimba Ilmu, main campus",
+      "description": "Botanical garden and conservation site with rainforest collections and exhibition hall.",
+      "sourceUrls": [
+        "https://www.um.edu.my/botanical-gardens",
+        "https://rimbailmu.um.edu.my/exhibition-hall"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Mon-Fri 9:00-16:00; weekends closed",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_rimba_ilmu"
+    },
+    {
+      "code": "RUMAH-UNIVERSITI",
+      "name": "Rumah Universiti",
+      "kind": "facility",
+      "category": "Accommodation",
+      "location": "Main campus",
+      "description": "Student accommodation at Rumah Universiti Guest House.",
+      "sourceUrls": [
+        "https://hep.um.edu.my/accommodation",
+        "https://hep.um.edu.my/organization-chart"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_rumah_universiti"
+    },
+    {
+      "code": "HALAMAN-UM",
+      "name": "Halaman UM",
+      "kind": "shop",
+      "category": "Retail, Banking & Post",
+      "location": "Halaman UM, main campus",
+      "description": "Shop at Halaman UM.",
+      "sourceUrls": [
+        "https://www.um.edu.my/"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_halaman_um"
+    },
+    {
+      "code": "BANK-ISLAM-UM",
+      "name": "Bank Islam UM",
+      "kind": "service",
+      "category": "Retail, Banking & Post",
+      "location": "Ground Floor, High Impact Research Building",
+      "description": "Bank branch on campus.",
+      "sourceUrls": [
+        "https://www.um.edu.my/office-directory-services"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Banking hours",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_bank_islam_um"
+    },
+    {
+      "code": "KPS-ATM",
+      "name": "KPS ATM",
+      "kind": "service",
+      "category": "Retail, Banking & Post",
+      "location": "Kompleks Perdanasiswa",
+      "description": "Cluster of ATMs in the Perdanasiswa Complex.",
+      "sourceUrls": [
+        "https://www.um.edu.my/perdanasiswa-complex",
+        "https://spm.um.edu.my/student/life-on-campus/"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "24 hours",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_kps_atm"
+    },
+    {
+      "code": "SUBWAY-DENTISTRY",
+      "name": "Subway Faculty of Dentistry",
+      "kind": "outlet",
+      "category": "Food & Drink",
+      "location": "Faculty of Dentistry",
+      "description": "Sandwich outlet at the Faculty of Dentistry.",
+      "sourceUrls": [
+        "https://spm.um.edu.my/student/life-on-campus/"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Daytime",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_subway_dentistry"
+    },
+    {
+      "code": "UM-ARCHIVE",
+      "name": "UM Archive",
+      "kind": "service",
+      "category": "Student Services",
+      "location": "5th Floor, Za'ba Memorial Library",
+      "description": "University archives and records service.",
+      "sourceUrls": [
+        "https://umlib.um.edu.my/opening-hours-amp-locations"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Mon-Thu 8:00-16:00; Fri 8:00-12:00; weekends closed",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_um_archive"
+    },
+    {
+      "code": "UM-ARENA",
+      "name": "UM Arena",
+      "kind": "facility",
+      "category": "Sports & Fitness",
+      "location": "UM Arena",
+      "description": "Stadium with an all-weather athletics track and grandstand.",
+      "sourceUrls": [
+        "https://pusatsukan.um.edu.my/facility",
+        "https://pusatsukan.um.edu.my/sports-facility-operation-hours"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Mon-Thu 8:00-19:00; Fri 8:00-19:00; weekends closed",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_um_arena"
+    },
+    {
+      "code": "INTERNATIONAL-HOUSE",
+      "name": "International House",
+      "kind": "facility",
+      "category": "Accommodation",
+      "location": "Section 17, Petaling Jaya",
+      "description": "Student accommodation at UM International House.",
+      "sourceUrls": [
+        "https://hep.um.edu.my/accommodation",
+        "https://hep.um.edu.my/organization-chart"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_international_house"
+    },
+    {
+      "code": "JAPAN-APARTMENT",
+      "name": "Japan Apartment",
+      "kind": "facility",
+      "category": "Accommodation",
+      "location": "Near main campus",
+      "description": "Student accommodation at Japan Apartment.",
+      "sourceUrls": [
+        "https://hep.um.edu.my/accommodation",
+        "https://hep.um.edu.my/organization-chart"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_japan_apartment"
+    },
+    {
+      "code": "VARSITY-LAKE",
+      "name": "Varsity Lake",
+      "kind": "landmark",
+      "category": "Arts, Museums & Nature",
+      "location": "Around Varsity Lake",
+      "description": "Lake and recreation area at the centre of campus.",
+      "sourceUrls": [
+        "https://www.um.edu.my/recreational"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Open daily",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_varsity_lake"
+    },
+    {
+      "code": "YOGO-KK12",
+      "name": "Yogo KK12",
+      "kind": "outlet",
+      "category": "Food & Drink",
+      "location": "KK12, Block D, Universiti Malaya",
+      "description": "Frozen yogurt and light food at KK12.",
+      "sourceUrls": [
+        "https://www.instagram.com/yogocafehq/"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_yogo_kk12"
+    },
+    {
+      "code": "ZUS-COFFEE-UM",
+      "name": "Zus Coffee UM",
+      "kind": "outlet",
+      "category": "Food & Drink",
+      "location": "Universiti Malaya",
+      "description": "Coffee outlet at UM.",
+      "sourceUrls": [
+        "https://zuscoffee.com/"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_zus_coffee_um"
+    },
+    {
+      "code": "LAS-PALMAS-PICKLEBALL",
+      "name": "Las Palmas Pickleball",
+      "kind": "facility",
+      "category": "Sports & Fitness",
+      "location": "Universiti Malaya",
+      "description": "Pickleball courts at UM.",
+      "sourceUrls": [
+        "https://www.um.edu.my/"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_las_palmas_pickleball"
+    },
+    {
+      "code": "AR-RAHMAN-MOSQUE",
+      "name": "Ar Rahman Mosque",
+      "kind": "facility",
+      "category": "Faith & Community",
+      "location": "Universiti Malaya",
+      "description": "Campus mosque.",
+      "sourceUrls": [
+        "https://www.um.edu.my/"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_ar_rahman_mosque"
+    },
+    {
+      "code": "SURAU-API",
+      "name": "Surau API",
+      "kind": "facility",
+      "category": "Faith & Community",
+      "location": "Academy of Islamic Studies",
+      "description": "Surau at the Academy of Islamic Studies.",
+      "sourceUrls": [
+        "https://www.um.edu.my/"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_surau_api"
+    },
+    {
+      "code": "Q-BISTRO-UM",
+      "name": "Q Bistro UM",
+      "kind": "outlet",
+      "category": "Food & Drink",
+      "location": "Universiti Malaya",
+      "description": "Bistro at UM.",
+      "sourceUrls": [
+        "https://www.um.edu.my/"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_q_bistro_um"
+    },
+    {
+      "code": "UM-EXAM-HALL",
+      "name": "UM Exam Hall",
+      "kind": "facility",
+      "category": "Bookable Venues",
+      "location": "Universiti Malaya",
+      "description": "Examination hall at UM.",
+      "sourceUrls": [
+        "https://www.um.edu.my/"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_um_exam_hall"
+    },
+    {
+      "code": "CITRA",
+      "name": "CITRA",
+      "kind": "service",
+      "category": "Student Services",
+      "location": "Universiti Malaya",
+      "description": "Centre for Initiation of Talent and Industrial Training.",
+      "sourceUrls": [
+        "https://citra.um.edu.my/"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_citra"
+    },
+    {
+      "code": "PARCEL-UM",
+      "name": "PARCEL@UM",
+      "kind": "service",
+      "category": "Retail, Banking & Post",
+      "location": "Universiti Malaya",
+      "description": "Parcel collection and delivery point at UM.",
+      "sourceUrls": [
+        "https://www.um.edu.my/"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_parcel_um"
+    },
+    {
+      "code": "NELSONS",
+      "name": "Nelson's",
+      "kind": "outlet",
+      "category": "Food & Drink",
+      "location": "Beside UM Library",
+      "description": "Convenience food and drinks outlet.",
+      "sourceUrls": [
+        "https://spm.um.edu.my/student/life-on-campus/"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "10:00-20:00",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_nelsons"
+    },
+    {
+      "code": "DEAR-WIFEY",
+      "name": "Dear Wifey",
+      "kind": "outlet",
+      "category": "Food & Drink",
+      "location": "Universiti Malaya",
+      "description": "Fast food outlet at UM.",
+      "sourceUrls": [
+        "https://www.foodpanda.my/restaurant/jg2c/dear-wifey"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_dear_wifey"
+    },
+    {
+      "code": "SEVEN-ELEVEN-UM",
+      "name": "7 Eleven UM",
+      "kind": "outlet",
+      "category": "Retail, Banking & Post",
+      "location": "Universiti Malaya",
+      "description": "24-hour convenience store on campus.",
+      "sourceUrls": [
+        "https://www.7eleven.com.my/"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_seven_eleven_um"
+    },
+    {
+      "code": "KK-MART-KK12",
+      "name": "KK Mart KK12",
+      "kind": "outlet",
+      "category": "Retail, Banking & Post",
+      "location": "KK12, Universiti Malaya",
+      "description": "Convenience store at KK12.",
+      "sourceUrls": [
+        "https://www.kkmart.com.my/"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_kk_mart_kk12"
+    },
+    {
+      "code": "KK-MART-KPS",
+      "name": "KK Mart KPS",
+      "kind": "outlet",
+      "category": "Retail, Banking & Post",
+      "location": "Kompleks Perdanasiswa",
+      "description": "Convenience store and groceries.",
+      "sourceUrls": [
+        "https://spm.um.edu.my/student/life-on-campus/"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": "Daily",
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_kk_mart_kps"
+    },
+    {
+      "code": "MYNEWS-KK6",
+      "name": "myNews KK6",
+      "kind": "outlet",
+      "category": "Retail, Banking & Post",
+      "location": "KK6, Universiti Malaya",
+      "description": "Convenience store at KK6.",
+      "sourceUrls": [
+        "https://www.mynews.com.my/"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_mynews_kk6"
+    },
+    {
+      "code": "ACADEMY-ISLAMIC-STUDIES",
+      "name": "Academy of Islamic Studies",
+      "kind": "faculty",
+      "category": "Faculties & Academies",
+      "location": "Academy of Islamic Studies, Universiti Malaya",
+      "description": "Academy of Islamic Studies at Universiti Malaya.",
+      "sourceUrls": [
+        "https://www.um.edu.my/"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_academy_islamic_studies"
+    },
+    {
+      "code": "ACADEMY-MALAY-STUDIES",
+      "name": "Academy of Malay Studies",
+      "kind": "faculty",
+      "category": "Faculties & Academies",
+      "location": "Academy of Malay Studies, Universiti Malaya",
+      "description": "Academy of Malay Studies at Universiti Malaya.",
+      "sourceUrls": [
+        "https://www.um.edu.my/"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_academy_malay_studies"
+    },
+    {
+      "code": "FACULTY-ARTS-SOCIAL-SCIENCES",
+      "name": "Faculty of Arts and Social Sciences",
+      "kind": "faculty",
+      "category": "Faculties & Academies",
+      "location": "Faculty of Arts and Social Sciences, Universiti Malaya",
+      "description": "Faculty of Arts and Social Sciences at Universiti Malaya.",
+      "sourceUrls": [
+        "https://www.um.edu.my/"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_faculty_arts_social_sciences"
+    },
+    {
+      "code": "FACULTY-BUILT-ENVIRONMENT",
+      "name": "Faculty of Built Environment",
+      "kind": "faculty",
+      "category": "Faculties & Academies",
+      "location": "Faculty of Built Environment, Universiti Malaya",
+      "description": "Faculty of Built Environment at Universiti Malaya.",
+      "sourceUrls": [
+        "https://www.um.edu.my/"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_faculty_built_environment"
+    },
+    {
+      "code": "FACULTY-BUSINESS-ECONOMICS",
+      "name": "Faculty of Business and Economics",
+      "kind": "faculty",
+      "category": "Faculties & Academies",
+      "location": "Faculty of Business and Economics, Universiti Malaya",
+      "description": "Faculty of Business and Economics at Universiti Malaya.",
+      "sourceUrls": [
+        "https://www.um.edu.my/"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_faculty_business_economics"
+    },
+    {
+      "code": "FACULTY-COMPUTER-SCIENCE-IT",
+      "name": "Faculty of Computer Science and Information Technology",
+      "kind": "faculty",
+      "category": "Faculties & Academies",
+      "location": "Faculty of Computer Science and Information Technology, Universiti Malaya",
+      "description": "Faculty of Computer Science and Information Technology at Universiti Malaya.",
+      "sourceUrls": [
+        "https://www.um.edu.my/"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_faculty_computer_science_it"
+    },
+    {
+      "code": "FACULTY-CREATIVE-ARTS",
+      "name": "Faculty of Creative Arts",
+      "kind": "faculty",
+      "category": "Faculties & Academies",
+      "location": "Faculty of Creative Arts, Universiti Malaya",
+      "description": "Faculty of Creative Arts at Universiti Malaya.",
+      "sourceUrls": [
+        "https://www.um.edu.my/"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_faculty_creative_arts"
+    },
+    {
+      "code": "FACULTY-DENTISTRY",
+      "name": "Faculty of Dentistry",
+      "kind": "faculty",
+      "category": "Faculties & Academies",
+      "location": "Faculty of Dentistry, Universiti Malaya",
+      "description": "Faculty of Dentistry at Universiti Malaya.",
+      "sourceUrls": [
+        "https://www.um.edu.my/"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_faculty_dentistry"
+    },
+    {
+      "code": "FACULTY-EDUCATION",
+      "name": "Faculty of Education",
+      "kind": "faculty",
+      "category": "Faculties & Academies",
+      "location": "Faculty of Education, Universiti Malaya",
+      "description": "Faculty of Education at Universiti Malaya.",
+      "sourceUrls": [
+        "https://www.um.edu.my/"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_faculty_education"
+    },
+    {
+      "code": "FACULTY-ENGINEERING",
+      "name": "Faculty of Engineering",
+      "kind": "faculty",
+      "category": "Faculties & Academies",
+      "location": "Faculty of Engineering, Universiti Malaya",
+      "description": "Faculty of Engineering at Universiti Malaya.",
+      "sourceUrls": [
+        "https://www.um.edu.my/"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_faculty_engineering"
+    },
+    {
+      "code": "FACULTY-LANGUAGES-LINGUISTICS",
+      "name": "Faculty of Languages and Linguistics",
+      "kind": "faculty",
+      "category": "Faculties & Academies",
+      "location": "Faculty of Languages and Linguistics, Universiti Malaya",
+      "description": "Faculty of Languages and Linguistics at Universiti Malaya.",
+      "sourceUrls": [
+        "https://www.um.edu.my/"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_faculty_languages_linguistics"
+    },
+    {
+      "code": "FACULTY-LAW",
+      "name": "Faculty of Law",
+      "kind": "faculty",
+      "category": "Faculties & Academies",
+      "location": "Faculty of Law, Universiti Malaya",
+      "description": "Faculty of Law at Universiti Malaya.",
+      "sourceUrls": [
+        "https://www.um.edu.my/"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_faculty_law"
+    },
+    {
+      "code": "FACULTY-MEDICINE",
+      "name": "Faculty of Medicine",
+      "kind": "faculty",
+      "category": "Faculties & Academies",
+      "location": "Faculty of Medicine, Universiti Malaya",
+      "description": "Faculty of Medicine at Universiti Malaya.",
+      "sourceUrls": [
+        "https://www.um.edu.my/"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_faculty_medicine"
+    },
+    {
+      "code": "FACULTY-NURSING",
+      "name": "Faculty of Nursing",
+      "kind": "faculty",
+      "category": "Faculties & Academies",
+      "location": "Faculty of Nursing, Universiti Malaya",
+      "description": "Faculty of Nursing at Universiti Malaya.",
+      "sourceUrls": [
+        "https://www.um.edu.my/"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_faculty_nursing"
+    },
+    {
+      "code": "FACULTY-PHARMACY",
+      "name": "Faculty of Pharmacy",
+      "kind": "faculty",
+      "category": "Faculties & Academies",
+      "location": "Faculty of Pharmacy, Universiti Malaya",
+      "description": "Faculty of Pharmacy at Universiti Malaya.",
+      "sourceUrls": [
+        "https://www.um.edu.my/"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_faculty_pharmacy"
+    },
+    {
+      "code": "FACULTY-SCIENCE",
+      "name": "Faculty of Science",
+      "kind": "faculty",
+      "category": "Faculties & Academies",
+      "location": "Faculty of Science, Universiti Malaya",
+      "description": "Faculty of Science at Universiti Malaya.",
+      "sourceUrls": [
+        "https://www.um.edu.my/"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_faculty_science"
+    },
+    {
+      "code": "FACULTY-SPORTS-EXERCISE-SCIENCE",
+      "name": "Faculty of Sports and Exercise Science",
+      "kind": "faculty",
+      "category": "Faculties & Academies",
+      "location": "Faculty of Sports and Exercise Science, Universiti Malaya",
+      "description": "Faculty of Sports and Exercise Science at Universiti Malaya.",
+      "sourceUrls": [
+        "https://www.um.edu.my/"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_faculty_sports_exercise_science"
+    },
+    {
+      "code": "PASUM",
+      "name": "PASUM",
+      "kind": "faculty",
+      "category": "Faculties & Academies",
+      "location": "Centre for Foundation Studies in Science, Universiti Malaya",
+      "description": "Foundation studies centre at UM.",
+      "sourceUrls": [
+        "https://www.um.edu.my/"
+      ],
+      "confidence": "high",
+      "active": true,
+      "openingHours": null,
+      "aliases": [],
+      "lastVerified": "2026-11-25",
+      "id": "ent_place_pasum"
+    }
+  ]
+}

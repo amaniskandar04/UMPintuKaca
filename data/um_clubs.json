@@ -1,0 +1,3346 @@
+{
+  "generatedAt": "2026-11-26T16:44:03.758Z",
+  "lastVerified": "2026-11-26",
+  "clubs": [
+    {
+      "name": "Academy of Islamic Studies Student Union",
+      "aliases": [],
+      "category": "Student Union",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "instagram": "@kmum_apium",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=0"
+      ],
+      "code": "UMSU-API",
+      "explicitCode": true,
+      "description": "Faculty-level student union under the Universiti Malaya Students' Union.",
+      "id": "ent_club_umsu_api",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Academy of Malay Studies Student Union",
+      "aliases": [],
+      "category": "Student Union",
+      "faculty": "ACADEMY OF MALAY STUDIES",
+      "instagram": "@kmum_apm",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=0"
+      ],
+      "code": "UMSU-APM",
+      "explicitCode": true,
+      "description": "Faculty-level student union under the Universiti Malaya Students' Union.",
+      "id": "ent_club_umsu_apm",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Accounting Club UM (UMAC)",
+      "aliases": [],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "instagram": "@umac1975",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=157222999"
+      ],
+      "code": "UMAC",
+      "explicitCode": true,
+      "description": "Faculty-level academic student society at Universiti Malaya.",
+      "id": "ent_club_umac",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Alam Bina Society (ABSOC)",
+      "aliases": [],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF BUILT ENVIRONMENT",
+      "instagram": "@alambinaum",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=157222999"
+      ],
+      "code": "ABSOC",
+      "explicitCode": true,
+      "description": "Faculty-level academic student society at Universiti Malaya.",
+      "id": "ent_club_absoc",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "American Society of Heating, Refrigerating and Air-Conditioning Engineers (ASHRAE)",
+      "aliases": [],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF ENGINEERING",
+      "instagram": "@ashraeum",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=157222999"
+      ],
+      "code": "ASHRAE",
+      "explicitCode": true,
+      "description": "Faculty-level academic student society at Universiti Malaya.",
+      "id": "ent_club_ashrae",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Angkatan Kejuruteraan Islam Universiti Malaya (AKIUM)",
+      "aliases": [],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF ENGINEERING",
+      "instagram": "@akiumofficial",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=157222999"
+      ],
+      "code": "AKIUM",
+      "explicitCode": true,
+      "description": "Faculty-level academic student society at Universiti Malaya.",
+      "id": "ent_club_akium",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "ANSOS UM (Anthropology Society)",
+      "aliases": [],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "instagram": "@ansosunimalaya",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=157222999"
+      ],
+      "code": "ANSOS",
+      "explicitCode": true,
+      "description": "Faculty-level academic student society at Universiti Malaya.",
+      "id": "ent_club_ansos",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "ArtScience Club Universiti Malaya (ASC UM)",
+      "aliases": [],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF CREATIVE ARTS",
+      "instagram": null,
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=157222999"
+      ],
+      "code": "ASC",
+      "explicitCode": true,
+      "description": "Faculty-level academic student society at Universiti Malaya.",
+      "id": "ent_club_asc",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "code": "ALSA",
+      "name": "Asian Law Students' Association Universiti Malaya",
+      "aliases": [
+        "ALSA UM",
+        "Persatuan Pelajar Undang-Undang Asia"
+      ],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF LAW",
+      "instagram": "@alsaumofficial",
+      "linkedin": null,
+      "sources": [
+        "extras"
+      ],
+      "sourceUrls": [],
+      "lastVerified": "2026-11-26",
+      "explicitCode": true,
+      "description": "Faculty-level academic student society at Universiti Malaya.",
+      "id": "ent_club_alsa"
+    },
+    {
+      "code": "BMESC",
+      "name": "Biomedical Engineering Student Club",
+      "aliases": [
+        "BMESC UM"
+      ],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF ENGINEERING",
+      "instagram": "@bmesc_um",
+      "linkedin": null,
+      "sources": [
+        "extras"
+      ],
+      "sourceUrls": [],
+      "lastVerified": "2026-11-26",
+      "explicitCode": true,
+      "description": "Faculty-level academic student society at Universiti Malaya.",
+      "id": "ent_club_bmesc"
+    },
+    {
+      "name": "Biomedical Science Society UM",
+      "aliases": [],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF MEDICINE",
+      "instagram": "@umbiomedsoc",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=157222999"
+      ],
+      "code": "UMBIO",
+      "explicitCode": true,
+      "description": "Faculty-level academic student society at Universiti Malaya.",
+      "id": "ent_club_umbio",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "code": "BYIC",
+      "name": "Bursa Young Investor Club Universiti Malaya",
+      "aliases": [
+        "BYIC UM"
+      ],
+      "category": "Independent",
+      "instagram": "@byic_um",
+      "faculty": null,
+      "linkedin": null,
+      "sources": [
+        "extras"
+      ],
+      "sourceUrls": [],
+      "lastVerified": "2026-11-26",
+      "explicitCode": true,
+      "description": "Independent student society at Universiti Malaya.",
+      "id": "ent_club_byic"
+    },
+    {
+      "name": "Business Club UM (UMBC)",
+      "aliases": [],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "instagram": "@umbizclub",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=157222999"
+      ],
+      "code": "UMBC",
+      "explicitCode": true,
+      "description": "Faculty-level academic student society at Universiti Malaya.",
+      "id": "ent_club_umbc",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Catholic Students Society of Universiti Malaya",
+      "aliases": [
+        "Persatuan Pelajar Katolik Universiti Malaya (PKUM)",
+        "PKUM (sheet label)",
+        "Persatuan Pelajar Katolik Universiti Malaya",
+        "CSA",
+        "Catholic Student Association"
+      ],
+      "category": "Religious",
+      "faculty": null,
+      "instagram": null,
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=1929487026"
+      ],
+      "code": "CSSUM",
+      "explicitCode": true,
+      "description": "Religious student society at Universiti Malaya.",
+      "id": "ent_club_cssum",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "code": "CEUC",
+      "name": "Chemical Engineering Undergraduate Club",
+      "aliases": [
+        "CEUC UM"
+      ],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF ENGINEERING",
+      "instagram": "@ceuc.um.news",
+      "linkedin": null,
+      "sources": [
+        "extras"
+      ],
+      "sourceUrls": [],
+      "lastVerified": "2026-11-26",
+      "explicitCode": true,
+      "description": "Faculty-level academic student society at Universiti Malaya.",
+      "id": "ent_club_ceuc"
+    },
+    {
+      "name": "City Glider Ultimate Frisbee (UM)",
+      "aliases": [],
+      "category": "Sports",
+      "faculty": null,
+      "instagram": "@citygliderultimate",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=966212369"
+      ],
+      "code": "CITYGLIDER",
+      "explicitCode": true,
+      "description": "Sports and recreation student group at Universiti Malaya.",
+      "id": "ent_club_cityglider",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "code": "CEEC",
+      "name": "Civil and Environmental Engineering Club Universiti Malaya",
+      "aliases": [
+        "CEEC UM"
+      ],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF ENGINEERING",
+      "instagram": "@ceec_um",
+      "linkedin": null,
+      "sources": [
+        "extras"
+      ],
+      "sourceUrls": [],
+      "lastVerified": "2026-11-26",
+      "explicitCode": true,
+      "description": "Faculty-level academic student society at Universiti Malaya.",
+      "id": "ent_club_ceec"
+    },
+    {
+      "name": "Data Analytics Club (UMDAC)",
+      "aliases": [],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
+      "instagram": "@um_dac",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=157222999"
+      ],
+      "code": "UMDAC",
+      "explicitCode": true,
+      "description": "Faculty-level academic student society at Universiti Malaya.",
+      "id": "ent_club_umdac",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Demokrat",
+      "aliases": [],
+      "category": "Campus Politics",
+      "faculty": null,
+      "instagram": "@demokratmalaya",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=529707404"
+      ],
+      "code": "DEMOKRAT",
+      "explicitCode": true,
+      "description": "Campus political student group at Universiti Malaya.",
+      "id": "ent_club_demokrat",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "East Asian Studies Association（EASA）",
+      "aliases": [],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "instagram": "@easa_um",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=157222999"
+      ],
+      "code": "EASA",
+      "explicitCode": true,
+      "description": "Faculty-level academic student society at Universiti Malaya.",
+      "id": "ent_club_easa",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "code": "EMPATI",
+      "name": "Empati Mental Health Support Group",
+      "aliases": [
+        "Empati UM"
+      ],
+      "category": "Service",
+      "instagram": "@empati_malaysia",
+      "faculty": null,
+      "linkedin": null,
+      "sources": [
+        "extras"
+      ],
+      "sourceUrls": [],
+      "lastVerified": "2026-11-26",
+      "explicitCode": true,
+      "description": "Student volunteer or community-service group at Universiti Malaya.",
+      "id": "ent_club_empati"
+    },
+    {
+      "name": "Engineering Society Universiti Malaya",
+      "aliases": [
+        "Persatuan Kejuruteraan Universiti Malaya"
+      ],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF ENGINEERING",
+      "instagram": null,
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=157222999"
+      ],
+      "code": "PKUM",
+      "explicitCode": true,
+      "description": "Faculty-level academic student society at Universiti Malaya.",
+      "id": "ent_club_pkum",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Faculty of Arts and Social Sciences Student Union",
+      "aliases": [],
+      "category": "Student Union",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "instagram": "@kmum_fsss",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=0"
+      ],
+      "code": "UMSU-FASS",
+      "explicitCode": true,
+      "description": "Faculty-level student union under the Universiti Malaya Students' Union.",
+      "id": "ent_club_umsu_fass",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Faculty of Built Environment Student Union",
+      "aliases": [],
+      "category": "Student Union",
+      "faculty": "FACULTY OF BUILT ENVIRONMENT",
+      "instagram": "@umsu.fab",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=0"
+      ],
+      "code": "UMSU-FOBE",
+      "explicitCode": true,
+      "description": "Faculty-level student union under the Universiti Malaya Students' Union.",
+      "id": "ent_club_umsu_fobe",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Faculty of Business and Economics Student Union",
+      "aliases": [],
+      "category": "Student Union",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "instagram": "@kmum_fpe",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=0"
+      ],
+      "code": "UMSU-FBE",
+      "explicitCode": true,
+      "description": "Faculty-level student union under the Universiti Malaya Students' Union.",
+      "id": "ent_club_umsu_fbe",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Faculty of Computer Science and Information Technology Student Union",
+      "aliases": [],
+      "category": "Student Union",
+      "faculty": "FACULTY OF COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
+      "instagram": "@umsu_fcsit",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=0"
+      ],
+      "code": "UMSU-FCSIT",
+      "explicitCode": true,
+      "description": "Faculty-level student union under the Universiti Malaya Students' Union.",
+      "id": "ent_club_umsu_fcsit",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Faculty of Creative Arts Student Union",
+      "aliases": [],
+      "category": "Student Union",
+      "faculty": "FACULTY OF CREATIVE ARTS",
+      "instagram": "@umsufoca_",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=0"
+      ],
+      "code": "UMSU-FCA",
+      "explicitCode": true,
+      "description": "Faculty-level student union under the Universiti Malaya Students' Union.",
+      "id": "ent_club_umsu_fca",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Faculty of Dentistry Student Union",
+      "aliases": [],
+      "category": "Student Union",
+      "faculty": "FACULTY OF DENTISTRY",
+      "instagram": "@kmumpergigian",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=0"
+      ],
+      "code": "UMSU-FOD",
+      "explicitCode": true,
+      "description": "Faculty-level student union under the Universiti Malaya Students' Union.",
+      "id": "ent_club_umsu_fod",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Faculty of Education Student Union",
+      "aliases": [],
+      "category": "Student Union",
+      "faculty": "FACULTY OF EDUCATION",
+      "instagram": "@kmumpendidikan",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=0"
+      ],
+      "code": "UMSU-FED",
+      "explicitCode": true,
+      "description": "Faculty-level student union under the Universiti Malaya Students' Union.",
+      "id": "ent_club_umsu_fed",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Faculty of Engineering Student Union",
+      "aliases": [],
+      "category": "Student Union",
+      "faculty": "FACULTY OF ENGINEERING",
+      "instagram": "@umsu_engine",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=0"
+      ],
+      "code": "UMSU-FENG",
+      "explicitCode": true,
+      "description": "Faculty-level student union under the Universiti Malaya Students' Union.",
+      "id": "ent_club_umsu_feng",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Faculty of Languages and Linguistics Student Union",
+      "aliases": [],
+      "category": "Student Union",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "instagram": "@fll.kmum",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=0"
+      ],
+      "code": "UMSU-FLL",
+      "explicitCode": true,
+      "description": "Faculty-level student union under the Universiti Malaya Students' Union.",
+      "id": "ent_club_umsu_fll",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Faculty of Law Student Union",
+      "aliases": [],
+      "category": "Student Union",
+      "faculty": "FACULTY OF LAW",
+      "instagram": "@umsulawfac",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=0"
+      ],
+      "code": "UMSU-FOL",
+      "explicitCode": true,
+      "description": "Faculty-level student union under the Universiti Malaya Students' Union.",
+      "id": "ent_club_umsu_fol",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Faculty of Medicine Student Union",
+      "aliases": [],
+      "category": "Student Union",
+      "faculty": "FACULTY OF MEDICINE",
+      "instagram": "@umsu_fom",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=0"
+      ],
+      "code": "UMSU-FOM",
+      "explicitCode": true,
+      "description": "Faculty-level student union under the Universiti Malaya Students' Union.",
+      "id": "ent_club_umsu_fom",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Faculty of Pharmacy Student Union",
+      "aliases": [],
+      "category": "Student Union",
+      "faculty": "FACULTY OF PHARMACY",
+      "instagram": "@umsu_fop",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=0"
+      ],
+      "code": "UMSU-FOP",
+      "explicitCode": true,
+      "description": "Faculty-level student union under the Universiti Malaya Students' Union.",
+      "id": "ent_club_umsu_fop",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Faculty of Science Student Union",
+      "aliases": [],
+      "category": "Student Union",
+      "faculty": "FACULTY OF SCIENCE",
+      "instagram": "@facultyscienceumsu",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=0"
+      ],
+      "code": "UMSU-FOS",
+      "explicitCode": true,
+      "description": "Faculty-level student union under the Universiti Malaya Students' Union.",
+      "id": "ent_club_umsu_fos",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Faculty of Sports and Exercise Sciences Student Union",
+      "aliases": [],
+      "category": "Student Union",
+      "faculty": "FACULTY OF SPORTS AND EXERCISE SCIENCES",
+      "instagram": "@kmum_fsse",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=0"
+      ],
+      "code": "UMSU-FSES",
+      "explicitCode": true,
+      "description": "Faculty-level student union under the Universiti Malaya Students' Union.",
+      "id": "ent_club_umsu_fses",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Finance Association UM (UMFA)",
+      "aliases": [],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "instagram": "@umfa.official",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=157222999"
+      ],
+      "code": "UMFA",
+      "explicitCode": true,
+      "description": "Faculty-level academic student society at Universiti Malaya.",
+      "id": "ent_club_umfa",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "code": "GPMSUM",
+      "name": "Gabungan Pelajar Melayu Semenanjung Cawangan Khas Universiti Malaya",
+      "aliases": [
+        "GPMSUM"
+      ],
+      "category": "Independent",
+      "instagram": "@official_gpmsum",
+      "faculty": null,
+      "linkedin": null,
+      "sources": [
+        "extras"
+      ],
+      "sourceUrls": [],
+      "lastVerified": "2026-11-26",
+      "explicitCode": true,
+      "description": "Independent student society at Universiti Malaya.",
+      "id": "ent_club_gpmsum"
+    },
+    {
+      "name": "Google Developer Group On Campus Universiti Malaya",
+      "aliases": [],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
+      "instagram": "@gdg.um",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=157222999"
+      ],
+      "code": "GDG",
+      "explicitCode": true,
+      "description": "Faculty-level academic student society at Universiti Malaya.",
+      "id": "ent_club_gdg",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "HARAM",
+      "aliases": [],
+      "category": "Activism",
+      "faculty": null,
+      "instagram": null,
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=2109082201"
+      ],
+      "code": "HARAM",
+      "explicitCode": true,
+      "description": "Student activism group at Universiti Malaya.",
+      "id": "ent_club_haram",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Institute for Advanced Studies Student Union",
+      "aliases": [],
+      "category": "Student Union",
+      "faculty": "INSTITUTE FOR ADVANCED STUDIES",
+      "instagram": null,
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=0"
+      ],
+      "code": "UMSU-IAS",
+      "explicitCode": true,
+      "description": "Faculty-level student union under the Universiti Malaya Students' Union.",
+      "id": "ent_club_umsu_ias",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "International Relations Society (IRSOC)",
+      "aliases": [],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "instagram": "@irsoc",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=157222999"
+      ],
+      "code": "IRSOC",
+      "explicitCode": true,
+      "description": "Faculty-level academic student society at Universiti Malaya.",
+      "id": "ent_club_irsoc",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "International Taekwondo Federation UM",
+      "aliases": [
+        "International Taekwondo Federation (ITF UM)"
+      ],
+      "category": "Sports",
+      "faculty": null,
+      "instagram": "@taekwondoitfum",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=966212369"
+      ],
+      "code": "TKD-ITF",
+      "explicitCode": true,
+      "description": "Sports and recreation student group at Universiti Malaya.",
+      "id": "ent_club_tkd_itf",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Kabaddi Club of Universiti Malaya (KCUM)",
+      "aliases": [],
+      "category": "Sports",
+      "faculty": null,
+      "instagram": "@umtamiltigers",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=966212369"
+      ],
+      "code": "KCUM",
+      "explicitCode": true,
+      "description": "Sports and recreation student group at Universiti Malaya.",
+      "id": "ent_club_kcum",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "code": "KAFA",
+      "name": "Kelab Kemahiran Al-Quran dan Fardu Ain Universiti Malaya",
+      "aliases": [
+        "KAFA UM",
+        "Kelab Kemahiran Al-Quran & Fardu Ain"
+      ],
+      "category": "Religious",
+      "instagram": "@kafaum",
+      "faculty": null,
+      "linkedin": null,
+      "sources": [
+        "extras"
+      ],
+      "sourceUrls": [],
+      "lastVerified": "2026-11-26",
+      "explicitCode": true,
+      "description": "Religious student society at Universiti Malaya.",
+      "id": "ent_club_kafa"
+    },
+    {
+      "name": "Kelab Lawan Pedang UM (Olympic Fencing)",
+      "aliases": [],
+      "category": "Sports",
+      "faculty": null,
+      "instagram": "@klpum",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=966212369"
+      ],
+      "code": "KLPUM",
+      "explicitCode": true,
+      "description": "Sports and recreation student group at Universiti Malaya.",
+      "id": "ent_club_klpum",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "code": "SPAS",
+      "name": "Kelab Sains Pengurusan Alam Sekitar",
+      "aliases": [
+        "SPAS UM"
+      ],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF SCIENCE",
+      "instagram": "@spas.um",
+      "linkedin": null,
+      "sources": [
+        "extras"
+      ],
+      "sourceUrls": [],
+      "lastVerified": "2026-11-26",
+      "explicitCode": true,
+      "description": "Faculty-level academic student society at Universiti Malaya.",
+      "id": "ent_club_spas"
+    },
+    {
+      "name": "Kolej Kediaman 1 (KK1)",
+      "aliases": [],
+      "category": "Residential College",
+      "faculty": null,
+      "instagram": "@astar_um",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=1441135521"
+      ],
+      "code": "KK1",
+      "explicitCode": true,
+      "description": "Residential college student body at Universiti Malaya.",
+      "id": "ent_club_kk1",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Kolej Kediaman 10 (KK10)",
+      "aliases": [],
+      "category": "Residential College",
+      "faculty": null,
+      "instagram": "@tazmanian10th",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=1441135521"
+      ],
+      "code": "KK10",
+      "explicitCode": true,
+      "description": "Residential college student body at Universiti Malaya.",
+      "id": "ent_club_kk10",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Kolej Kediaman 11 (KK11)",
+      "aliases": [],
+      "category": "Residential College",
+      "faculty": null,
+      "instagram": "@officialkuaz",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=1441135521"
+      ],
+      "code": "KK11",
+      "explicitCode": true,
+      "description": "Residential college student body at Universiti Malaya.",
+      "id": "ent_club_kk11",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Kolej Kediaman 12 (KK12)",
+      "aliases": [],
+      "category": "Residential College",
+      "faculty": null,
+      "instagram": "@royal12th",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=1441135521"
+      ],
+      "code": "KK12",
+      "explicitCode": true,
+      "description": "Residential college student body at Universiti Malaya.",
+      "id": "ent_club_kk12",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Kolej Kediaman 13 (KK13)",
+      "aliases": [],
+      "category": "Residential College",
+      "faculty": null,
+      "instagram": "@kk13um",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=1441135521"
+      ],
+      "code": "KK13",
+      "explicitCode": true,
+      "description": "Residential college student body at Universiti Malaya.",
+      "id": "ent_club_kk13",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Kolej Kediaman 2 (KK2)",
+      "aliases": [],
+      "category": "Residential College",
+      "faculty": null,
+      "instagram": "@kolejkeduaum",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=1441135521"
+      ],
+      "code": "KK2",
+      "explicitCode": true,
+      "description": "Residential college student body at Universiti Malaya.",
+      "id": "ent_club_kk2",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Kolej Kediaman 3 (KK3)",
+      "aliases": [],
+      "category": "Residential College",
+      "faculty": null,
+      "instagram": "@kk3kurshiah",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=1441135521"
+      ],
+      "code": "KK3",
+      "explicitCode": true,
+      "description": "Residential college student body at Universiti Malaya.",
+      "id": "ent_club_kk3",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Kolej Kediaman 4 (KK4)",
+      "aliases": [],
+      "category": "Residential College",
+      "faculty": null,
+      "instagram": "@bestari4th",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=1441135521"
+      ],
+      "code": "KK4",
+      "explicitCode": true,
+      "description": "Residential college student body at Universiti Malaya.",
+      "id": "ent_club_kk4",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Kolej Kediaman 5 (KK5)",
+      "aliases": [],
+      "category": "Residential College",
+      "faculty": null,
+      "instagram": "@dayasari5th",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=1441135521"
+      ],
+      "code": "KK5",
+      "explicitCode": true,
+      "description": "Residential college student body at Universiti Malaya.",
+      "id": "ent_club_kk5",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Kolej Kediaman 6 (KK6)",
+      "aliases": [],
+      "category": "Residential College",
+      "faculty": null,
+      "instagram": "@kk6um.ibnusina",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=1441135521"
+      ],
+      "code": "KK6",
+      "explicitCode": true,
+      "description": "Residential college student body at Universiti Malaya.",
+      "id": "ent_club_kk6",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Kolej Kediaman 7 (KK7)",
+      "aliases": [],
+      "category": "Residential College",
+      "faculty": null,
+      "instagram": "@seventhcollegeum",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=1441135521"
+      ],
+      "code": "KK7",
+      "explicitCode": true,
+      "description": "Residential college student body at Universiti Malaya.",
+      "id": "ent_club_kk7",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Kolej Kediaman 8 (KK8)",
+      "aliases": [],
+      "category": "Residential College",
+      "faculty": null,
+      "instagram": "@kolej_kediaman8",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=1441135521"
+      ],
+      "code": "KK8",
+      "explicitCode": true,
+      "description": "Residential college student body at Universiti Malaya.",
+      "id": "ent_club_kk8",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Kolej Kediaman 9 (KK9)",
+      "aliases": [],
+      "category": "Residential College",
+      "faculty": null,
+      "instagram": "@kk9um",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=1441135521"
+      ],
+      "code": "KK9",
+      "explicitCode": true,
+      "description": "Residential college student body at Universiti Malaya.",
+      "id": "ent_club_kk9",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Liga Mahasiswa",
+      "aliases": [],
+      "category": "Activism",
+      "faculty": null,
+      "instagram": "@ligamahasiswa.um",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=2109082201"
+      ],
+      "code": "LIGA",
+      "explicitCode": true,
+      "description": "Student activism group at Universiti Malaya.",
+      "id": "ent_club_liga",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "code": "LIDRA",
+      "name": "Literary and Dramatic Association (LIDRA)",
+      "aliases": [
+        "Persatuan Lidra",
+        "LiDra"
+      ],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "linkedin": "lidra-um",
+      "instagram": null,
+      "sources": [
+        "extras"
+      ],
+      "sourceUrls": [],
+      "lastVerified": "2026-11-26",
+      "explicitCode": true,
+      "description": "Faculty-level academic student society at Universiti Malaya.",
+      "id": "ent_club_lidra"
+    },
+    {
+      "name": "Mahasiswa Keadilan UM",
+      "aliases": [],
+      "category": "National Politics",
+      "faculty": null,
+      "instagram": "@mkm.unimalaya",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=623464991"
+      ],
+      "code": "MKUM",
+      "explicitCode": true,
+      "description": "National political party student wing at Universiti Malaya.",
+      "id": "ent_club_mkum",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Mahasiswa Progresif",
+      "aliases": [],
+      "category": "Campus Politics",
+      "faculty": null,
+      "instagram": "@mahasiswaprogresif_um",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=529707404"
+      ],
+      "code": "MPROG",
+      "explicitCode": true,
+      "description": "Campus political student group at Universiti Malaya.",
+      "id": "ent_club_mprog",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Majlis Orator Universiti Malaya",
+      "aliases": [
+        "Majlis Oratar UM",
+        "Debat Malaya"
+      ],
+      "category": "Development",
+      "faculty": null,
+      "instagram": "@debatmalaya",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=1235962870"
+      ],
+      "code": "MORUM",
+      "explicitCode": true,
+      "description": "Student development or debate society at Universiti Malaya.",
+      "id": "ent_club_morum",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Malaya Debate Society",
+      "aliases": [],
+      "category": "Development",
+      "faculty": null,
+      "instagram": "@malayadebates_",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=1235962870"
+      ],
+      "code": "MALAYADEBATE",
+      "explicitCode": true,
+      "description": "Student development or debate society at Universiti Malaya.",
+      "id": "ent_club_malayadebate",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Malaya Electrical Students Association",
+      "aliases": [
+        "Malayan Electrical Student Association"
+      ],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF ENGINEERING",
+      "instagram": null,
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=157222999"
+      ],
+      "code": "MESA",
+      "explicitCode": true,
+      "description": "Faculty-level academic student society at Universiti Malaya.",
+      "id": "ent_club_mesa",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Malaya Esports Club",
+      "aliases": [
+        "Malaya Esport Club"
+      ],
+      "category": "Sports",
+      "faculty": null,
+      "instagram": "@malaya.esports",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=966212369"
+      ],
+      "code": "UMESPORTS",
+      "explicitCode": true,
+      "description": "Sports and recreation student group at Universiti Malaya.",
+      "id": "ent_club_umesports",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "code": "MALAYAMUN",
+      "name": "MalayaMUN",
+      "aliases": [
+        "MUNUM",
+        "Malaya Model United Nations Society",
+        "Persatuan Model Pertubuhan Bangsa-Bangsa Bersatu Universiti Malaya"
+      ],
+      "category": "Independent",
+      "instagram": "@malayamunsociety",
+      "linkedin": "malayamun",
+      "faculty": null,
+      "sources": [
+        "extras"
+      ],
+      "sourceUrls": [],
+      "lastVerified": "2026-11-26",
+      "explicitCode": true,
+      "description": "Independent student society at Universiti Malaya.",
+      "id": "ent_club_malayamun"
+    },
+    {
+      "code": "UMMMG",
+      "name": "Microbiology and Molecular Genetics Club Universiti Malaya",
+      "aliases": [
+        "MMGCUM"
+      ],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF SCIENCE",
+      "linkedin": "microbiology-and-molecular-genetics-club-um",
+      "instagram": null,
+      "sources": [
+        "extras"
+      ],
+      "sourceUrls": [],
+      "lastVerified": "2026-11-26",
+      "explicitCode": true,
+      "description": "Faculty-level academic student society at Universiti Malaya.",
+      "id": "ent_club_ummmg"
+    },
+    {
+      "name": "National Blood Donation (NBD) UM Club",
+      "aliases": [],
+      "category": "Social",
+      "faculty": null,
+      "instagram": "@nbd_um",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=774424116"
+      ],
+      "code": "NBD",
+      "explicitCode": true,
+      "description": "Social or cultural student group at Universiti Malaya.",
+      "id": "ent_club_nbd",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Neo Siswa",
+      "aliases": [],
+      "category": "Campus Politics",
+      "faculty": null,
+      "instagram": "@neo_siswaum",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=529707404"
+      ],
+      "code": "NEOSISWA",
+      "explicitCode": true,
+      "description": "Campus political student group at Universiti Malaya.",
+      "id": "ent_club_neosiswa",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "New Gen",
+      "aliases": [],
+      "category": "Campus Politics",
+      "faculty": null,
+      "instagram": "@newgen.um",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=529707404"
+      ],
+      "code": "NEWGEN",
+      "explicitCode": true,
+      "description": "Campus political student group at Universiti Malaya.",
+      "id": "ent_club_newgen",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Official UM Volleyball Team",
+      "aliases": [],
+      "category": "Sports",
+      "faculty": null,
+      "instagram": "@umtigersvc",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=966212369"
+      ],
+      "code": "UMVB-TEAM",
+      "explicitCode": true,
+      "description": "Sports and recreation student group at Universiti Malaya.",
+      "id": "ent_club_umvb_team",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "One Point Ultimate (Based in UM)",
+      "aliases": [],
+      "category": "Sports",
+      "faculty": null,
+      "instagram": "@onepoint.ultimate",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=966212369"
+      ],
+      "code": "ONEPOINT",
+      "explicitCode": true,
+      "description": "Sports and recreation student group at Universiti Malaya.",
+      "id": "ent_club_onepoint",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Pendekar Seabad UM (Silat Gayong)",
+      "aliases": [
+        "Persatuan Seni Silat Gayong Malaysia Universiti Malaya"
+      ],
+      "category": "Sports",
+      "faculty": null,
+      "instagram": "@pendekar_seabad",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=966212369"
+      ],
+      "code": "PSSGM",
+      "explicitCode": true,
+      "description": "Sports and recreation student group at Universiti Malaya.",
+      "id": "ent_club_pssgm",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Persatuan Anak Negeri Sembilan Universiti Malaya",
+      "aliases": [],
+      "category": "State",
+      "faculty": null,
+      "instagram": "@permanisum_official",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=653863907"
+      ],
+      "code": "PERMANIS",
+      "explicitCode": true,
+      "description": "State-based student association at Universiti Malaya.",
+      "id": "ent_club_permanis",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Persatuan Bahasa Arab Universiti Malaya",
+      "aliases": [
+        "Persatuan Bahasa Arab UM (PBAUM)"
+      ],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "instagram": "@pbaum_official",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=157222999"
+      ],
+      "code": "PBAUM",
+      "explicitCode": true,
+      "description": "Faculty-level academic student society at Universiti Malaya.",
+      "id": "ent_club_pbaum",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "code": "PBCUM",
+      "name": "Persatuan Bahasa Cina Universiti Malaya",
+      "aliases": [
+        "PBCUM",
+        "Chinese Language Association"
+      ],
+      "category": "Cultural",
+      "instagram": "@pbcum_",
+      "faculty": null,
+      "linkedin": null,
+      "sources": [
+        "extras"
+      ],
+      "sourceUrls": [],
+      "lastVerified": "2026-11-26",
+      "explicitCode": true,
+      "description": "Cultural student society at Universiti Malaya.",
+      "id": "ent_club_pbcum"
+    },
+    {
+      "name": "Persatuan Belia Harmoni Universiti Malaya",
+      "aliases": [],
+      "category": "Religious",
+      "faculty": null,
+      "instagram": "@harmoniumalaya",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=1929487026"
+      ],
+      "code": "HARMONI",
+      "explicitCode": true,
+      "description": "Religious student society at Universiti Malaya.",
+      "id": "ent_club_harmoni",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "code": "PEMBINA",
+      "name": "Persatuan Belia Islam Nasional Universiti Malaya",
+      "aliases": [
+        "PEMBINA UM"
+      ],
+      "category": "Religious",
+      "instagram": "@pembinaum",
+      "faculty": null,
+      "linkedin": null,
+      "sources": [
+        "extras"
+      ],
+      "sourceUrls": [],
+      "lastVerified": "2026-11-26",
+      "explicitCode": true,
+      "description": "Religious student society at Universiti Malaya.",
+      "id": "ent_club_pembina"
+    },
+    {
+      "name": "Persatuan Biokimia Universiti Malaya",
+      "aliases": [
+        "Persatuan Biokimia Universiti Malaya (PBUM)"
+      ],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF SCIENCE",
+      "instagram": "@umbiochemclub",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=157222999"
+      ],
+      "code": "PBUM",
+      "explicitCode": true,
+      "description": "Faculty-level academic student society at Universiti Malaya.",
+      "id": "ent_club_pbum",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Persatuan Bouldering Universiti Malaya",
+      "aliases": [
+        "Persatuan Bouldering Universiti Malaya (PBUM)",
+        "PBUM (sheet label)"
+      ],
+      "category": "Sports",
+      "faculty": null,
+      "instagram": "@bouldering.um",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=966212369"
+      ],
+      "code": "PBOLD",
+      "explicitCode": true,
+      "description": "Sports and recreation student group at Universiti Malaya.",
+      "id": "ent_club_pbold",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "code": "PBUDD",
+      "name": "Persatuan Buddhis Universiti Malaya",
+      "aliases": [
+        "PBUM",
+        "Buddhist Association",
+        "Buddhis Association"
+      ],
+      "category": "Religious",
+      "instagram": "@pbum1961",
+      "faculty": null,
+      "linkedin": null,
+      "sources": [
+        "extras"
+      ],
+      "sourceUrls": [],
+      "lastVerified": "2026-11-26",
+      "explicitCode": true,
+      "description": "Religious student society at Universiti Malaya.",
+      "id": "ent_club_pbudd"
+    },
+    {
+      "name": "Persatuan Ekonomi UM (PEKUMA)",
+      "aliases": [],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "instagram": "@pekuma.um",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=157222999"
+      ],
+      "code": "PEKUMA",
+      "explicitCode": true,
+      "description": "Faculty-level academic student society at Universiti Malaya.",
+      "id": "ent_club_pekuma",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Persatuan Fizik UM",
+      "aliases": [],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF SCIENCE",
+      "instagram": "@persatuanfizik.um",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=157222999"
+      ],
+      "code": "PERFUM",
+      "explicitCode": true,
+      "description": "Faculty-level academic student society at Universiti Malaya.",
+      "id": "ent_club_perfum",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Persatuan Geografi UM (Geography Society)",
+      "aliases": [],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "instagram": "@persatuangeografium",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=157222999"
+      ],
+      "code": "PGUM",
+      "explicitCode": true,
+      "description": "Faculty-level academic student society at Universiti Malaya.",
+      "id": "ent_club_pgum",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Persatuan Hindu Universiti Malaya",
+      "aliases": [],
+      "category": "Religious",
+      "faculty": null,
+      "instagram": null,
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=1929487026"
+      ],
+      "code": "PHUM",
+      "explicitCode": true,
+      "description": "Religious student society at Universiti Malaya.",
+      "id": "ent_club_phum",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Persatuan Kaunseling UM",
+      "aliases": [],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF EDUCATION",
+      "instagram": "@perkum.um",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=157222999"
+      ],
+      "code": "PERKUM",
+      "explicitCode": true,
+      "description": "Faculty-level academic student society at Universiti Malaya.",
+      "id": "ent_club_perkum",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Persatuan Kebangsaan Pelajar Islam Malaysia Universiti Malaya",
+      "aliases": [],
+      "category": "Religious",
+      "faculty": null,
+      "instagram": "@pkpimum",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=1929487026"
+      ],
+      "code": "PKPIM",
+      "explicitCode": true,
+      "description": "Religious student society at Universiti Malaya.",
+      "id": "ent_club_pkpim",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Persatuan Komputer Universiti Malaya",
+      "aliases": [],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
+      "instagram": "@pekomum",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=157222999"
+      ],
+      "code": "PEKOM",
+      "explicitCode": true,
+      "description": "Faculty-level academic student society at Universiti Malaya.",
+      "id": "ent_club_pekom",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "code": "PMAPIUM",
+      "name": "Persatuan Mahasiswa Akademi Pengajian Islam Universiti Malaya",
+      "aliases": [
+        "Persatuan Akademi Pengajian Islam"
+      ],
+      "category": "Faculty Society",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "instagram": "@mypmapium",
+      "linkedin": null,
+      "sources": [
+        "extras"
+      ],
+      "sourceUrls": [],
+      "lastVerified": "2026-11-26",
+      "explicitCode": true,
+      "description": "Faculty-level academic student society at Universiti Malaya.",
+      "id": "ent_club_pmapium"
+    },
+    {
+      "code": "PMAPM",
+      "name": "Persatuan Mahasiswa Akademi Pengajian Melayu Universiti Malaya",
+      "aliases": [
+        "PMAPMUM"
+      ],
+      "category": "Faculty Society",
+      "faculty": "ACADEMY OF MALAY STUDIES",
+      "instagram": "@pmapmum",
+      "linkedin": null,
+      "sources": [
+        "extras"
+      ],
+      "sourceUrls": [],
+      "lastVerified": "2026-11-26",
+      "explicitCode": true,
+      "description": "Faculty-level academic student society at Universiti Malaya.",
+      "id": "ent_club_pmapm"
+    },
+    {
+      "name": "Persatuan Mahasiswa Anak Melaka Universiti Malaya",
+      "aliases": [],
+      "category": "State",
+      "faculty": null,
+      "instagram": "@makmum_",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=653863907"
+      ],
+      "code": "MAKMUM",
+      "explicitCode": true,
+      "description": "State-based student association at Universiti Malaya.",
+      "id": "ent_club_makmum",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Persatuan Mahasiswa Anak Terengganu Universiti Malaya",
+      "aliases": [],
+      "category": "State",
+      "faculty": null,
+      "instagram": "@permata.um",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=653863907"
+      ],
+      "code": "PERMATA",
+      "explicitCode": true,
+      "description": "State-based student association at Universiti Malaya.",
+      "id": "ent_club_permata",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Persatuan Mahasiswa Islam Universiti Malaya",
+      "aliases": [],
+      "category": "Religious",
+      "faculty": null,
+      "instagram": "@pmium_official",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=1929487026"
+      ],
+      "code": "PMIUM",
+      "explicitCode": true,
+      "description": "Religious student society at Universiti Malaya.",
+      "id": "ent_club_pmium",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Persatuan Mahasiswa Istimewa Universiti Malaya (PERMIUM)",
+      "aliases": [],
+      "category": "Social",
+      "faculty": null,
+      "instagram": "@permium_official",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=774424116"
+      ],
+      "code": "PERMIUM",
+      "explicitCode": true,
+      "description": "Social or cultural student group at Universiti Malaya.",
+      "id": "ent_club_permium",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Persatuan Mahasiswa Johor Universiti Malaya",
+      "aliases": [],
+      "category": "State",
+      "faculty": null,
+      "instagram": "@pemashor_um",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=653863907"
+      ],
+      "code": "PEMASHOR",
+      "explicitCode": true,
+      "description": "State-based student association at Universiti Malaya.",
+      "id": "ent_club_pemashor",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Persatuan Mahasiswa Kedah Universiti Malaya",
+      "aliases": [],
+      "category": "State",
+      "faculty": null,
+      "instagram": "@permadah_um",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=653863907"
+      ],
+      "code": "PERMADAH",
+      "explicitCode": true,
+      "description": "State-based student association at Universiti Malaya.",
+      "id": "ent_club_permadah",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Persatuan Mahasiswa Kelantan Universiti Malaya",
+      "aliases": [],
+      "category": "State",
+      "faculty": null,
+      "instagram": "@pmkunimalaya",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=653863907"
+      ],
+      "code": "PMKUM",
+      "explicitCode": true,
+      "description": "State-based student association at Universiti Malaya.",
+      "id": "ent_club_pmkum",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Persatuan Mahasiswa Pahang Universiti Malaya",
+      "aliases": [],
+      "category": "State",
+      "faculty": null,
+      "instagram": "@pmp_um",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=653863907"
+      ],
+      "code": "PMPUM",
+      "explicitCode": true,
+      "description": "State-based student association at Universiti Malaya.",
+      "id": "ent_club_pmpum",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Persatuan Mahasiswa Perak Universiti Malaya",
+      "aliases": [],
+      "category": "State",
+      "faculty": null,
+      "instagram": "@pemarakum",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=653863907"
+      ],
+      "code": "PEMARAK",
+      "explicitCode": true,
+      "description": "State-based student association at Universiti Malaya.",
+      "id": "ent_club_pemarak",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Persatuan Mahasiswa Perlis Universiti Malaya",
+      "aliases": [],
+      "category": "State",
+      "faculty": null,
+      "instagram": null,
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=653863907"
+      ],
+      "code": "PERLIS",
+      "explicitCode": true,
+      "description": "State-based student association at Universiti Malaya.",
+      "id": "ent_club_perlis",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Persatuan Mahasiswa Pulau Pinang Universiti Malaya",
+      "aliases": [],
+      "category": "State",
+      "faculty": null,
+      "instagram": "@pmapp_um",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=653863907"
+      ],
+      "code": "PMPPUM",
+      "explicitCode": true,
+      "description": "State-based student association at Universiti Malaya.",
+      "id": "ent_club_pmppum",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Persatuan Mahasiswa Sabah Universiti Malaya",
+      "aliases": [],
+      "category": "State",
+      "faculty": null,
+      "instagram": "@permasa_um",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=653863907"
+      ],
+      "code": "PERMASA",
+      "explicitCode": true,
+      "description": "State-based student association at Universiti Malaya.",
+      "id": "ent_club_permasa",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Persatuan Mahasiswa Sarawak Universiti Malaya",
+      "aliases": [],
+      "category": "State",
+      "faculty": null,
+      "instagram": "@pmsum_",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=653863907"
+      ],
+      "code": "PMSUM",
+      "explicitCode": true,
+      "description": "State-based student association at Universiti Malaya.",
+      "id": "ent_club_pmsum",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Persatuan Mahasiswa Selangor Universiti Malaya",
+      "aliases": [],
+      "category": "State",
+      "faculty": null,
+      "instagram": "@permas_um",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=653863907"
+      ],
+      "code": "PERMAS",
+      "explicitCode": true,
+      "description": "State-based student association at Universiti Malaya.",
+      "id": "ent_club_permas",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "code": "PPIUM",
+      "name": "Persatuan Pelajar Indonesia Universiti Malaya",
+      "aliases": [
+        "PPI-UM"
+      ],
+      "category": "International",
+      "instagram": "@ppiunimalaya",
+      "linkedin": "ppiunimalaya",
+      "faculty": null,
+      "sources": [
+        "extras"
+      ],
+      "sourceUrls": [],
+      "lastVerified": "2026-11-26",
+      "explicitCode": true,
+      "description": "International student association at Universiti Malaya.",
+      "id": "ent_club_ppium"
+    },
+    {
+      "code": "PPIPUM",
+      "name": "Persatuan Pelajar Islam Pergigian Universiti Malaya",
+      "aliases": [
+        "PPIPUM"
+      ],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF DENTISTRY",
+      "instagram": "@ppipumalaya",
+      "linkedin": null,
+      "sources": [
+        "extras"
+      ],
+      "sourceUrls": [],
+      "lastVerified": "2026-11-26",
+      "explicitCode": true,
+      "description": "Faculty-level academic student society at Universiti Malaya.",
+      "id": "ent_club_ppipum"
+    },
+    {
+      "name": "Persatuan Pelajar Sains Sukan Universiti Malaya (PPSSUM)",
+      "aliases": [],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF SPORTS AND EXERCISE SCIENCES",
+      "instagram": "@ppss_um",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=157222999"
+      ],
+      "code": "PPSSUM",
+      "explicitCode": true,
+      "description": "Faculty-level academic student society at Universiti Malaya.",
+      "id": "ent_club_ppssum",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Persatuan Pentadbiran Kerja Sosial Universiti Malaya (PPKSUM)",
+      "aliases": [],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "instagram": null,
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=157222999"
+      ],
+      "code": "PPKSUM",
+      "explicitCode": true,
+      "description": "Faculty-level academic student society at Universiti Malaya.",
+      "id": "ent_club_ppksum",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Persatuan Sejarah UM (History Society)",
+      "aliases": [],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "instagram": "@persatuansejarah_um",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=157222999"
+      ],
+      "code": "PSUM",
+      "explicitCode": true,
+      "description": "Faculty-level academic student society at Universiti Malaya.",
+      "id": "ent_club_psum",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Persatuan Seni Silat Cekak Malaysia Universiti Malaya",
+      "aliases": [
+        "Persatuan Seni Silat Cekak Malaysia Universiti Malaya (PSSCMU",
+        "PSSCMU",
+        "PSSCMUM"
+      ],
+      "category": "Sports",
+      "faculty": null,
+      "instagram": "@psscmum.official",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=966212369"
+      ],
+      "code": "PSSCMUM",
+      "explicitCode": true,
+      "description": "Sports and recreation student group at Universiti Malaya.",
+      "id": "ent_club_psscmum",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Persatuan Sikh Universiti Malaya",
+      "aliases": [
+        "PERSATUAN SIKH UNIVERSITI MALAYA (UMSS)"
+      ],
+      "category": "Religious",
+      "faculty": null,
+      "instagram": "@umsikhsociety",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=1929487026"
+      ],
+      "code": "UMSS",
+      "explicitCode": true,
+      "description": "Religious student society at Universiti Malaya.",
+      "id": "ent_club_umss",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Persatuan Silat Cekak Ustaz Hanafi Universiti Malaya",
+      "aliases": [
+        "Silat Cekak Hanafi UM"
+      ],
+      "category": "Sports",
+      "faculty": null,
+      "instagram": "@um.cekakhanafi",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=966212369"
+      ],
+      "code": "CHUM",
+      "explicitCode": true,
+      "description": "Sports and recreation student group at Universiti Malaya.",
+      "id": "ent_club_chum",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Persaudaraan Kristian Varsiti Universiti Malaya",
+      "aliases": [
+        "Persaudaraan Kristian Varsiti Universiti Malaya (PKVUM)"
+      ],
+      "category": "Religious",
+      "faculty": null,
+      "instagram": "@pkvum",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=1929487026"
+      ],
+      "code": "PKVUM",
+      "explicitCode": true,
+      "description": "Religious student society at Universiti Malaya.",
+      "id": "ent_club_pkvum",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Pesta Tanglung Universiti Malaya (PTUM)",
+      "aliases": [],
+      "category": "Social",
+      "faculty": null,
+      "instagram": "@loveptum",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=774424116"
+      ],
+      "code": "PTUM",
+      "explicitCode": true,
+      "description": "Social or cultural student group at Universiti Malaya.",
+      "id": "ent_club_ptum",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Pharmacy Society of UM",
+      "aliases": [],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF PHARMACY",
+      "instagram": "@umpharmsoc",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=157222999"
+      ],
+      "code": "UMPHARMASOC",
+      "explicitCode": true,
+      "description": "Faculty-level academic student society at Universiti Malaya.",
+      "id": "ent_club_umpharmasoc",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Science Startup Club UM",
+      "aliases": [],
+      "category": "Entrepreneurship",
+      "faculty": null,
+      "instagram": "@sciencestartupclub",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=57558888"
+      ],
+      "code": "SCIENCESTARTUP",
+      "explicitCode": true,
+      "description": "Student entrepreneurship group at Universiti Malaya.",
+      "id": "ent_club_sciencestartup",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Sekretariat Rakan Muda Universiti Malaya",
+      "aliases": [
+        "SEKRETARIAT RAKAN MUDA UNIVERSITY MALAYAS"
+      ],
+      "category": "Social",
+      "faculty": null,
+      "instagram": null,
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=774424116"
+      ],
+      "code": "RAKANMUDA",
+      "explicitCode": true,
+      "description": "Social or cultural student group at Universiti Malaya.",
+      "id": "ent_club_rakanmuda",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Sepak Takraw Universiti Malaya",
+      "aliases": [],
+      "category": "Sports",
+      "faculty": null,
+      "instagram": "@sepaktakraw_um",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=966212369"
+      ],
+      "code": "UMSEPAK",
+      "explicitCode": true,
+      "description": "Sports and recreation student group at Universiti Malaya.",
+      "id": "ent_club_umsepak",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Siswa Malaya",
+      "aliases": [],
+      "category": "Campus Politics",
+      "faculty": null,
+      "instagram": "@siswamalaya",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=529707404"
+      ],
+      "code": "SISWAMALAYA",
+      "explicitCode": true,
+      "description": "Campus political student group at Universiti Malaya.",
+      "id": "ent_club_siswamalaya",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "SiswaPAS UM",
+      "aliases": [],
+      "category": "National Politics",
+      "faculty": null,
+      "instagram": "@siswapas.um",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=623464991"
+      ],
+      "code": "SISWAPAS",
+      "explicitCode": true,
+      "description": "National political party student wing at Universiti Malaya.",
+      "id": "ent_club_siswapas",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "code": "SPE",
+      "name": "Society of Petroleum Engineers Universiti Malaya Student Chapter",
+      "aliases": [
+        "SPE UM SC"
+      ],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF ENGINEERING",
+      "instagram": "@speumsc",
+      "linkedin": null,
+      "sources": [
+        "extras"
+      ],
+      "sourceUrls": [],
+      "lastVerified": "2026-11-26",
+      "explicitCode": true,
+      "description": "Faculty-level academic student society at Universiti Malaya.",
+      "id": "ent_club_spe"
+    },
+    {
+      "name": "South East Asian Studies",
+      "aliases": [
+        "South East Asian Studies (SEAS)",
+        "SEASUM"
+      ],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "instagram": "@seasunimalaya",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=157222999"
+      ],
+      "code": "SEAS",
+      "explicitCode": true,
+      "description": "Faculty-level academic student society at Universiti Malaya.",
+      "id": "ent_club_seas",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Suara Siswa",
+      "aliases": [],
+      "category": "Activism",
+      "faculty": null,
+      "instagram": "@suarasiswaum",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=2109082201"
+      ],
+      "code": "SSUM",
+      "explicitCode": true,
+      "description": "Student activism group at Universiti Malaya.",
+      "id": "ent_club_ssum",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "code": "PBTUM",
+      "name": "Tamil Language Society of Universiti Malaya",
+      "aliases": [
+        "PBTUM",
+        "Persatuan Bahasa Tamil Universiti Malaya",
+        "Tamil Peravai",
+        "TLSUM"
+      ],
+      "category": "Cultural",
+      "linkedin": "tamil-language-society-of-universiti-malaya-504b04379",
+      "faculty": null,
+      "instagram": null,
+      "sources": [
+        "extras"
+      ],
+      "sourceUrls": [],
+      "lastVerified": "2026-11-26",
+      "explicitCode": true,
+      "description": "Cultural student society at Universiti Malaya.",
+      "id": "ent_club_pbtum"
+    },
+    {
+      "code": "TEDXUM",
+      "name": "TEDxUniversity of Malaya",
+      "aliases": [
+        "TEDxUM",
+        "TEDxUM Club"
+      ],
+      "category": "Independent",
+      "instagram": "@tedxuniversityofmalaya",
+      "faculty": null,
+      "linkedin": null,
+      "sources": [
+        "extras"
+      ],
+      "sourceUrls": [],
+      "lastVerified": "2026-11-26",
+      "explicitCode": true,
+      "description": "Independent student society at Universiti Malaya.",
+      "id": "ent_club_tedxum"
+    },
+    {
+      "name": "Temuan Tutoring",
+      "aliases": [],
+      "category": "Social",
+      "faculty": null,
+      "instagram": "@temuantutoring",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=774424116"
+      ],
+      "code": "TEMUAN",
+      "explicitCode": true,
+      "description": "Social or cultural student group at Universiti Malaya.",
+      "id": "ent_club_temuan",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "code": "RIMBA",
+      "name": "The Rimba Project 2.0",
+      "aliases": [
+        "Rimba Project"
+      ],
+      "category": "Service",
+      "linkedin": "the-rimba-project",
+      "faculty": null,
+      "instagram": null,
+      "sources": [
+        "extras"
+      ],
+      "sourceUrls": [],
+      "lastVerified": "2026-11-26",
+      "explicitCode": true,
+      "description": "Student volunteer or community-service group at Universiti Malaya.",
+      "id": "ent_club_rimba"
+    },
+    {
+      "name": "UM 24 Festive Drum",
+      "aliases": [
+        "Gendang 24 Musim UM",
+        "UM 24"
+      ],
+      "category": "Social",
+      "faculty": null,
+      "instagram": "@um24fd",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=774424116"
+      ],
+      "code": "UM24",
+      "explicitCode": true,
+      "description": "Social or cultural student group at Universiti Malaya.",
+      "id": "ent_club_um24",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "UM Badminton Club",
+      "aliases": [
+        "UM Bandminton Club"
+      ],
+      "category": "Sports",
+      "faculty": null,
+      "instagram": "@um.badmintonclub",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=966212369"
+      ],
+      "code": "UMBADMINTON",
+      "explicitCode": true,
+      "description": "Sports and recreation student group at Universiti Malaya.",
+      "id": "ent_club_umbadminton",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "UM Dancesport Club",
+      "aliases": [],
+      "category": "Sports",
+      "faculty": null,
+      "instagram": "@umdancesport.club",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=966212369"
+      ],
+      "code": "UMDANCESPORT",
+      "explicitCode": true,
+      "description": "Sports and recreation student group at Universiti Malaya.",
+      "id": "ent_club_umdancesport",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "UM Dental Society",
+      "aliases": [],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF DENTISTRY",
+      "instagram": "@umdensoc",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=157222999"
+      ],
+      "code": "UMDENSOC",
+      "explicitCode": true,
+      "description": "Faculty-level academic student society at Universiti Malaya.",
+      "id": "ent_club_umdensoc",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "UM Futsal (Men)",
+      "aliases": [],
+      "category": "Sports",
+      "faculty": null,
+      "instagram": "@um_futsal",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=966212369"
+      ],
+      "code": "UMFUTSAL-M",
+      "explicitCode": true,
+      "description": "Sports and recreation student group at Universiti Malaya.",
+      "id": "ent_club_umfutsal_m",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "UM Futsal (Women)",
+      "aliases": [],
+      "category": "Sports",
+      "faculty": null,
+      "instagram": "@um_futsalwomen",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=966212369"
+      ],
+      "code": "UMFUTSAL-W",
+      "explicitCode": true,
+      "description": "Sports and recreation student group at Universiti Malaya.",
+      "id": "ent_club_umfutsal_w",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "code": "UMGB",
+      "name": "UM Global Buddies",
+      "aliases": [
+        "ISCGB",
+        "International Student Centre Global Buddies",
+        "ISC Global Buddies"
+      ],
+      "category": "International",
+      "instagram": "@umglobalbuddies",
+      "faculty": null,
+      "linkedin": null,
+      "sources": [
+        "extras"
+      ],
+      "sourceUrls": [],
+      "lastVerified": "2026-11-26",
+      "explicitCode": true,
+      "description": "International student association at Universiti Malaya.",
+      "id": "ent_club_umgb"
+    },
+    {
+      "name": "UM Handballerz",
+      "aliases": [],
+      "category": "Sports",
+      "faculty": null,
+      "instagram": "@officialumhandball",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=966212369"
+      ],
+      "code": "UMHANDBALL",
+      "explicitCode": true,
+      "description": "Sports and recreation student group at Universiti Malaya.",
+      "id": "ent_club_umhandball",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "UM Law Sports Club",
+      "aliases": [],
+      "category": "Sports",
+      "faculty": null,
+      "instagram": "@um_lawsc",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=966212369"
+      ],
+      "code": "UMLAWSRC",
+      "explicitCode": true,
+      "description": "Sports and recreation student group at Universiti Malaya.",
+      "id": "ent_club_umlawsrc",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "UM Makers Club",
+      "aliases": [],
+      "category": "Development",
+      "faculty": null,
+      "instagram": "@um.makersclub",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=1235962870"
+      ],
+      "code": "UMMAKERS",
+      "explicitCode": true,
+      "description": "Student development or debate society at Universiti Malaya.",
+      "id": "ent_club_ummakers",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "UM Mathematical Association",
+      "aliases": [],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF SCIENCE",
+      "instagram": "@umma.ism",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=157222999"
+      ],
+      "code": "UMMA",
+      "explicitCode": true,
+      "description": "Faculty-level academic student society at Universiti Malaya.",
+      "id": "ent_club_umma",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "UM Netball (Cougars)",
+      "aliases": [],
+      "category": "Sports",
+      "faculty": null,
+      "instagram": "@um_netball",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=966212369"
+      ],
+      "code": "UMNETBALL",
+      "explicitCode": true,
+      "description": "Sports and recreation student group at Universiti Malaya.",
+      "id": "ent_club_umnetball",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "UM Official Taekwondo Team",
+      "aliases": [
+        "UM Official Taekwondo Team (for players only)"
+      ],
+      "category": "Sports",
+      "faculty": null,
+      "instagram": null,
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=966212369"
+      ],
+      "code": "TKD-TEAM",
+      "explicitCode": true,
+      "description": "Sports and recreation student group at Universiti Malaya.",
+      "id": "ent_club_tkd_team",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "UM Panthers (Men's Softball)",
+      "aliases": [],
+      "category": "Sports",
+      "faculty": null,
+      "instagram": "@umpanthers",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=966212369"
+      ],
+      "code": "UMPANTHERS",
+      "explicitCode": true,
+      "description": "Sports and recreation student group at Universiti Malaya.",
+      "id": "ent_club_umpanthers",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "UM Taekwondo Club WT",
+      "aliases": [
+        "UM Taekwondo Club WT (for Beginner)"
+      ],
+      "category": "Sports",
+      "faculty": null,
+      "instagram": "@um_taekwondo.official",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=966212369"
+      ],
+      "code": "TKD-WT",
+      "explicitCode": true,
+      "description": "Sports and recreation student group at Universiti Malaya.",
+      "id": "ent_club_tkd_wt",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "UM Tigers (Tamil Language Society)",
+      "aliases": [
+        "UM Tigers (Tamil Language Soceity)"
+      ],
+      "category": "Sports",
+      "faculty": null,
+      "instagram": "@umtigers_official",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=966212369"
+      ],
+      "code": "UMTIGERS",
+      "explicitCode": true,
+      "description": "Sports and recreation student group at Universiti Malaya.",
+      "id": "ent_club_umtigers",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "UM Toastmasters Club",
+      "aliases": [],
+      "category": "Development",
+      "faculty": null,
+      "instagram": "@um_tmc",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=1235962870"
+      ],
+      "code": "UMTMC",
+      "explicitCode": true,
+      "description": "Student development or debate society at Universiti Malaya.",
+      "id": "ent_club_umtmc",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "UM Volleyball (Women)",
+      "aliases": [],
+      "category": "Sports",
+      "faculty": null,
+      "instagram": "@um.volleyball_",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=966212369"
+      ],
+      "code": "UMVB-W",
+      "explicitCode": true,
+      "description": "Sports and recreation student group at Universiti Malaya.",
+      "id": "ent_club_umvb_w",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "UMANY",
+      "aliases": [
+        "University of Malaya Association of New Youth"
+      ],
+      "category": "Campus Politics",
+      "faculty": null,
+      "instagram": "@umany2u",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=529707404"
+      ],
+      "code": "UMANY",
+      "explicitCode": true,
+      "description": "Campus political student group at Universiti Malaya.",
+      "id": "ent_club_umany",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "code": "UMCARES",
+      "name": "UMCares Club",
+      "aliases": [
+        "UMCares"
+      ],
+      "category": "Service",
+      "instagram": "@myumcares",
+      "linkedin": "universiti-malaya-community-engagement-centre-umcares",
+      "faculty": null,
+      "sources": [
+        "extras"
+      ],
+      "sourceUrls": [],
+      "lastVerified": "2026-11-26",
+      "explicitCode": true,
+      "description": "Student volunteer or community-service group at Universiti Malaya.",
+      "id": "ent_club_umcares"
+    },
+    {
+      "name": "Umnosiswa UM",
+      "aliases": [],
+      "category": "National Politics",
+      "faculty": null,
+      "instagram": "@mahasiswaumno_unimalaya",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=623464991"
+      ],
+      "code": "UMNOSISWA",
+      "explicitCode": true,
+      "description": "National political party student wing at Universiti Malaya.",
+      "id": "ent_club_umnosiswa",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Universiti Malaya Actuarial & Financial Mathematics Society",
+      "aliases": [],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF SCIENCE",
+      "instagram": "@umact_official",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=157222999"
+      ],
+      "code": "UMACT",
+      "explicitCode": true,
+      "description": "Faculty-level academic student society at Universiti Malaya.",
+      "id": "ent_club_umact",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Universiti Malaya Basketball Team",
+      "aliases": [],
+      "category": "Sports",
+      "faculty": null,
+      "instagram": "@_umbt_",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=966212369"
+      ],
+      "code": "UMBASKETBALL",
+      "explicitCode": true,
+      "description": "Sports and recreation student group at Universiti Malaya.",
+      "id": "ent_club_umbasketball",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Universiti Malaya Chess Club",
+      "aliases": [],
+      "category": "Sports",
+      "faculty": null,
+      "instagram": "@unimalayachessclub",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=966212369"
+      ],
+      "code": "UMCHESS",
+      "explicitCode": true,
+      "description": "Sports and recreation student group at Universiti Malaya.",
+      "id": "ent_club_umchess",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Universiti Malaya Cycling Club (UMCC)",
+      "aliases": [],
+      "category": "Sports",
+      "faculty": null,
+      "instagram": "@um_cyclingclub",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=966212369"
+      ],
+      "code": "UMCC",
+      "explicitCode": true,
+      "description": "Sports and recreation student group at Universiti Malaya.",
+      "id": "ent_club_umcc",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "code": "UMEBS",
+      "name": "Universiti Malaya Ecology Biodiversity Society",
+      "aliases": [
+        "EcoBio UM"
+      ],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF SCIENCE",
+      "linkedin": "ecology-biodiversity-society-um",
+      "instagram": null,
+      "sources": [
+        "extras"
+      ],
+      "sourceUrls": [],
+      "lastVerified": "2026-11-26",
+      "explicitCode": true,
+      "description": "Faculty-level academic student society at Universiti Malaya.",
+      "id": "ent_club_umebs"
+    },
+    {
+      "name": "Universiti Malaya Entrepreneurship Secretariat",
+      "aliases": [
+        "Universiti Malaya Entrepreneurship Secretaria"
+      ],
+      "category": "Entrepreneurship",
+      "faculty": null,
+      "instagram": "@usahawan_um",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=57558888"
+      ],
+      "code": "UMES",
+      "explicitCode": true,
+      "description": "Student entrepreneurship group at Universiti Malaya.",
+      "id": "ent_club_umes",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Universiti Malaya FC",
+      "aliases": [
+        "Universiti Malaya FC (UMFC)",
+        "UMFC"
+      ],
+      "category": "Sports",
+      "faculty": null,
+      "instagram": "@universitimalayafc",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=966212369"
+      ],
+      "code": "UMFC",
+      "explicitCode": true,
+      "description": "Sports and recreation student group at Universiti Malaya.",
+      "id": "ent_club_umfc",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Universiti Malaya Floorball Club (UM Lynx)",
+      "aliases": [],
+      "category": "Sports",
+      "faculty": null,
+      "instagram": "@umfloorball",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=966212369"
+      ],
+      "code": "UMLYNX",
+      "explicitCode": true,
+      "description": "Sports and recreation student group at Universiti Malaya.",
+      "id": "ent_club_umlynx",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Universiti Malaya Medical Society",
+      "aliases": [],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF MEDICINE",
+      "instagram": "@medsoc_um",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=157222999"
+      ],
+      "code": "UMMEDSOC",
+      "explicitCode": true,
+      "description": "Faculty-level academic student society at Universiti Malaya.",
+      "id": "ent_club_ummedsoc",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Universiti Malaya Startup Community",
+      "aliases": [],
+      "category": "Entrepreneurship",
+      "faculty": null,
+      "instagram": "@umscomm",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=57558888"
+      ],
+      "code": "UMSCOM",
+      "explicitCode": true,
+      "description": "Student entrepreneurship group at Universiti Malaya.",
+      "id": "ent_club_umscom",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "Universiti Malaya Tennis Team",
+      "aliases": [],
+      "category": "Sports",
+      "faculty": null,
+      "instagram": "@um.tennisteam",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=966212369"
+      ],
+      "code": "UMTENNIS",
+      "explicitCode": true,
+      "description": "Sports and recreation student group at Universiti Malaya.",
+      "id": "ent_club_umtennis",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "name": "University Malaya Cheerleading Club",
+      "aliases": [],
+      "category": "Sports",
+      "faculty": null,
+      "instagram": null,
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=966212369"
+      ],
+      "code": "UMCHEER",
+      "explicitCode": true,
+      "description": "Sports and recreation student group at Universiti Malaya.",
+      "id": "ent_club_umcheer",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "code": "UMISA",
+      "name": "University Malaya International Students Association",
+      "aliases": [
+        "UMISA"
+      ],
+      "category": "International",
+      "instagram": "@official.umisa",
+      "faculty": null,
+      "linkedin": null,
+      "sources": [
+        "extras"
+      ],
+      "sourceUrls": [],
+      "lastVerified": "2026-11-26",
+      "explicitCode": true,
+      "description": "International student association at Universiti Malaya.",
+      "id": "ent_club_umisa"
+    },
+    {
+      "name": "University Malaya Rugby Club (UM Blues RC)",
+      "aliases": [],
+      "category": "Sports",
+      "faculty": null,
+      "instagram": "@umbluesrc",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=966212369"
+      ],
+      "code": "UMBLUES",
+      "explicitCode": true,
+      "description": "Sports and recreation student group at Universiti Malaya.",
+      "id": "ent_club_umblues",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "code": "UMCO",
+      "name": "University of Malaya Chinese Orchestra",
+      "aliases": [
+        "UMCO"
+      ],
+      "category": "Cultural",
+      "instagram": "@umco1981",
+      "faculty": null,
+      "linkedin": null,
+      "sources": [
+        "extras"
+      ],
+      "sourceUrls": [],
+      "lastVerified": "2026-11-26",
+      "explicitCode": true,
+      "description": "Cultural student society at Universiti Malaya.",
+      "id": "ent_club_umco"
+    },
+    {
+      "code": "UMCSSA",
+      "name": "University of Malaya Chinese Students and Scholars Association",
+      "aliases": [
+        "UMCSSA"
+      ],
+      "category": "International",
+      "instagram": "@umcssa_official",
+      "faculty": null,
+      "linkedin": null,
+      "sources": [
+        "extras"
+      ],
+      "sourceUrls": [],
+      "lastVerified": "2026-11-26",
+      "explicitCode": true,
+      "description": "International student association at Universiti Malaya.",
+      "id": "ent_club_umcssa"
+    },
+    {
+      "code": "UMFUSE",
+      "name": "University of Malaya Future STEM Educators' Society",
+      "aliases": [
+        "UMFUSE"
+      ],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF EDUCATION",
+      "instagram": "@umfuse",
+      "linkedin": null,
+      "sources": [
+        "extras"
+      ],
+      "sourceUrls": [],
+      "lastVerified": "2026-11-26",
+      "explicitCode": true,
+      "description": "Faculty-level academic student society at Universiti Malaya.",
+      "id": "ent_club_umfuse"
+    },
+    {
+      "code": "UMKFC",
+      "name": "University of Malaya Kung Fu Club",
+      "aliases": [
+        "UMKFC"
+      ],
+      "category": "Sports",
+      "instagram": "@umkungfuclub",
+      "faculty": null,
+      "linkedin": null,
+      "sources": [
+        "extras"
+      ],
+      "sourceUrls": [],
+      "lastVerified": "2026-11-26",
+      "explicitCode": true,
+      "description": "Sports and recreation student group at Universiti Malaya.",
+      "id": "ent_club_umkfc"
+    },
+    {
+      "name": "University of Malaya Law Society (UMLS)",
+      "aliases": [],
+      "category": "Faculty Society",
+      "faculty": "FACULTY OF LAW",
+      "instagram": "@umlawsociety",
+      "linkedin": null,
+      "sources": [
+        "suara-siswa-2026"
+      ],
+      "sourceUrls": [
+        "https://docs.google.com/spreadsheets/d/12wm1ebhUjdmqrcs3MBNHZ_8FicFS3fVYGc--y480S68/edit?gid=157222999"
+      ],
+      "code": "UMLS",
+      "explicitCode": true,
+      "description": "Faculty-level academic student society at Universiti Malaya.",
+      "id": "ent_club_umls",
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "code": "UMYL",
+      "name": "University of Malaya Young Leaders",
+      "aliases": [
+        "Persatuan Pimpinan Muda Universiti Malaya",
+        "UM Young Leaders Association"
+      ],
+      "category": "Independent",
+      "instagram": "@umyoungleaders",
+      "faculty": null,
+      "linkedin": null,
+      "sources": [
+        "extras"
+      ],
+      "sourceUrls": [],
+      "lastVerified": "2026-11-26",
+      "explicitCode": true,
+      "description": "Independent student society at Universiti Malaya.",
+      "id": "ent_club_umyl"
+    },
+    {
+      "code": "WATERWARRIORS",
+      "name": "Water Warriors Universiti Malaya",
+      "aliases": [],
+      "category": "Service",
+      "instagram": "@water.warriors",
+      "linkedin": "water-warriors-um",
+      "faculty": null,
+      "sources": [
+        "extras"
+      ],
+      "sourceUrls": [],
+      "lastVerified": "2026-11-26",
+      "explicitCode": true,
+      "description": "Student volunteer or community-service group at Universiti Malaya.",
+      "id": "ent_club_waterwarriors"
+    }
+  ]
+}

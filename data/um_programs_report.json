@@ -1,0 +1,539 @@
+{
+  "generatedAt": "2026-11-26T16:42:54.014Z",
+  "lastVerified": "2026-11-25",
+  "total": 268,
+  "byLevel": {
+    "diploma": 15,
+    "foundation": 5,
+    "postgraduate": 168,
+    "undergraduate": 80
+  },
+  "byFaculty": {
+    "FACULTY OF NURSING": 7,
+    "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCED)": 8,
+    "FACULTY OF MEDICINE": 37,
+    "ACADEMY OF ISLAMIC STUDIES": 18,
+    "CENTRE FOR FOUNDATION STUDIES IN SCIENCE": 4,
+    "FACULTY OF DENTISTRY": 13,
+    "FACULTY OF BUSINESS AND ECONOMICS": 14,
+    "ACADEMY OF MALAY STUDIES": 7,
+    "ASIA-EUROPE INSTITUTE": 3,
+    "FACULTY OF ARTS AND SOCIAL SCIENCES": 25,
+    "FACULTY OF BUILT ENVIRONMENT": 12,
+    "FACULTY OF COMPUTER SCIENCE AND INFORMATION TECHNOLOGY": 13,
+    "FACULTY OF CREATIVE ARTS": 10,
+    "FACULTY OF ENGINEERING": 12,
+    "FACULTY OF LAW": 7,
+    "FACULTY OF PHARMACY": 5,
+    "FACULTY OF SCIENCE": 24,
+    "FACULTY OF SPORTS AND EXERCISE SCIENCES": 6,
+    "INSTITUTE FOR ADVANCED STUDIES": 6,
+    "INTERNATIONAL INSTITUTE OF PUBLIC POLICY AND MANAGEMENT": 2,
+    "FACULTY OF LANGUAGES AND LINGUISTICS": 12,
+    "FACULTY OF EDUCATION": 23
+  },
+  "sourcePages": [
+    {
+      "url": "https://study.um.edu.my/academy-of-islamic-studies-courses",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "level": "undergraduate",
+      "ok": true,
+      "bytes": 15678,
+      "programmes": 7,
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/malay-studies-courses",
+      "faculty": "ACADEMY OF MALAY STUDIES",
+      "level": "undergraduate",
+      "ok": true,
+      "bytes": 14902,
+      "programmes": 4,
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/faculty-arts-social-science-courses",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "level": "undergraduate",
+      "ok": true,
+      "bytes": 17077,
+      "programmes": 12,
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/faculty-of-built-environment",
+      "faculty": "FACULTY OF BUILT ENVIRONMENT",
+      "level": "undergraduate",
+      "ok": true,
+      "bytes": 15123,
+      "programmes": 5,
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/faculty-of-business-and-economic",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "level": "undergraduate",
+      "ok": true,
+      "bytes": 14826,
+      "programmes": 4,
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/faculty-of-computer-science",
+      "faculty": "FACULTY OF COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
+      "level": "undergraduate",
+      "ok": true,
+      "bytes": 15599,
+      "programmes": 6,
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/faculty-of-creative-arts",
+      "faculty": "FACULTY OF CREATIVE ARTS",
+      "level": "undergraduate",
+      "ok": true,
+      "bytes": 14738,
+      "programmes": 4,
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/faculty-of-dentistry",
+      "faculty": "FACULTY OF DENTISTRY",
+      "level": "undergraduate",
+      "ok": true,
+      "bytes": 14125,
+      "programmes": 1,
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/faculty-of-education",
+      "faculty": "FACULTY OF EDUCATION",
+      "level": "undergraduate",
+      "ok": true,
+      "bytes": 14546,
+      "programmes": 3,
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/faculty-of-engineering",
+      "faculty": "FACULTY OF ENGINEERING",
+      "level": "undergraduate",
+      "ok": true,
+      "bytes": 15102,
+      "programmes": 5,
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/faculty-of-languages-and-linguistics",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "level": "undergraduate",
+      "ok": true,
+      "bytes": 16475,
+      "programmes": 9,
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/faculty-of-law",
+      "faculty": "FACULTY OF LAW",
+      "level": "undergraduate",
+      "ok": true,
+      "bytes": 13928,
+      "programmes": 1,
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/faculty-of-medicine",
+      "faculty": "FACULTY OF MEDICINE",
+      "level": "undergraduate",
+      "ok": true,
+      "bytes": 14288,
+      "programmes": 2,
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/faculty-of-nursing",
+      "faculty": "FACULTY OF NURSING",
+      "level": "undergraduate",
+      "ok": true,
+      "bytes": 13980,
+      "programmes": 1,
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/faculty-of-pharmacy",
+      "faculty": "FACULTY OF PHARMACY",
+      "level": "undergraduate",
+      "ok": true,
+      "bytes": 13992,
+      "programmes": 1,
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/faculty-of-science",
+      "faculty": "FACULTY OF SCIENCE",
+      "level": "undergraduate",
+      "ok": true,
+      "bytes": 17084,
+      "programmes": 12,
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/faculty-of-sports-and-exercise-science",
+      "faculty": "FACULTY OF SPORTS AND EXERCISE SCIENCE",
+      "level": "undergraduate",
+      "ok": true,
+      "bytes": 14377,
+      "programmes": 2,
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/pg-academy-of-islamic-studies",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "level": "postgraduate",
+      "ok": true,
+      "bytes": 18160,
+      "programmes": 10,
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/pg-academy-of-malay-studies",
+      "faculty": "ACADEMY OF MALAY STUDIES",
+      "level": "postgraduate",
+      "ok": true,
+      "bytes": 16309,
+      "programmes": 3,
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/pg-asia-europe-institute",
+      "faculty": "ASIA-EUROPE INSTITUTE",
+      "level": "postgraduate",
+      "ok": true,
+      "bytes": 16265,
+      "programmes": 3,
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/pg-faculty-arts-amp-social-science",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "level": "postgraduate",
+      "ok": true,
+      "bytes": 19217,
+      "programmes": 13,
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/pg-faculty-built-environment",
+      "faculty": "FACULTY OF BUILT ENVIRONMENT",
+      "level": "postgraduate",
+      "ok": true,
+      "bytes": 17505,
+      "programmes": 7,
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/pg-business-and-economics",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "level": "postgraduate",
+      "ok": true,
+      "bytes": 18364,
+      "programmes": 10,
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/pg-faculty-of-computer-science-and-it",
+      "faculty": "FACULTY OF COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
+      "level": "postgraduate",
+      "ok": true,
+      "bytes": 17653,
+      "programmes": 7,
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/pg-of-creative-arts",
+      "faculty": "FACULTY OF CREATIVE ARTS",
+      "level": "postgraduate",
+      "ok": true,
+      "bytes": 17062,
+      "programmes": 6,
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/pg-faculty-of-dentistry",
+      "faculty": "FACULTY OF DENTISTRY",
+      "level": "postgraduate",
+      "ok": true,
+      "bytes": 18757,
+      "programmes": 12,
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/pg-faculty-of-education",
+      "faculty": "FACULTY OF EDUCATION",
+      "level": "postgraduate",
+      "ok": true,
+      "bytes": 21246,
+      "programmes": 20,
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/pg-faculty-of-engineering",
+      "faculty": "FACULTY OF ENGINEERING",
+      "level": "postgraduate",
+      "ok": true,
+      "bytes": 17248,
+      "programmes": 7,
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/pg-faculty-of-language",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "level": "postgraduate",
+      "ok": true,
+      "bytes": 16146,
+      "programmes": 3,
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/pg-faculty-of-law",
+      "faculty": "FACULTY OF LAW",
+      "level": "postgraduate",
+      "ok": true,
+      "bytes": 16467,
+      "programmes": 5,
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/pg-faculty-of-medicine",
+      "faculty": "FACULTY OF MEDICINE",
+      "level": "postgraduate",
+      "ok": true,
+      "bytes": 24448,
+      "programmes": 33,
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/pg-faculty-of-nursing",
+      "faculty": "FACULTY OF NURSING",
+      "level": "postgraduate",
+      "ok": true,
+      "bytes": 15449,
+      "programmes": 1,
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/pg-faculty-of-pharmacy",
+      "faculty": "FACULTY OF PHARMACY",
+      "level": "postgraduate",
+      "ok": true,
+      "bytes": 16445,
+      "programmes": 4,
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/pg-faculty-of-science",
+      "faculty": "FACULTY OF SCIENCE",
+      "level": "postgraduate",
+      "ok": true,
+      "bytes": 18858,
+      "programmes": 12,
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/pg-faculty-of-sport-science",
+      "faculty": "FACULTY OF SPORTS AND EXERCISE SCIENCE",
+      "level": "postgraduate",
+      "ok": true,
+      "bytes": 16452,
+      "programmes": 4,
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/pg-inst-advanced-studies",
+      "faculty": "INSTITUTE FOR ADVANCED STUDIES",
+      "level": "postgraduate",
+      "ok": true,
+      "bytes": 16972,
+      "programmes": 6,
+      "error": null
+    },
+    {
+      "url": "https://study.um.edu.my/pg-international-institute-of-public-policy-and-management",
+      "faculty": "INTERNATIONAL INSTITUTE OF PUBLIC POLICY AND MANAGEMENT",
+      "level": "postgraduate",
+      "ok": true,
+      "bytes": 16031,
+      "programmes": 2,
+      "error": null
+    }
+  ],
+  "duplicates": [],
+  "duplicateCodes": [
+    {
+      "name": "Bachelor of Malay Literature",
+      "original": "UG-ML",
+      "assigned": "UG-ML-MAL"
+    },
+    {
+      "name": "Bachelor of Media Studies",
+      "original": "UG-MS",
+      "assigned": "UG-MS-ARTS"
+    },
+    {
+      "name": "Bachelor of Science in Architecture",
+      "original": "UG-SA",
+      "assigned": "UG-SA-BUILT"
+    },
+    {
+      "name": "Bachelor of Drama",
+      "original": "UG-D",
+      "assigned": "UG-D-CREA"
+    },
+    {
+      "name": "Bachelor of Chemical Engineering",
+      "original": "UG-CE",
+      "assigned": "UG-CE-ENGG"
+    },
+    {
+      "name": "Bachelor of Biomedical Science",
+      "original": "UG-BS",
+      "assigned": "UG-BS-MED"
+    },
+    {
+      "name": "Bachelor of Science in Biotechnology",
+      "original": "UG-SB",
+      "assigned": "UG-SB-SCI"
+    },
+    {
+      "name": "Bachelor of Sports Management",
+      "original": "UG-SM",
+      "assigned": "UG-SM-SPOR"
+    },
+    {
+      "name": "Master of Information Science",
+      "original": "PG-IS",
+      "assigned": "PG-IS-ARTS"
+    },
+    {
+      "name": "Master of Media Studies",
+      "original": "PG-MS",
+      "assigned": "PG-MS-ARTS"
+    },
+    {
+      "name": "Master of Applied Statistics",
+      "original": "PG-AS",
+      "assigned": "PG-AS-BUS"
+    },
+    {
+      "name": "Master of Marketing",
+      "original": "PG-M",
+      "assigned": "PG-M-BUS"
+    },
+    {
+      "name": "Master of Data Science",
+      "original": "PG-DS",
+      "assigned": "PG-DS-COMP"
+    },
+    {
+      "name": "Master of Computer Science",
+      "original": "PG-CS",
+      "assigned": "PG-CS-COMP"
+    },
+    {
+      "name": "Master of Dental Science",
+      "original": "PG-DS",
+      "assigned": "PG-DS-DENT"
+    },
+    {
+      "name": "Doctor in Prosthodontics",
+      "original": "PG-D-P",
+      "assigned": "PG-D-P-DENT"
+    },
+    {
+      "name": "Master of Education",
+      "original": "PG-E",
+      "assigned": "PG-E-EDUC"
+    },
+    {
+      "name": "Master of Biomedical Engineering",
+      "original": "PG-BE",
+      "assigned": "PG-BE-ENGG"
+    },
+    {
+      "name": "Master of Systems Engineering",
+      "original": "PG-SE",
+      "assigned": "PG-SE-ENGG"
+    },
+    {
+      "name": "Master of Engineering Science",
+      "original": "PG-ES",
+      "assigned": "PG-ES-ENGG"
+    },
+    {
+      "name": "Master of Medical Education",
+      "original": "PG-ME",
+      "assigned": "PG-ME-MED"
+    },
+    {
+      "name": "Master of Epidemiology",
+      "original": "PG-E",
+      "assigned": "PG-E-MED"
+    },
+    {
+      "name": "Master of Medical Science",
+      "original": "PG-MS",
+      "assigned": "PG-MS-MED"
+    },
+    {
+      "name": "Master of Psychological Medicine",
+      "original": "PG-PM",
+      "assigned": "PG-PM-MED"
+    },
+    {
+      "name": "Master of Surgery",
+      "original": "PG-S",
+      "assigned": "PG-S-MED"
+    },
+    {
+      "name": "Master of Orthopaedic Surgery",
+      "original": "PG-OS",
+      "assigned": "PG-OS-MED"
+    },
+    {
+      "name": "Master of Cardiothoracic Surgery",
+      "original": "PG-CS",
+      "assigned": "PG-CS-MED"
+    },
+    {
+      "name": "Master of Sustainability Science",
+      "original": "PG-SS",
+      "assigned": "PG-SS-SCI"
+    },
+    {
+      "name": "Master of Science",
+      "original": "PG-S",
+      "assigned": "PG-S-SCI"
+    },
+    {
+      "name": "Master of Sports Science",
+      "original": "PG-SS",
+      "assigned": "PG-SS-SPOR"
+    },
+    {
+      "name": "Master of Philosophy",
+      "original": "PG-P",
+      "assigned": "PG-P-IAS"
+    },
+    {
+      "name": "Master of Renewable Energy",
+      "original": "PG-RE",
+      "assigned": "PG-RE-IAS"
+    },
+    {
+      "name": "Master of Advanced Studies",
+      "original": "PG-AS",
+      "assigned": "PG-AS-IAS"
+    }
+  ],
+  "failedPages": []
+}

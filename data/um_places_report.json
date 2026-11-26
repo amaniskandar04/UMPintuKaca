@@ -1,0 +1,28 @@
+{
+  "generatedAt": "2026-11-25T16:06:32.796Z",
+  "lastVerified": "2026-11-25",
+  "total": 113,
+  "byCategory": {
+    "Study & Libraries": 14,
+    "Food & Drink": 30,
+    "Accommodation": 16,
+    "Arts, Museums & Nature": 9,
+    "Health & Wellbeing": 3,
+    "Sports & Fitness": 6,
+    "Student Services": 5,
+    "Retail, Banking & Post": 9,
+    "Faith & Community": 2,
+    "Bookable Venues": 1,
+    "Faculties & Academies": 18
+  },
+  "byKind": {
+    "facility": 51,
+    "outlet": 33,
+    "service": 9,
+    "shop": 1,
+    "landmark": 1,
+    "faculty": 18
+  },
+  "source": "data/campus/curated.mjs",
+  "duplicates": []
+}

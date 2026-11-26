@@ -1,0 +1,36 @@
+{
+  "name": "@um-reviews/api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "typecheck": "tsc --noEmit",
+    "db:migrate:local": "wrangler d1 migrations apply um_reviews --local",
+    "db:migrate:remote": "wrangler d1 migrations apply um_reviews --remote",
+    "db:seed:local": "wrangler d1 execute um_reviews --local --file=seed/seed.sql",
+    "db:seed:courses:s2:local": "wrangler d1 execute um_reviews --local --file=seed/courses_s2.seed.sql",
+    "db:seed:programs:local": "wrangler d1 execute um_reviews --local --file=seed/programs.seed.sql",
+    "db:seed:clubs:local": "wrangler d1 execute um_reviews --local --file=seed/clubs.seed.sql",
+    "db:seed:clubs:sample:local": "wrangler d1 execute um_reviews --local --file=seed/clubs.sample.sql",
+    "db:seed:places:local": "wrangler d1 execute um_reviews --local --file=seed/places.seed.sql",
+    "db:seed:demo:local": "wrangler d1 execute um_reviews --local --file=seed/demo.sql",
+    "db:seed:remote": "wrangler d1 execute um_reviews --remote --file=seed/seed.sql",
+    "db:seed:courses:s2:remote": "wrangler d1 execute um_reviews --remote --file=seed/courses_s2.seed.sql",
+    "db:seed:programs:remote": "wrangler d1 execute um_reviews --remote --file=seed/programs.seed.sql",
+    "db:seed:clubs:remote": "wrangler d1 execute um_reviews --remote --file=seed/clubs.seed.sql",
+    "db:seed:places:remote": "wrangler d1 execute um_reviews --remote --file=seed/places.seed.sql"
+  },
+  "dependencies": {
+    "@um-reviews/shared": "*",
+    "grammy": "^1.30.0",
+    "hono": "^4.6.0",
+    "jose": "^5.9.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241218.0",
+    "typescript": "^5.7.2",
+    "wrangler": "^3.90.0"
+  }
+}
