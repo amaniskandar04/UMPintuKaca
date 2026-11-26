@@ -17,7 +17,7 @@ UM Reviews is an independent student project. It is not affiliated with or endor
 - Google OAuth verification restricted to `@siswa.um.edu.my`.
 - Anonymous per-target aliases generated with HMAC.
 - Course, degree programme, club, and campus place reviews with configurable dimensions.
-- Course review text gated behind two course reviews in a rolling 30-day window; ratings stay public.
+- Course review text gated behind two written course reviews in a rolling 60-day window; ratings stay public. The first-run flow asks for those two reviews directly.
 - Fuzzy, typo-tolerant search with acronym and alias matching, plus advanced filters such as `code:`, `faculty:`, `category:`, and `-exclusion`.
 - Materialised rating aggregates for cheap reads on the D1 free tier.
 - Helpful votes, private points, ten levels, and public badges with an opt-out.
@@ -398,7 +398,11 @@ The main free-tier risks are D1 write limits during a launch spike and Workers r
 
 ## Review access
 
-Written course reviews are earned, not free. A student can read the text of course reviews only once they have posted **two course reviews within the last 30 days**. The window rolls continuously rather than following the calendar, so a review stops counting 30 days after it was written.
+Written course reviews are earned, not free. A student can read the text of course reviews only once they have posted **two written course reviews within the last 60 days**. The window rolls continuously rather than following the calendar, so a review stops counting 60 days after it was written.
+
+A review only qualifies if it carries a written note of at least 20 characters. Two star-only taps do not unlock reading — otherwise the gate could be cleared in seconds without contributing anything. The `/onboarding` screen turns this requirement into the first-run flow: it asks for two courses and links straight to the review form.
+
+The rules live in `getCourseReviewAccess()` in `apps/api/src/db/queries.ts` (`COURSE_REVIEW_ACCESS_REQUIRED`, `COURSE_REVIEW_ACCESS_WINDOW_DAYS`, `COURSE_REVIEW_ACCESS_MIN_BODY`) and are exposed at `GET /api/reviews/access` so the home screen and onboarding can show progress.
 
 What stays open:
 

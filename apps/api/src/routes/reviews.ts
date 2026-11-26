@@ -26,6 +26,7 @@ import {
 } from "../lib/rewards";
 import {
   findTarget,
+  getCourseReviewAccess,
   getDimensions,
   getMyReviews,
   isBanned,
@@ -88,6 +89,12 @@ function toScores(labels: Map<string, string>, scores: Record<string, number>): 
     score
   }));
 }
+
+reviews.get("/access", authMiddleware, async (c) => {
+  const user = c.get("user");
+  const access = await getCourseReviewAccess(c.env.DB, { id: user.id, role: user.role });
+  return c.json({ access });
+});
 
 reviews.get("/mine", authMiddleware, async (c) => {
   return c.json({ reviews: await getMyReviews(c.env.DB, c.get("user").id) });

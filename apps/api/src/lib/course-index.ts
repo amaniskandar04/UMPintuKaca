@@ -85,6 +85,11 @@ export const COURSE_INDEX: CourseEntry[] = raw.courses.map(([code, name, faculty
   normDepartment: normalizeDepartment(department)
 }));
 
+/** Lookup by the deterministic course id, used when D1 returns ids. */
+export const COURSE_BY_ID: Map<string, CourseEntry> = new Map(
+  COURSE_INDEX.map((entry) => [entry.id, entry])
+);
+
 export const COURSE_INDEX_META = {
   version: raw.version,
   generatedAt: raw.generatedAt,

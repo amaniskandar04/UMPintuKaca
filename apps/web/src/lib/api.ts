@@ -14,6 +14,7 @@ import type {
   ProgramDetailDto,
   ProgramDto,
   RewardTheme,
+  ReviewAccessDto,
   ReviewDto,
   RewardsDto,
   RewardsLeaderboardDto,
@@ -194,8 +195,10 @@ export const api = {
       `/api/courses/${encodeURIComponent(code)}?${params.toString()}`
     );
   },
-  questions(code: string): Promise<{ questions: CourseQuestionDto[] }> {
-    return request<{ questions: CourseQuestionDto[] }>(
+  reviewAccess(): Promise<{ access: ReviewAccessDto }> {
+    return request<{ access: ReviewAccessDto }>("/api/reviews/access");
+  },
+  questions(code: string): Promise<{ questions: CourseQuestionDto[] }> {    return request<{ questions: CourseQuestionDto[] }>(
       `/api/courses/${encodeURIComponent(code)}/questions`
     );
   },

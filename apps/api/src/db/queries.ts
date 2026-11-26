@@ -33,7 +33,7 @@ import {
 } from "@um-reviews/shared";
 import type { CourseRow, DimensionRow, EntityRow, ProgramRow, ReviewRow, StatsRow, UserRow } from "../env";
 import { searchItems } from "../lib/search";
-import { COURSE_INDEX, type CourseEntry } from "../lib/course-index";
+import { COURSE_BY_ID, COURSE_INDEX, type CourseEntry } from "../lib/course-index";
 import { getAuthorAchievements } from "../lib/rewards";
 
 /**
@@ -248,12 +248,76 @@ async function getCourseOverallStats(
   return stats;
 }
 
+/**
+ * Browse ordering: most-reviewed first, then most recently reviewed, then fill
+ * the remainder round-robin across faculties. Alphabetical order surfaced
+ * AA011001 and friends, which is useless for discovery.
+ */
+async function pickBrowseCourses(
+  db: D1Database,
+  pool: CourseEntry[],
+  faculty: string,
+  limit: number
+): Promise<CourseEntry[]> {
+  const rows = await db
+    .prepare(
+      `SELECT s.target_id AS id, MAX(r.updated_at) AS last_at
+       FROM review_stats s
+       JOIN courses c ON c.id = s.target_id
+       LEFT JOIN reviews r
+         ON r.target_type = 'course' AND r.target_id = c.id
+         AND r.status = 'published' AND r.deleted_at IS NULL
+       WHERE s.target_type = 'course' AND s.dimension_key = 'overall' AND s.review_count > 0
+         AND (? = '' OR c.faculty = ?)
+       GROUP BY s.target_id
+       ORDER BY s.review_count DESC, last_at DESC, c.code ASC
+       LIMIT ?`
+    )
+    .bind(faculty, faculty, limit)
+    .all<{ id: string; last_at: string | null }>();
+
+  const picks: CourseEntry[] = [];
+  const seen = new Set<string>();
+  for (const row of rows.results) {
+    const entry = COURSE_BY_ID.get(row.id);
+    if (entry && !seen.has(entry.code)) {
+      picks.push(entry);
+      seen.add(entry.code);
+    }
+  }
+
+  if (picks.length >= limit) return picks;
+
+  // Not enough reviewed courses yet: spread the rest across faculties so the
+  // page is not another alphabetical run.
+  const groups = new Map<string, CourseEntry[]>();
+  for (const entry of pool) {
+    if (seen.has(entry.code)) continue;
+    const list = groups.get(entry.faculty) ?? [];
+    list.push(entry);
+    groups.set(entry.faculty, list);
+  }
+  const keys = [...groups.keys()].sort();
+  for (let round = 0; picks.length < limit; round += 1) {
+    let added = false;
+    for (const key of keys) {
+      const entry = groups.get(key)?.[round];
+      if (!entry) continue;
+      picks.push(entry);
+      added = true;
+      if (picks.length >= limit) break;
+    }
+    if (!added) break;
+  }
+  return picks;
+}
+
 export async function listCourses(db: D1Database, query: string, faculty: string): Promise<CourseDto[]> {
   const pool = faculty ? COURSE_INDEX.filter((entry) => entry.faculty === faculty) : COURSE_INDEX;
 
   let matched: CourseEntry[];
   if (!query) {
-    matched = pool.slice(0, COURSE_LIST_LIMIT);
+    matched = await pickBrowseCourses(db, pool, faculty, COURSE_LIST_LIMIT);
   } else {
     const documents = pool.map((entry) => ({
       ...entry,
@@ -492,7 +556,9 @@ export async function listReviews(
  * and submitting a review is never blocked.
  */
 export const COURSE_REVIEW_ACCESS_REQUIRED = 2;
-export const COURSE_REVIEW_ACCESS_WINDOW_DAYS = 30;
+export const COURSE_REVIEW_ACCESS_WINDOW_DAYS = 60;
+/** A qualifying review must contain a written note, not just stars. */
+export const COURSE_REVIEW_ACCESS_MIN_BODY = 20;
 
 const DAY_MS = 24 * 60 * 60 * 1000;
 
@@ -529,9 +595,10 @@ export async function getCourseReviewAccess(
          AND deleted_at IS NULL
          AND status IN ('published', 'pending')
          AND created_at >= ?
+         AND LENGTH(TRIM(COALESCE(body, ''))) >= ?
        ORDER BY created_at ASC`
     )
-    .bind(viewer.id, cutoff)
+    .bind(viewer.id, cutoff, COURSE_REVIEW_ACCESS_MIN_BODY)
     .all<{ created_at: string }>();
 
   const counted = result.results;

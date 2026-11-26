@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { Link, useNavigate, useParams } from "react-router-dom";
+import { Link, useLocation, useNavigate, useParams } from "react-router-dom";
 import {
   MAX_REVIEW_BODY,
   MAX_REVIEW_TITLE,
@@ -27,6 +27,8 @@ import {
 export function WriteReviewPage() {
   const { targetType = "", code = "" } = useParams();
   const navigate = useNavigate();
+  const location = useLocation();
+  const fromOnboarding = new URLSearchParams(location.search).get("from") === "onboarding";
   const { user } = useAuth();
   const type =
     targetType === "program"
@@ -108,6 +110,10 @@ export function WriteReviewPage() {
   const editable = !existing || existing.canEdit;
 
   const backToTarget = () => {
+    if (fromOnboarding) {
+      navigate("/onboarding");
+      return;
+    }
     if (type === "course") navigate(`/course/${code}`);
     else navigate(`/program/${code}`);
   };

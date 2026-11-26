@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
-import { PROGRAM_LEVELS, type CategoryDto, type CourseDto, type EntityDto, type ProgramDto } from "@um-reviews/shared";
+import { PROGRAM_LEVELS, type CategoryDto, type CourseDto, type EntityDto, type ProgramDto, type ReviewAccessDto } from "@um-reviews/shared";
 import { api } from "../lib/api";
 import { cn, facultyLabel, formatAverage, targetPath } from "../lib/format";
 import { useAuth } from "../context/AuthContext";
@@ -26,6 +26,24 @@ export function HomePage() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [reloadKey, setReloadKey] = useState(0);
+  const [access, setAccess] = useState<ReviewAccessDto | null>(null);
+
+  useEffect(() => {
+    if (!user?.verified) {
+      setAccess(null);
+      return;
+    }
+    let cancelled = false;
+    api
+      .reviewAccess()
+      .then((result) => {
+        if (!cancelled) setAccess(result.access);
+      })
+      .catch(() => void 0);
+    return () => {
+      cancelled = true;
+    };
+  }, [user?.verified]);
 
   useEffect(() => {
     api
@@ -211,6 +229,18 @@ export function HomePage() {
           </button>
         ))}
       </div>
+
+      {access?.locked && user?.verified ? (
+        <Link to="/onboarding" className="card mb-4 flex items-center justify-between gap-3">
+          <span className="min-w-0">
+            <span className="block text-sm font-semibold">
+              Write {Math.max(0, access.required - access.submitted)} more to unlock reviews
+            </span>
+            <span className="block text-[11px] text-[var(--tg-hint)]">Rate courses you&apos;ve taken</span>
+          </span>
+          <span className="shrink-0 text-xs font-semibold text-[var(--brand-link)]">Start →</span>
+        </Link>
+      ) : null}
 
       {filterCount > 0 ? (
         <div className={cn("mb-4 grid gap-2", filterCount > 1 && "sm:grid-cols-2")}>

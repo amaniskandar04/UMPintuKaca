@@ -18,6 +18,7 @@ import { SettingsPage } from "./pages/SettingsPage";
 import { PrivacyPage } from "./pages/PrivacyPage";
 import { GuidelinesPage } from "./pages/GuidelinesPage";
 import { NotFoundPage } from "./pages/NotFoundPage";
+import { OnboardingPage } from "./pages/OnboardingPage";
 
 export default function App() {
   useEffect(() => {
@@ -35,6 +36,7 @@ export default function App() {
             <Route path="/club/:code" element={<EntityPage type="club" />} />
             <Route path="/campus/:code" element={<EntityPage type="place" />} />
             <Route path="/write/:targetType/:code" element={<WriteReviewPage />} />
+            <Route path="/onboarding" element={<OnboardingPage />} />
             <Route path="/my-reviews" element={<MyReviewsPage />} />
             <Route path="/rewards" element={<RewardsPage />} />
             <Route path="/verify" element={<VerifyPage />} />

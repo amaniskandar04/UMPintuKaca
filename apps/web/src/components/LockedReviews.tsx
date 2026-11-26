@@ -21,8 +21,8 @@ export function LockedReviews({ access, courseCode, verified }: LockedReviewsPro
         <div className="min-w-0">
           <h3 className="text-sm font-bold">Reviews are locked</h3>
           <p className="mt-1 text-xs leading-relaxed text-[var(--tg-hint)]">
-            Post {access.required} course reviews in the last {access.windowDays} days to read what students say.
-            {" "}Averages stay visible — only the written reviews are earned.
+            Post {access.required} course reviews with a short written note in the last {access.windowDays} days to read
+            what students say. Averages stay visible — only the written reviews are earned.
           </p>
         </div>
       </div>
@@ -49,7 +49,7 @@ export function LockedReviews({ access, courseCode, verified }: LockedReviewsPro
           />
         </div>
         <p className="mt-1.5 text-[11px] text-[var(--tg-hint)]">
-          Only course reviews from the last {access.windowDays} days count, and they expire on a rolling basis.
+          Only course reviews with a written note count, and they expire on a rolling {access.windowDays}-day basis.
         </p>
       </div>
 
