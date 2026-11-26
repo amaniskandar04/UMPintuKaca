@@ -90,6 +90,21 @@ function toScores(labels: Map<string, string>, scores: Record<string, number>): 
   }));
 }
 
+/** Dedupe, trim and cap the semester list a review can carry. */
+function normalizeSemesters(list: string[] | undefined): string[] {
+  if (!list) return [];
+  const seen = new Set<string>();
+  const out: string[] = [];
+  for (const raw of list) {
+    const value = normalizeText(raw, 32);
+    if (!value || seen.has(value)) continue;
+    seen.add(value);
+    out.push(value);
+    if (out.length >= 8) break;
+  }
+  return out;
+}
+
 reviews.get("/access", authMiddleware, async (c) => {
   const user = c.get("user");
   const access = await getCourseReviewAccess(c.env.DB, { id: user.id, role: user.role });
@@ -121,7 +136,9 @@ reviews.post("/", authMiddleware, requireVerified, async (c) => {
   const labels = await validateScores(c.env.DB, target.type, scoreMap);
   const title = normalizeText(parsed.data.title, MAX_REVIEW_TITLE);
   const reviewBody = normalizeMultiline(parsed.data.body, MAX_REVIEW_BODY);
-  const semester = normalizeText(parsed.data.semester, 32);
+  const semesterText = parsed.data.semesters;
+  const semesters = normalizeSemesters(semesterText);
+  const primarySemester = semesters[0] ?? null;
   const moderation = moderateReview({ title, body: reviewBody });
 
   if (reviewBody) {
@@ -149,7 +166,7 @@ reviews.post("/", authMiddleware, requireVerified, async (c) => {
       alias,
       title,
       reviewBody,
-      semester,
+      primarySemester,
       parsed.data.wouldTakeAgain === undefined || parsed.data.wouldTakeAgain === null
         ? null
         : parsed.data.wouldTakeAgain
@@ -163,6 +180,9 @@ reviews.post("/", authMiddleware, requireVerified, async (c) => {
     ),
     ...Object.entries(scoreMap).map(([key, score]) =>
       c.env.DB.prepare("INSERT INTO review_scores (review_id, dimension_key, score) VALUES (?, ?, ?)").bind(id, key, score)
+    ),
+    ...semesters.map((value) =>
+      c.env.DB.prepare("INSERT OR IGNORE INTO review_semesters (review_id, semester) VALUES (?, ?)").bind(id, value)
     )
   ];
 
@@ -199,7 +219,7 @@ reviews.post("/", authMiddleware, requireVerified, async (c) => {
     alias,
     title,
     body: reviewBody,
-    semester,
+    semesters,
     overall: parsed.data.overall,
     status: moderation.status,
     flags: moderation.flags,
@@ -245,7 +265,9 @@ reviews.patch("/:id", authMiddleware, async (c) => {
   const title = parsed.data.title !== undefined ? normalizeText(parsed.data.title, MAX_REVIEW_TITLE) : existing.title;
   const reviewBody =
     parsed.data.body !== undefined ? normalizeMultiline(parsed.data.body, MAX_REVIEW_BODY) : existing.body;
-  const semester = parsed.data.semester !== undefined ? normalizeText(parsed.data.semester, 32) : existing.semester;
+  const semestersProvided = parsed.data.semesters !== undefined;
+  const semesters = semestersProvided ? normalizeSemesters(parsed.data.semesters) : null;
+  const primarySemester = semesters ? semesters[0] ?? null : existing.semester;
   const wouldTakeAgain =
     parsed.data.wouldTakeAgain !== undefined
       ? parsed.data.wouldTakeAgain === null
@@ -272,13 +294,21 @@ reviews.patch("/:id", authMiddleware, async (c) => {
   const statements = [
     c.env.DB.prepare(
       "UPDATE reviews SET title = ?, body = ?, semester = ?, would_take_again = ?, overall_rating = ?, status = ?, flags_json = ?, updated_at = ? WHERE id = ?"
-    ).bind(title, reviewBody, semester, wouldTakeAgain, overall, status, JSON.stringify(moderation.flags), now, id)
+    ).bind(title, reviewBody, primarySemester, wouldTakeAgain, overall, status, JSON.stringify(moderation.flags), now, id)
   ];
   if (parsed.data.scores) {
     statements.push(c.env.DB.prepare("DELETE FROM review_scores WHERE review_id = ?").bind(id));
     for (const [key, score] of Object.entries(parsed.data.scores)) {
       statements.push(
         c.env.DB.prepare("INSERT INTO review_scores (review_id, dimension_key, score) VALUES (?, ?, ?)").bind(id, key, score)
+      );
+    }
+  }
+  if (semesters) {
+    statements.push(c.env.DB.prepare("DELETE FROM review_semesters WHERE review_id = ?").bind(id));
+    for (const value of semesters) {
+      statements.push(
+        c.env.DB.prepare("INSERT OR IGNORE INTO review_semesters (review_id, semester) VALUES (?, ?)").bind(id, value)
       );
     }
   }
@@ -306,6 +336,14 @@ reviews.patch("/:id", authMiddleware, async (c) => {
         return rows.results;
       })();
 
+  const responseSemesters =
+    semesters ??
+    (
+      await c.env.DB.prepare("SELECT semester FROM review_semesters WHERE review_id = ? ORDER BY semester ASC")
+        .bind(id)
+        .all<{ semester: string }>()
+    ).results.map((row) => row.semester);
+
   const achievements = await getAuthorAchievements(c.env.DB, [user.id]);
   const achievement = achievements.get(user.id);
   const review: ReviewDto = {
@@ -313,7 +351,7 @@ reviews.patch("/:id", authMiddleware, async (c) => {
     alias: existing.alias,
     title,
     body: reviewBody,
-    semester,
+    semesters: responseSemesters,
     overall,
     status: status as ReviewStatus,
     flags: moderation.flags,

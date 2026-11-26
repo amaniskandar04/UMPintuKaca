@@ -55,7 +55,7 @@ export function ReviewCard({
           </div>
           <div className="mt-1 flex flex-wrap items-center gap-2 text-[11px] text-[var(--tg-hint)]">
             <span>{formatMonth(review.createdAt)}</span>
-            {review.semester ? <span>· {review.semester}</span> : null}
+            {review.semesters.length > 0 ? <span>· {review.semesters.join(", ")}</span> : null}
             {review.wouldTakeAgain === true ? <span className="text-[var(--tg-success)]">· ✓ would take again</span> : null}
             {review.wouldTakeAgain === false ? <span>· ✗ would not take again</span> : null}
             {review.updatedAt !== review.createdAt ? <span>· edited</span> : null}

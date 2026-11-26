@@ -46,7 +46,7 @@ export function WriteReviewPage() {
   const [overall, setOverall] = useState(0);
   const [title, setTitle] = useState("");
   const [body, setBody] = useState("");
-  const [semester, setSemester] = useState(SEMESTERS[0] ?? "");
+  const [semesters, setSemesters] = useState<string[]>([]);
   const [wouldTakeAgain, setWouldTakeAgain] = useState<boolean | null>(null);
   const [agreed, setAgreed] = useState(false);
   const [loading, setLoading] = useState(true);
@@ -91,7 +91,7 @@ export function WriteReviewPage() {
         setOverall(found?.overall ?? 0);
         setTitle(found?.title ?? "");
         setBody(found?.body ?? "");
-        setSemester(found?.semester ?? SEMESTERS[0] ?? "");
+        setSemesters(found?.semesters ?? []);
         setWouldTakeAgain(found?.wouldTakeAgain ?? null);
       })
       .catch((caught) => {
@@ -138,7 +138,7 @@ export function WriteReviewPage() {
         await api.updateReview(existing.id, {
           title: title || null,
           body: body || null,
-          semester: semester || null,
+          semesters,
           wouldTakeAgain,
           overall,
           scores: filteredScores
@@ -149,7 +149,7 @@ export function WriteReviewPage() {
           targetCode: code,
           title: title || null,
           body: body || null,
-          semester: semester || null,
+          semesters,
           wouldTakeAgain,
           overall,
           scores: filteredScores
@@ -309,25 +309,57 @@ export function WriteReviewPage() {
               {body.length}/{MAX_REVIEW_BODY}
             </p>
           </div>
-          <div>
-            <label className="label" htmlFor="review-semester">
-              Semester taken
-            </label>
-            <select
-              id="review-semester"
-              className="input"
-              value={semester}
-              onChange={(event) => setSemester(event.target.value)}
-              disabled={!editable}
-            >
-              <option value="">Not specified</option>
-              {SEMESTERS.map((value) => (
-                <option key={value} value={value}>
-                  {value}
-                </option>
-              ))}
-            </select>
-          </div>
+          {type === "course" ? (
+            <div>
+              <label className="label" htmlFor="review-semester">
+                Semester taken
+              </label>
+              <select
+                id="review-semester"
+                className="input"
+                value={semesters[0] ?? ""}
+                onChange={(event) => setSemesters(event.target.value ? [event.target.value] : [])}
+                disabled={!editable}
+              >
+                <option value="">Not specified</option>
+                {SEMESTERS.map((value) => (
+                  <option key={value} value={value}>
+                    {value}
+                  </option>
+                ))}
+              </select>
+            </div>
+          ) : type === "club" ? (
+            <div>
+              <span className="label">Semesters involved</span>
+              <div className="flex flex-wrap gap-1.5">
+                {SEMESTERS.map((value) => {
+                  const active = semesters.includes(value);
+                  return (
+                    <button
+                      key={value}
+                      type="button"
+                      className={cn(
+                        "chip",
+                        active && "border-[var(--brand)] bg-[var(--brand-soft)] text-[var(--brand-link)]"
+                      )}
+                      disabled={!editable}
+                      onClick={() =>
+                        setSemesters((current) =>
+                          current.includes(value)
+                            ? current.filter((item) => item !== value)
+                            : [...current, value].slice(0, 8)
+                        )
+                      }
+                    >
+                      {value}
+                    </button>
+                  );
+                })}
+              </div>
+              <p className="mt-1 text-[11px] text-[var(--tg-hint)]">Pick every semester you were a member.</p>
+            </div>
+          ) : null}
           {type === "course" ? (
             <div>
               <span className="label">Would you take this course again?</span>

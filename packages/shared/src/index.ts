@@ -148,7 +148,8 @@ export interface ReviewDto {
   alias: string;
   title: string | null;
   body: string | null;
-  semester: string | null;
+  /** Semesters this review covers. Courses use one; clubs may use several. */
+  semesters: string[];
   /** The reviewer's explicit overall score. Sub-scores are display-only. */
   overall: number | null;
   status: ReviewStatus;
@@ -449,6 +450,8 @@ export const CreateReviewSchema = z.object({
   wouldTakeAgain: z.boolean().optional().nullable(),
   /** Required: the review's own score. Category scores are optional detail. */
   overall: z.number().int().min(1).max(5),
+  /** Courses use one; clubs may list several. Programmes and places use none. */
+  semesters: z.array(z.string().trim().min(1).max(32)).max(8).optional(),
   scores: ScoreMapSchema.optional()
 });
 
@@ -456,16 +459,16 @@ export const UpdateReviewSchema = z
   .object({
     title: z.string().trim().max(MAX_REVIEW_TITLE).optional().nullable(),
     body: z.string().trim().max(MAX_REVIEW_BODY).optional().nullable(),
-    semester: z.string().trim().max(32).optional().nullable(),
     wouldTakeAgain: z.boolean().optional().nullable(),
     overall: z.number().int().min(1).max(5).optional(),
+    semesters: z.array(z.string().trim().min(1).max(32)).max(8).optional(),
     scores: ScoreMapSchema.optional()
   })
   .refine(
     (value) =>
       value.title !== undefined ||
       value.body !== undefined ||
-      value.semester !== undefined ||
+      value.semesters !== undefined ||
       value.wouldTakeAgain !== undefined ||
       value.overall !== undefined ||
       value.scores !== undefined,

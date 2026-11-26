@@ -124,18 +124,18 @@ export interface ReviewInput {
   targetCode: string;
   title?: string | null;
   body?: string | null;
-  semester?: string | null;
   wouldTakeAgain?: boolean | null;
   overall: number;
+  semesters?: string[];
   scores?: Record<string, number>;
 }
 
 export interface ReviewUpdateInput {
   title?: string | null;
   body?: string | null;
-  semester?: string | null;
   wouldTakeAgain?: boolean | null;
   overall?: number;
+  semesters?: string[];
   scores?: Record<string, number>;
 }
 

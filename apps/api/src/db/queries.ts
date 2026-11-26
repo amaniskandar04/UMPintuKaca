@@ -429,6 +429,29 @@ async function getScoresForReviews(
     map.set(row.review_id, list);
   }
   return map;
+} 
+
+async function getSemestersForReviews(
+  db: D1Database,
+  reviewIds: string[]
+): Promise<Map<string, string[]>> {
+  const map = new Map<string, string[]>();
+  if (reviewIds.length === 0) return map;
+  const placeholders = reviewIds.map(() => "?").join(",");
+  const result = await db
+    .prepare(
+      `SELECT review_id, semester FROM review_semesters
+       WHERE review_id IN (${placeholders})
+       ORDER BY semester ASC`
+    )
+    .bind(...reviewIds)
+    .all<{ review_id: string; semester: string }>();
+  for (const row of result.results) {
+    const list = map.get(row.review_id) ?? [];
+    list.push(row.semester);
+    map.set(row.review_id, list);
+  }
+  return map;
 }
 
 function monthTimestamp(iso: string): string {
@@ -470,7 +493,8 @@ function mapReview(
   row: ReviewRow,
   scores: ScoreDto[],
   viewerId: string | null,
-  presentation: ReviewPresentation
+  presentation: ReviewPresentation,
+  semesters: string[]
 ): ReviewDto {
   const isOwner = Boolean(viewerId && row.user_id === viewerId);
   const createdAt = Date.parse(row.created_at);
@@ -485,7 +509,7 @@ function mapReview(
     alias: row.alias,
     title: row.title,
     body: row.body,
-    semester: row.semester,
+    semesters,
     overall: row.overall_rating ?? null,
     status: row.status as ReviewStatus,
     flags: isOwner ? parseFlags(row.flags_json) : [],
@@ -521,7 +545,9 @@ export async function listReviews(
   const safeLimit = Math.min(50, Math.max(1, Math.floor(limit)));
   const offset = (safePage - 1) * safeLimit;
   const orderBy = sort === "helpful" ? "helpful_count DESC, created_at DESC" : "created_at DESC";
-  const semesterFilter = semester ? " AND semester = ?" : "";
+  const semesterFilter = semester
+    ? " AND EXISTS (SELECT 1 FROM review_semesters rs WHERE rs.review_id = reviews.id AND rs.semester = ?)"
+    : "";
   const params: (string | number)[] = [targetType, targetId];
   if (semester) params.push(semester);
   params.push(safeLimit + 1, offset);
@@ -542,9 +568,15 @@ export async function listReviews(
     db,
     pageRows.map((row) => row.id)
   );
+  const semesters = await getSemestersForReviews(
+    db,
+    pageRows.map((row) => row.id)
+  );
   const presentation = await getReviewPresentation(db, pageRows, viewerId);
   return {
-    reviews: pageRows.map((row) => mapReview(row, scores.get(row.id) ?? [], viewerId, presentation)),
+    reviews: pageRows.map((row) =>
+      mapReview(row, scores.get(row.id) ?? [], viewerId, presentation, semesters.get(row.id) ?? [])
+    ),
     hasMore
   };
 }
@@ -719,12 +751,14 @@ export async function getReviewSemesters(
 ): Promise<string[]> {
   const result = await db
     .prepare(
-      `SELECT semester, COUNT(*) AS n FROM reviews
-       WHERE target_type = ? AND target_id = ?
-         AND status = 'published' AND deleted_at IS NULL
-         AND semester IS NOT NULL AND TRIM(semester) <> ''
-       GROUP BY semester
-       ORDER BY n DESC, semester DESC
+      `SELECT rs.semester AS semester, COUNT(*) AS n
+       FROM review_semesters rs
+       JOIN reviews r ON r.id = rs.review_id
+       WHERE r.target_type = ? AND r.target_id = ?
+         AND r.status = 'published' AND r.deleted_at IS NULL
+         AND TRIM(rs.semester) <> ''
+       GROUP BY rs.semester
+       ORDER BY n DESC, rs.semester DESC
        LIMIT 12`
     )
     .bind(targetType, targetId)
@@ -992,9 +1026,13 @@ export async function getMyReviews(db: D1Database, userId: string): Promise<MyRe
     db,
     result.results.map((row) => row.id)
   );
+  const semesters = await getSemestersForReviews(
+    db,
+    result.results.map((row) => row.id)
+  );
   const presentation = await getReviewPresentation(db, result.results, userId);
   return result.results.map((row) => ({
-    ...mapReview(row, scores.get(row.id) ?? [], userId, presentation),
+    ...mapReview(row, scores.get(row.id) ?? [], userId, presentation, semesters.get(row.id) ?? []),
     targetType: row.target_type as TargetType,
     targetCode: row.target_code ?? "",
     targetName: row.target_name ?? ""
