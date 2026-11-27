@@ -43,6 +43,15 @@ export function PrivacyPage() {
         </section>
 
         <section className="card space-y-2">
+          <h2 className="font-semibold">Feedback form</h2>
+          <p className="text-[var(--tg-hint)]">
+            Complaints and suggestions are sent through an external form linked from Support & feedback. That form is
+            hosted by Google, which records your IP address and submission time, so it sits outside the anonymity
+            described above. Leave out your name and email, and add a Telegram username only if you want a reply.
+          </p>
+        </section>
+
+        <section className="card space-y-2">
           <h2 className="font-semibold">Retention and deletion</h2>
           <p className="text-[var(--tg-hint)]">
             Unverified accounts are removed after 30 days. Expired verification states are removed automatically. You can

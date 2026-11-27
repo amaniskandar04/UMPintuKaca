@@ -468,6 +468,8 @@ export interface ConfigDto {
   googleEnabled: boolean;
   botUsername: string;
   webAppUrl: string;
+  /** Google Form (or future in-app form) opened from the support page. */
+  feedbackUrl: string;
 }
 
 export interface AuthResponse {

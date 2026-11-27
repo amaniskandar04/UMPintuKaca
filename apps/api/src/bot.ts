@@ -50,6 +50,7 @@ function createBot(env: Env): Bot {
       "/privacy - how anonymity works",
       "/guidelines - community rules",
       "/report - how to report a review",
+      "/feedback - send feedback or a complaint",
       "/deleteaccount - delete your account",
       "",
       "Reviews are anonymous to other students. Verified UM status is checked once through Google sign-in."
@@ -72,6 +73,7 @@ function createBot(env: Env): Bot {
       "We store your Telegram numeric ID so the bot can identify your account, and an opaque Google identifier for verification.",
       "We never store your SiswaMail password. We do not publish your name, email, Telegram username, or Telegram ID.",
       "Reviews are shown under a random animal alias. The app operator can technically link a review to an account, so anonymity is not absolute.",
+      "Complaints and suggestions sent through the support form are hosted by Google, which records your IP address.",
       "You can delete your account and your reviews from Settings."
     ].join("\n");
     await sendApp(ctx, env, text, "/privacy");
@@ -91,6 +93,15 @@ function createBot(env: Env): Bot {
 
   bot.command("report", async (ctx) => {
     await sendApp(ctx, env, "Open a review and tap Report. Reports go to the moderation queue.", "/guidelines");
+  });
+
+  bot.command("feedback", async (ctx) => {
+    await sendApp(
+      ctx,
+      env,
+      "Send a bug report, suggestion, complaint, or moderation appeal from the support page.",
+      "/support"
+    );
   });
 
   bot.command("deleteaccount", async (ctx) => {

@@ -5,7 +5,7 @@ import { api } from "../lib/api";
 import { useAuth } from "../context/AuthContext";
 import { confirmAction, haptic } from "../lib/telegram";
 import { formatMonth } from "../lib/format";
-import { IconChevronRight, IconShield, IconStar, IconTrash } from "../components/icons";
+import { IconChevronRight, IconFlag, IconShield, IconStar, IconTrash } from "../components/icons";
 import { InlineNotice, PageHeader } from "../components/ui";
 
 export function SettingsPage() {
@@ -99,6 +99,13 @@ export function SettingsPage() {
             {rewards ? `Lv ${rewards.level} · ${rewards.points} pts` : "View"}
             <IconChevronRight size={16} />
           </span>
+        </Link>
+        <Link to="/support" className="flex items-center justify-between gap-3 px-4 py-3.5 text-sm">
+          <span className="flex items-center gap-2">
+            <IconFlag size={15} className="text-[var(--brand)]" />
+            Help & feedback
+          </span>
+          <IconChevronRight size={16} />
         </Link>
         <Link to="/privacy" className="flex items-center justify-between gap-3 px-4 py-3.5 text-sm">
           Privacy policy

@@ -14,7 +14,8 @@ meta.get("/config", (c) => {
     devBypass: c.env.ENVIRONMENT !== "production" && c.env.DEV_AUTH_BYPASS === "true",
     googleEnabled: googleConfigured(c.env),
     botUsername: c.env.BOT_USERNAME || "",
-    webAppUrl: c.env.WEB_APP_URL || ""
+    webAppUrl: c.env.WEB_APP_URL || "",
+    feedbackUrl: c.env.FEEDBACK_URL || ""
   });
 });
 

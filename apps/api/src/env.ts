@@ -18,6 +18,7 @@ export interface Env {
   ALLOWED_EMAIL_DOMAINS?: string;
   AUTO_HIDE_REPORT_THRESHOLD?: string;
   BROADCAST_BATCH_SIZE?: string;
+  FEEDBACK_URL?: string;
 }
 
 export interface UserRow {

@@ -152,7 +152,7 @@ node scripts/set-webhook.mjs https://your-worker.workers.dev/telegram/webhook
 7. Set `BOT_USERNAME` to your bot username without `@`.
 8. In BotFather, configure the menu button or use the bot's existing **Open UM Reviews** button. The bot sends a `web_app` button when `WEB_APP_URL` starts with `https://`.
 
-The bot commands are `/start`, `/app`, `/help`, `/myreviews`, `/rewards`, `/privacy`, `/guidelines`, `/report`, and `/deleteaccount`.
+The bot commands are `/start`, `/app`, `/help`, `/myreviews`, `/rewards`, `/privacy`, `/guidelines`, `/report`, `/feedback`, and `/deleteaccount`.
 
 Telegram Mini Apps require HTTPS. For local bot testing, use a tunnel such as Cloudflare Tunnel or ngrok and point `WEB_APP_URL` at the tunnel URL.
 
@@ -210,6 +210,7 @@ API (`apps/api/.dev.vars` locally, Worker secrets in production):
 | `ADMIN_TELEGRAM_IDS` | Comma-separated Telegram numeric IDs granted the admin role at login. |
 | `ALLOWED_EMAIL_DOMAINS` | Comma-separated allowed domains. Defaults to `siswa.um.edu.my`. |
 | `AUTO_HIDE_REPORT_THRESHOLD` | Distinct reports before a published review is auto-hidden. Default `3`. |
+| `FEEDBACK_URL` | Feedback/complaint form opened from the app's Support & feedback page. Defaults to a placeholder Google Form. |
 
 Web (`apps/web/.env` or build environment):
 

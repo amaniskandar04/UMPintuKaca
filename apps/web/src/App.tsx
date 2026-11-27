@@ -16,6 +16,7 @@ import { AdminPage } from "./pages/AdminPage";
 import { AdminRewardsPage } from "./pages/AdminRewardsPage";
 import { AdminBroadcastPage } from "./pages/AdminBroadcastPage";
 import { SettingsPage } from "./pages/SettingsPage";
+import { SupportPage } from "./pages/SupportPage";
 import { PrivacyPage } from "./pages/PrivacyPage";
 import { GuidelinesPage } from "./pages/GuidelinesPage";
 import { NotFoundPage } from "./pages/NotFoundPage";
@@ -45,6 +46,7 @@ export default function App() {
             <Route path="/admin/rewards" element={<AdminRewardsPage />} />
             <Route path="/admin/broadcast" element={<AdminBroadcastPage />} />
             <Route path="/settings" element={<SettingsPage />} />
+            <Route path="/support" element={<SupportPage />} />
             <Route path="/privacy" element={<PrivacyPage />} />
             <Route path="/guidelines" element={<GuidelinesPage />} />
             <Route path="*" element={<NotFoundPage />} />

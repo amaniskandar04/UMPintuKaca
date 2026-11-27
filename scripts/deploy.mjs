@@ -14,6 +14,9 @@ const seedData = process.argv.includes("--seed");
 const envArg = process.argv.find((value) => value.startsWith("--env="));
 const envPath = envArg ? path.resolve(root, envArg.slice("--env=".length)) : path.join(root, "deploy.env");
 
+const DEFAULT_FEEDBACK_URL =
+  "https://docs.google.com/forms/d/e/1FAIpQLSfqth06efHN9vZpZZE4srjQBzHvJ3qJMbubn9eVW6sQr28RLA/viewform";
+
 const SEED_FILES = [
   "seed.sql",
   "courses_s2.seed.sql",
@@ -335,6 +338,7 @@ ADMIN_TELEGRAM_IDS = ${tomlString(options.adminIds)}
 ALLOWED_EMAIL_DOMAINS = ${tomlString(options.allowedDomains)}
 AUTO_HIDE_REPORT_THRESHOLD = ${tomlString(options.reportThreshold)}
 BROADCAST_BATCH_SIZE = "25"
+FEEDBACK_URL = ${tomlString(options.feedbackUrl)}
 `;
   const configPath = path.join(apiDir, "wrangler.production.toml");
   fs.writeFileSync(configPath, content, "utf8");
@@ -405,6 +409,7 @@ async function main() {
   const reportThreshold = clean(vars.AUTO_HIDE_REPORT_THRESHOLD) || "3";
   const adminIds = clean(vars.TELEGRAM_ADMIN_IDS).replace(/\s+/g, "");
   const botUsername = clean(vars.TELEGRAM_BOT_USERNAME);
+  const feedbackUrl = clean(vars.FEEDBACK_URL) || DEFAULT_FEEDBACK_URL;
 
   if (dryRun) {
     const workerUrl = `https://${workerName}.example.workers.dev`;
@@ -417,6 +422,7 @@ async function main() {
     console.log(`  Database: ${dbName}`);
     console.log(`  Seed catalogue: ${seedData ? "always" : "only when the database is empty"}`);
     console.log(`  Bot: @${botUsername}`);
+    console.log(`  Feedback form: ${feedbackUrl}`);
     console.log(`  Admins: ${adminIds}`);
     console.log(`  Google redirect: ${workerUrl}/api/auth/google/callback`);
     console.log("\nDry run complete. No Cloudflare or Telegram changes were made.");
@@ -448,7 +454,8 @@ async function main() {
     googleRedirectUri,
     adminIds,
     allowedDomains,
-    reportThreshold
+    reportThreshold,
+    feedbackUrl
   });
 
   run(process.execPath, [path.join(root, "node_modules", "typescript", "bin", "tsc"), "-p", path.join(root, "packages", "shared", "tsconfig.json")], {
@@ -557,6 +564,7 @@ async function main() {
       { command: "privacy", description: "How anonymity works" },
       { command: "guidelines", description: "Community guidelines" },
       { command: "report", description: "How to report a review" },
+      { command: "feedback", description: "Send feedback or a complaint" },
       { command: "deleteaccount", description: "Delete your account" }
     ]
   });
