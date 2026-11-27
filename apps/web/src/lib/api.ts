@@ -1,6 +1,9 @@
 import type {
+  AdminBroadcastDto,
   AdminQueueDto,
+  AdminStatsDto,
   AuthResponse,
+  BroadcastDto,
   CategoriesDto,
   ConfigDto,
   CourseDetailDto,
@@ -281,6 +284,9 @@ export const api = {
   adminQueue(): Promise<AdminQueueDto> {
     return request<AdminQueueDto>("/api/admin/queue");
   },
+  adminStats(): Promise<AdminStatsDto> {
+    return request<AdminStatsDto>("/api/admin/stats");
+  },
   adminReviewAction(id: string, action: "approve" | "hide" | "delete", note?: string): Promise<{ ok: boolean }> {
     return request<{ ok: boolean }>(`/api/admin/reviews/${encodeURIComponent(id)}/action`, {
       method: "POST",
@@ -312,6 +318,21 @@ export const api = {
     return request<{ ok: boolean; points: number; level: number }>(
       `/api/admin/rewards/${encodeURIComponent(userId)}/adjust`,
       { method: "POST", body: { points, reason } }
+    );
+  },
+  adminBroadcast(): Promise<AdminBroadcastDto> {
+    return request<AdminBroadcastDto>("/api/admin/broadcast");
+  },
+  adminSendBroadcast(message: string, test = false): Promise<{ broadcast: BroadcastDto; recipientCount: number }> {
+    return request<{ broadcast: BroadcastDto; recipientCount: number }>("/api/admin/broadcast", {
+      method: "POST",
+      body: { message, test }
+    });
+  },
+  adminRetryBroadcast(id: string): Promise<{ ok: boolean; retried: number }> {
+    return request<{ ok: boolean; retried: number }>(
+      `/api/admin/broadcast/${encodeURIComponent(id)}/retry`,
+      { method: "POST" }
     );
   }
 };

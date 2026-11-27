@@ -3,7 +3,9 @@ import {
   AdminReportResolveSchema,
   AdminReviewActionSchema,
   BanSchema,
+  BroadcastSchema,
   RewardAdjustmentSchema,
+  type BroadcastDto,
   type TargetType
 } from "@um-reviews/shared";
 import type { AppEnv, ReviewRow } from "../env";
@@ -11,20 +13,51 @@ import { authMiddleware, requireAdmin } from "../middleware";
 import { AppError } from "../lib/errors";
 import { notifyUser } from "../lib/notify";
 import {
+  countBroadcastAudience,
+  createBroadcast,
+  drainBroadcastQueue,
+  listBroadcasts,
+  retryFailedBroadcast,
+  type BroadcastRow
+} from "../lib/broadcast";
+import { enforceRateLimit } from "../lib/rate-limit";
+import {
   adjustUserPoints,
   getRewardsLeaderboard,
   notifyRewardProgress,
   recomputeAllUserRewards,
   recomputeUserRewards
 } from "../lib/rewards";
-import { getAdminQueue, logAudit, recomputeStats } from "../db/queries";
+import { getAdminQueue, getAdminStats, logAudit, recomputeStats } from "../db/queries";
 
 const admin = new Hono<AppEnv>();
+
+function toBroadcastDto(row: BroadcastRow): BroadcastDto {
+  return {
+    id: row.id,
+    message: row.message,
+    status: row.status === "sent" ? "sent" : row.status === "sending" ? "sending" : "queued",
+    recipientCount: row.recipient_count,
+    sentCount: row.sent_count,
+    failedCount: row.failed_count,
+    skippedCount: row.skipped_count,
+    createdAt: row.created_at,
+    finishedAt: row.finished_at
+  };
+}
+
 
 admin.use("*", authMiddleware, requireAdmin);
 
 admin.get("/queue", async (c) => {
   return c.json(await getAdminQueue(c.env.DB));
+});
+
+admin.get("/stats", async (c) => {
+  // Admin-only. Let the browser reuse it briefly but never put it in a shared
+  // cache, and keep the server-side copy itself cached for 60s in queries.ts.
+  c.header("Cache-Control", "private, max-age=30");
+  return c.json(await getAdminStats(c.env.DB));
 });
 
 admin.post("/reviews/:id/action", async (c) => {
@@ -189,6 +222,61 @@ admin.post("/rewards/:userId/adjust", async (c) => {
     notifyUser(c.env, userId, `Your reward points were adjusted by ${parsed.data.points > 0 ? "+" : ""}${parsed.data.points}.`)
   );
   return c.json({ ok: true, points: result.row.total_points, level: result.row.level });
+});
+
+admin.get("/broadcast", async (c) => {
+  const [audience, broadcasts] = await Promise.all([
+    countBroadcastAudience(c.env.DB),
+    listBroadcasts(c.env.DB)
+  ]);
+  return c.json({ audience, broadcasts: broadcasts.map(toBroadcastDto) });
+});
+
+admin.post("/broadcast", async (c) => {
+  if (!c.env.TELEGRAM_BOT_TOKEN) {
+    throw new AppError(503, "Telegram bot is not configured", "BOT_NOT_CONFIGURED");
+  }
+
+  const actor = c.get("user");
+  await enforceRateLimit(c.env.DB, `broadcast:day:${actor.id}`, 20, 86400);
+
+  const body = await c.req.json().catch(() => null);
+  const parsed = BroadcastSchema.safeParse(body);
+  if (!parsed.success) {
+    return c.json({ error: "Invalid broadcast", details: parsed.error.flatten() }, 400);
+  }
+
+  const { broadcast, recipientCount } = await createBroadcast(
+    c.env,
+    parsed.data.message,
+    actor.id,
+    parsed.data.test ? actor.id : undefined
+  );
+
+  await logAudit(c.env.DB, actor.id, "broadcast_sent", `broadcast:${broadcast.id}`, {
+    test: Boolean(parsed.data.test),
+    recipientCount,
+    preview: parsed.data.message.slice(0, 120)
+  });
+
+  c.executionCtx.waitUntil(drainBroadcastQueue(c.env));
+  return c.json({ broadcast: toBroadcastDto(broadcast), recipientCount }, 201);
+});
+
+admin.post("/broadcast/:id/retry", async (c) => {
+  const actor = c.get("user");
+  const id = c.req.param("id");
+  const existing = await c.env.DB.prepare("SELECT id FROM broadcasts WHERE id = ?")
+    .bind(id)
+    .first<{ id: string }>();
+  if (!existing) throw new AppError(404, "Broadcast not found", "NOT_FOUND");
+
+  const retried = await retryFailedBroadcast(c.env, id);
+  if (retried > 0) {
+    await logAudit(c.env.DB, actor.id, "broadcast_retried", `broadcast:${id}`, { retried });
+    c.executionCtx.waitUntil(drainBroadcastQueue(c.env));
+  }
+  return c.json({ ok: true, retried });
 });
 
 export default admin;

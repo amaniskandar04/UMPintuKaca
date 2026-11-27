@@ -8,8 +8,19 @@ const apiDir = path.join(root, "apps", "api");
 const webDir = path.join(root, "apps", "web");
 const wranglerBin = path.join(root, "node_modules", "wrangler", "bin", "wrangler.js");
 const dryRun = process.argv.includes("--dry-run");
+// Seeding rewrites ~10k catalogue rows (programs.seed.sql clears courses.program_id
+// before reinserting), so it is opt-in. A deploy that only ships code costs zero D1 writes.
+const seedData = process.argv.includes("--seed");
 const envArg = process.argv.find((value) => value.startsWith("--env="));
 const envPath = envArg ? path.resolve(root, envArg.slice("--env=".length)) : path.join(root, "deploy.env");
+
+const SEED_FILES = [
+  "seed.sql",
+  "courses_s2.seed.sql",
+  "programs.seed.sql",
+  "clubs.seed.sql",
+  "places.seed.sql"
+];
 
 const SECRET_KEYS = [
   "JWT_SECRET",
@@ -124,6 +135,42 @@ function wrangler(args, options = {}) {
       ...options.env
     }
   });
+}
+
+/**
+ * Runs a read-only query and returns its rows, or null when the output cannot be
+ * parsed. Wrangler prints its banner before the JSON, so slice between the
+ * outermost brackets instead of parsing the whole stream.
+ */
+function d1Rows(databaseName, sql, options) {
+  const stdout = wrangler(
+    ["d1", "execute", databaseName, "--remote", "--json", `--command=${sql}`],
+    { ...options, stdio: "pipe" }
+  );
+  const start = stdout.indexOf("[");
+  const end = stdout.lastIndexOf("]");
+  if (start === -1 || end === -1) return null;
+  try {
+    const payload = JSON.parse(stdout.slice(start, end + 1));
+    return Array.isArray(payload) ? payload[0]?.results ?? [] : null;
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * Only seed a database that has no catalogue yet. `SELECT 1 ... LIMIT 1` reads a
+ * single row, whereas COUNT(*) would scan all 4,636 courses just to make the same
+ * decision. On an unreadable result, skip: burning the daily write quota is worse
+ * than a deploy that needs a manual `npm run deploy:seed`.
+ */
+function isCatalogueEmpty(databaseName, options) {
+  const rows = d1Rows(databaseName, "SELECT 1 AS seeded FROM courses LIMIT 1", options);
+  if (rows === null) {
+    console.log("Could not check whether the catalogue is seeded. Skipping seeds to protect the D1 quota.");
+    return false;
+  }
+  return rows.length === 0;
 }
 
 async function cf(pathname, token, init = {}) {
@@ -276,7 +323,7 @@ database_id = ${tomlString(options.databaseId)}
 migrations_dir = "migrations"
 
 [triggers]
-crons = ["0 3 * * *"]
+crons = ["0 3 * * *", "*/2 * * * *"]
 
 [vars]
 ENVIRONMENT = "production"
@@ -287,6 +334,7 @@ GOOGLE_REDIRECT_URI = ${tomlString(options.googleRedirectUri)}
 ADMIN_TELEGRAM_IDS = ${tomlString(options.adminIds)}
 ALLOWED_EMAIL_DOMAINS = ${tomlString(options.allowedDomains)}
 AUTO_HIDE_REPORT_THRESHOLD = ${tomlString(options.reportThreshold)}
+BROADCAST_BATCH_SIZE = "25"
 `;
   const configPath = path.join(apiDir, "wrangler.production.toml");
   fs.writeFileSync(configPath, content, "utf8");
@@ -367,6 +415,7 @@ async function main() {
     console.log(`  Pages project: ${pagesProject}`);
     console.log(`  Pages URL (example): ${pagesUrl}`);
     console.log(`  Database: ${dbName}`);
+    console.log(`  Seed catalogue: ${seedData ? "always" : "only when the database is empty"}`);
     console.log(`  Bot: @${botUsername}`);
     console.log(`  Admins: ${adminIds}`);
     console.log(`  Google redirect: ${workerUrl}/api/auth/google/callback`);
@@ -437,35 +486,21 @@ async function main() {
     accountId
   });
 
-  wrangler(["d1", "execute", database.name, "--remote", "--file=seed/seed.sql", "--yes"], {
-    cwd: apiDir,
-    token,
-    accountId
-  });
-
-  wrangler(["d1", "execute", database.name, "--remote", "--file=seed/courses_s2.seed.sql", "--yes"], {
-    cwd: apiDir,
-    token,
-    accountId
-  });
-
-  wrangler(["d1", "execute", database.name, "--remote", "--file=seed/programs.seed.sql", "--yes"], {
-    cwd: apiDir,
-    token,
-    accountId
-  });
-
-  wrangler(["d1", "execute", database.name, "--remote", "--file=seed/clubs.seed.sql", "--yes"], {
-    cwd: apiDir,
-    token,
-    accountId
-  });
-
-  wrangler(["d1", "execute", database.name, "--remote", "--file=seed/places.seed.sql", "--yes"], {
-    cwd: apiDir,
-    token,
-    accountId
-  });
+  if (seedData || isCatalogueEmpty(database.name, { token, accountId })) {
+    for (const file of SEED_FILES) {
+      wrangler(["d1", "execute", database.name, "--remote", `--file=seed/${file}`, "--yes"], {
+        cwd: apiDir,
+        token,
+        accountId
+      });
+    }
+    console.log("Seeded catalogue data.");
+  } else {
+    console.log(
+      "\nSkipped catalogue seeding: the database already has courses, and reseeding rewrites ~10k rows.\n" +
+        "Run `npm run deploy:seed` when the seed files actually change."
+    );
+  }
 
   const viteBin = path.join(root, "node_modules", "vite", "bin", "vite.js");
   if (!fs.existsSync(viteBin)) throw new Error("Vite is not installed. Run npm install first.");

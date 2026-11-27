@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import type { AdminQueueDto, AdminReviewDto } from "@um-reviews/shared";
+import type { AdminQueueDto, AdminReviewDto, AdminStatsDto } from "@um-reviews/shared";
 import { api } from "../lib/api";
 import { targetPath } from "../lib/format";
 import { useAuth } from "../context/AuthContext";
@@ -19,6 +19,7 @@ import {
 export function AdminPage() {
   const { user } = useAuth();
   const [queue, setQueue] = useState<AdminQueueDto | null>(null);
+  const [stats, setStats] = useState<AdminStatsDto | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [busyId, setBusyId] = useState<string | null>(null);
@@ -30,13 +31,16 @@ export function AdminPage() {
   const load = useCallback(async () => {
     setLoading(true);
     setError(null);
-    try {
-      setQueue(await api.adminQueue());
-    } catch (caught) {
-      setError(caught instanceof Error ? caught.message : "Could not load the moderation queue.");
-    } finally {
-      setLoading(false);
+    // Statistics are a bonus: a failure there must not hide the moderation
+    // queue, so the two requests are settled independently.
+    const [queueResult, statsResult] = await Promise.allSettled([api.adminQueue(), api.adminStats()]);
+    if (queueResult.status === "fulfilled") {
+      setQueue(queueResult.value);
+    } else {
+      setError(queueResult.reason instanceof Error ? queueResult.reason.message : "Could not load the moderation queue.");
     }
+    setStats(statsResult.status === "fulfilled" ? statsResult.value : null);
+    setLoading(false);
   }, []);
 
   useEffect(() => {
@@ -98,7 +102,7 @@ export function AdminPage() {
 
   return (
     <div>
-      <PageHeader title="Moderation" subtitle="Pending reviews, reports, and account restrictions." back right={<Link to="/admin/rewards" className="btn-secondary btn-sm">Rewards</Link>} />
+      <PageHeader title="Moderation" subtitle="Pending reviews, reports, and account restrictions." back right={<div className="flex gap-2"><Link to="/admin/rewards" className="btn-secondary btn-sm">Rewards</Link><Link to="/admin/broadcast" className="btn-secondary btn-sm">Broadcast</Link></div>} />
 
       {loading ? (
         <Spinner label="Loading queue" />
@@ -108,24 +112,28 @@ export function AdminPage() {
         <EmptyState title="No data" />
       ) : (
         <div className="space-y-5">
-          <div className="grid grid-cols-2 gap-2">
-            <div className="card">
-              <p className="text-2xl font-black">{queue.stats.pendingReviews}</p>
-              <p className="text-xs text-[var(--tg-hint)]">Pending reviews</p>
+          {stats ? (
+            <AdminStatistics stats={stats} />
+          ) : (
+            <div className="grid grid-cols-2 gap-2">
+              <div className="card">
+                <p className="text-2xl font-black">{queue.stats.pendingReviews}</p>
+                <p className="text-xs text-[var(--tg-hint)]">Pending reviews</p>
+              </div>
+              <div className="card">
+                <p className="text-2xl font-black">{queue.stats.openReports}</p>
+                <p className="text-xs text-[var(--tg-hint)]">Open reports</p>
+              </div>
+              <div className="card">
+                <p className="text-2xl font-black">{queue.stats.publishedReviews}</p>
+                <p className="text-xs text-[var(--tg-hint)]">Published reviews</p>
+              </div>
+              <div className="card">
+                <p className="text-2xl font-black">{queue.stats.users}</p>
+                <p className="text-xs text-[var(--tg-hint)]">Accounts</p>
+              </div>
             </div>
-            <div className="card">
-              <p className="text-2xl font-black">{queue.stats.openReports}</p>
-              <p className="text-xs text-[var(--tg-hint)]">Open reports</p>
-            </div>
-            <div className="card">
-              <p className="text-2xl font-black">{queue.stats.publishedReviews}</p>
-              <p className="text-xs text-[var(--tg-hint)]">Published reviews</p>
-            </div>
-            <div className="card">
-              <p className="text-2xl font-black">{queue.stats.users}</p>
-              <p className="text-xs text-[var(--tg-hint)]">Accounts</p>
-            </div>
-          </div>
+          )}
 
           <section>
             <SectionTitle>Moderation queue</SectionTitle>
@@ -284,6 +292,130 @@ export function AdminPage() {
           </button>
         </div>
       </Modal>
+    </div>
+  );
+}
+
+function StatCell({
+  value,
+  label,
+  tone
+}: {
+  value: number;
+  label: string;
+  tone?: "warning" | "danger";
+}) {
+  const color =
+    tone === "danger" ? "text-[var(--tg-danger)]" : tone === "warning" ? "text-[var(--tg-warning)]" : "";
+  return (
+    <div className="rounded-xl border border-[var(--tg-border)] bg-[var(--tg-bg-2)] px-3 py-2">
+      <p className={`text-xl font-black leading-tight ${color}`}>{value.toLocaleString()}</p>
+      <p className="text-[11px] leading-tight text-[var(--tg-hint)]">{label}</p>
+    </div>
+  );
+}
+
+function CoverageRow({ label, reviewed, total }: { label: string; reviewed: number; total: number }) {
+  const percent = total > 0 ? Math.min(100, Math.round((reviewed / total) * 100)) : 0;
+  return (
+    <div>
+      <div className="flex items-center justify-between text-xs">
+        <span className="font-medium">{label}</span>
+        <span className="text-[var(--tg-hint)]">
+          {reviewed.toLocaleString()} / {total.toLocaleString()} ({percent}%)
+        </span>
+      </div>
+      <div className="mt-1 h-1.5 overflow-hidden rounded-full bg-[var(--tg-border)]">
+        <div className="h-full rounded-full bg-[var(--brand)]" style={{ width: `${percent}%` }} />
+      </div>
+    </div>
+  );
+}
+
+/**
+ * Read-only dashboard numbers. Every figure comes from an index-backed query;
+ * the only write involved happens at sign-in, once per user per day.
+ */
+function AdminStatistics({ stats }: { stats: AdminStatsDto }) {
+  const { today, totals, coverage } = stats;
+  const peak = Math.max(1, ...stats.series.map((point) => point.activeUsers));
+  const oldest = stats.series[0]?.day.slice(5) ?? "";
+  const newest = stats.series[stats.series.length - 1]?.day.slice(5) ?? "";
+
+  return (
+    <div className="space-y-5">
+      <section>
+        <div className="mb-2 flex items-baseline justify-between">
+          <SectionTitle>Today</SectionTitle>
+          <span className="text-xs text-[var(--tg-hint)]">{stats.day} · Malaysia time</span>
+        </div>
+        <div className="card grid grid-cols-3 gap-2">
+          <StatCell value={today.activeUsers} label="Active students" />
+          <StatCell value={today.signups} label="New accounts" />
+          <StatCell value={today.verified} label="Verified" />
+          <StatCell value={today.reviews} label="Reviews" />
+          <StatCell value={today.reports} label="Reports" tone={today.reports > 0 ? "warning" : undefined} />
+          <StatCell value={today.questions + today.answers} label="Q&A posts" />
+        </div>
+        {today.pendingReviews + today.hiddenReviews > 0 ? (
+          <p className="mt-2 text-xs text-[var(--tg-hint)]">
+            {today.pendingReviews} pending and {today.hiddenReviews} hidden from today still need a decision.
+          </p>
+        ) : null}
+      </section>
+
+      <section>
+        <SectionTitle>All time</SectionTitle>
+        <div className="card grid grid-cols-3 gap-2">
+          <StatCell value={totals.accounts} label="Accounts" />
+          <StatCell value={totals.verified} label="Verified" />
+          <StatCell value={totals.contributors} label="Contributors" />
+          <StatCell value={totals.publishedReviews} label="Published reviews" />
+          <StatCell
+            value={totals.pendingReviews}
+            label="Pending"
+            tone={totals.pendingReviews > 0 ? "warning" : undefined}
+          />
+          <StatCell value={totals.banned} label="Banned" tone={totals.banned > 0 ? "danger" : undefined} />
+        </div>
+        <p className="mt-2 text-xs text-[var(--tg-hint)]">
+          {totals.repeatContributors.toLocaleString()} wrote more than one review ·{" "}
+          {totals.reviews7d.toLocaleString()} in the last 7 days ·{" "}
+          {totals.reviews30d.toLocaleString()} in the last 30
+          {totals.deleted > 0 ? ` · ${totals.deleted.toLocaleString()} deleted accounts` : ""}
+        </p>
+      </section>
+
+      <section>
+        <SectionTitle>Coverage</SectionTitle>
+        <div className="card space-y-3">
+          <CoverageRow label="Courses" reviewed={coverage.coursesReviewed} total={coverage.courses} />
+          <CoverageRow label="Programmes" reviewed={coverage.programsReviewed} total={coverage.programs} />
+          <CoverageRow label="Clubs" reviewed={coverage.clubsReviewed} total={coverage.clubs} />
+          <CoverageRow label="Campus places" reviewed={coverage.placesReviewed} total={coverage.places} />
+        </div>
+      </section>
+
+      <section>
+        <SectionTitle>Last 14 days</SectionTitle>
+        <div className="card">
+          <div className="flex h-20 items-end gap-1">
+            {stats.series.map((point) => (
+              <div
+                key={point.day}
+                className="flex-1 rounded-t bg-[var(--brand)]"
+                style={{ height: `${Math.max(4, Math.round((point.activeUsers / peak) * 100))}%` }}
+                title={`${point.day}: ${point.activeUsers} active, ${point.signups} new, ${point.reviews} reviews`}
+              />
+            ))}
+          </div>
+          <div className="mt-2 flex justify-between text-[10px] text-[var(--tg-hint)]">
+            <span>{oldest}</span>
+            <span>Active students per day</span>
+            <span>{newest}</span>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

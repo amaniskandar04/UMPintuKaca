@@ -24,6 +24,7 @@ import { callbackPage, clientIpHash, getBearerToken } from "../lib/http";
 import { signSession, verifySession } from "../lib/jwt";
 import { enforceRateLimit } from "../lib/rate-limit";
 import { recomputeStats, toUserDto } from "../db/queries";
+import { touchDailyActivity } from "../lib/activity";
 import { validateInitData } from "../lib/telegram";
 
 const auth = new Hono<AppEnv>();
@@ -93,6 +94,9 @@ auth.post("/init", async (c) => {
   }
 
   if (!user) throw new AppError(500, "Could not create user", "USER_CREATE_FAILED");
+  // One row per user per day; the first open writes, later opens that day are a
+  // primary-key lookup. This is the only write the statistics feature adds.
+  await touchDailyActivity(c.env.DB, user.id);
   const token = await signSession(c.env, user);
   return c.json({ token, user: await toUserDto(c.env.DB, user) });
 });
@@ -118,6 +122,7 @@ auth.post("/dev-init", async (c) => {
     .bind(id)
     .first<UserRow>();
   if (!user) throw new AppError(500, "Could not create dev user", "USER_CREATE_FAILED");
+  await touchDailyActivity(c.env.DB, user.id);
   const token = await signSession(c.env, user);
   return c.json({ token, user: await toUserDto(c.env.DB, user) });
 });
@@ -162,7 +167,10 @@ auth.post("/dev-unverify", authMiddleware, async (c) => {
 });
 
 auth.get("/me", authMiddleware, async (c) => {
-  return c.json({ user: await toUserDto(c.env.DB, c.get("user")) });
+  const user = c.get("user");
+  // Covers browser sessions that boot from a stored token instead of initData.
+  await touchDailyActivity(c.env.DB, user.id);
+  return c.json({ user: await toUserDto(c.env.DB, user) });
 });
 
 auth.delete("/me", authMiddleware, async (c) => {

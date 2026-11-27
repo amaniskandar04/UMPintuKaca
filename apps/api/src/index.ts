@@ -4,6 +4,7 @@ import type { AppEnv } from "./env";
 import { AppError } from "./lib/errors";
 import { handleTelegramUpdate } from "./bot";
 import { cleanup } from "./cleanup";
+import { drainBroadcastQueue } from "./lib/broadcast";
 import auth from "./routes/auth";
 import catalog from "./routes/catalog";
 import meta from "./routes/meta";
@@ -100,7 +101,9 @@ app.notFound((c) => c.json({ error: "Not found" }, 404));
 
 export default {
   fetch: app.fetch,
-  scheduled: async (_event: ScheduledEvent, env: AppEnv["Bindings"], ctx: ExecutionContext) => {
-    ctx.waitUntil(cleanup(env));
+  scheduled: async (controller: ScheduledController, env: AppEnv["Bindings"], ctx: ExecutionContext) => {
+    // The nightly trigger does housekeeping; every other tick drains the
+    // broadcast outbox in small batches.
+    ctx.waitUntil(controller.cron === "0 3 * * *" ? cleanup(env) : drainBroadcastQueue(env));
   }
 };

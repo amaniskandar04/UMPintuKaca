@@ -34,6 +34,7 @@
     "db:seed:demo": "npm run db:seed:demo:local -w @um-reviews/api",
     "webhook:set": "node scripts/set-webhook.mjs",
     "deploy": "node scripts/deploy.mjs",
+    "deploy:seed": "node scripts/deploy.mjs --seed",
     "deploy:dry": "node scripts/deploy.mjs --dry-run"
   },
   "devDependencies": {

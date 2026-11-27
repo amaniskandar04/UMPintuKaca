@@ -17,6 +17,7 @@ export interface Env {
   ADMIN_TELEGRAM_IDS?: string;
   ALLOWED_EMAIL_DOMAINS?: string;
   AUTO_HIDE_REPORT_THRESHOLD?: string;
+  BROADCAST_BATCH_SIZE?: string;
 }
 
 export interface UserRow {

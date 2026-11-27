@@ -6,12 +6,37 @@ import { makeAlias } from "../lib/alias";
 import { normalizeMultiline, randomId } from "../lib/crypto";
 import { AppError } from "../lib/errors";
 import { moderateReview } from "../lib/moderation";
-import { notifyAdmins } from "../lib/notify";
+import { notifyAdmins, notifyUser } from "../lib/notify";
 import { enforceDailyAndWeekly } from "../lib/rate-limit";
 import { notifyRewardProgress, recomputeUserRewards } from "../lib/rewards";
 import { getCourseIdByCode, isBanned, listCourseQuestions } from "../db/queries";
 
 const qa = new Hono<AppEnv>();
+
+/** How many past reviewers of a course receive a new-question ping. */
+const QUESTION_FANOUT_LIMIT = 20;
+
+async function notifyCourseReviewersAboutQuestion(
+  env: AppEnv["Bindings"],
+  courseId: string,
+  code: string,
+  askerId: string
+): Promise<void> {
+  const rows = await env.DB.prepare(
+    `SELECT DISTINCT user_id FROM reviews
+     WHERE target_type = 'course' AND target_id = ?
+       AND status = 'published' AND deleted_at IS NULL AND user_id <> ?
+     LIMIT ?`
+  )
+    .bind(courseId, askerId, QUESTION_FANOUT_LIMIT)
+    .all<{ user_id: string }>();
+
+  await Promise.allSettled(
+    rows.results.map((row) =>
+      notifyUser(env, row.user_id, `New question on ${code}, a course you reviewed. Open UM Reviews to reply.`)
+    )
+  );
+}
 
 qa.get("/courses/:code/questions", optionalAuthMiddleware, async (c) => {
   const courseId = await getCourseIdByCode(c.env.DB, c.req.param("code"));
@@ -35,6 +60,7 @@ qa.post("/courses/:code/questions", authMiddleware, requireVerified, async (c) =
 
   const courseId = await getCourseIdByCode(c.env.DB, c.req.param("code"));
   if (!courseId) throw new AppError(404, "Course not found", "NOT_FOUND");
+  const code = c.req.param("code").trim().toUpperCase();
 
   await enforceDailyAndWeekly(c.env.DB, "question", user.id, 10, 30);
 
@@ -56,6 +82,7 @@ qa.post("/courses/:code/questions", authMiddleware, requireVerified, async (c) =
   if (moderation.status === "published") {
     const reward = await recomputeUserRewards(c.env.DB, user.id);
     c.executionCtx.waitUntil(notifyRewardProgress(c.env, user.id, reward));
+    c.executionCtx.waitUntil(notifyCourseReviewersAboutQuestion(c.env, courseId, code, user.id));
   } else {
     c.executionCtx.waitUntil(
       notifyAdmins(c.env, `New question needs moderation. Question ID: ${id}. Flags: ${moderation.flags.join(", ") || "none"}`)
@@ -91,10 +118,12 @@ qa.post("/questions/:id/answers", authMiddleware, requireVerified, async (c) => 
   }
 
   const question = await c.env.DB.prepare(
-    "SELECT id, status FROM course_questions WHERE id = ? AND deleted_at IS NULL"
+    `SELECT q.id, q.user_id, q.status, c.code
+     FROM course_questions q JOIN courses c ON c.id = q.course_id
+     WHERE q.id = ? AND q.deleted_at IS NULL`
   )
     .bind(c.req.param("id"))
-    .first<{ id: string; status: string }>();
+    .first<{ id: string; user_id: string; status: string; code: string }>();
   if (!question || question.status !== "published") {
     throw new AppError(404, "Question not found", "NOT_FOUND");
   }
@@ -119,6 +148,15 @@ qa.post("/questions/:id/answers", authMiddleware, requireVerified, async (c) => 
   if (moderation.status === "published") {
     const reward = await recomputeUserRewards(c.env.DB, user.id);
     c.executionCtx.waitUntil(notifyRewardProgress(c.env, user.id, reward));
+    if (question.user_id !== user.id) {
+      c.executionCtx.waitUntil(
+        notifyUser(
+          c.env,
+          question.user_id,
+          `Someone answered your question on ${question.code}. Open UM Reviews to read it.`
+        )
+      );
+    }
   } else {
     c.executionCtx.waitUntil(
       notifyAdmins(c.env, `New answer needs moderation. Answer ID: ${id}. Flags: ${moderation.flags.join(", ") || "none"}`)

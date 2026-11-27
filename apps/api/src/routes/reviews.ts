@@ -35,33 +35,6 @@ import {
 
 const reviews = new Hono<AppEnv>();
 
-/**
- * Tell other people who reviewed the same course that there is something new.
- * Capped so a popular course cannot fan out into hundreds of bot messages.
- */
-async function notifyCourseReviewers(
-  env: AppEnv["Bindings"],
-  targetType: string,
-  targetId: string,
-  code: string,
-  authorId: string
-): Promise<void> {
-  if (targetType !== "course") return;
-  const rows = await env.DB.prepare(
-    `SELECT DISTINCT user_id FROM reviews
-     WHERE target_type = ? AND target_id = ?
-       AND status = 'published' AND deleted_at IS NULL AND user_id <> ?
-     LIMIT 25`
-  )
-    .bind(targetType, targetId, authorId)
-    .all<{ user_id: string }>();
-  await Promise.allSettled(
-    rows.results.map((row) =>
-      notifyUser(env, row.user_id, `New review on ${code}. Open UM Reviews to read what they thought.`)
-    )
-  );
-}
-
 async function validateScores(
   db: D1Database,
   targetType: TargetType,
@@ -200,9 +173,6 @@ reviews.post("/", authMiddleware, requireVerified, async (c) => {
     await recomputeStats(c.env.DB, target.type, target.id);
     const reward = await recomputeUserRewards(c.env.DB, user.id);
     c.executionCtx.waitUntil(notifyRewardProgress(c.env, user.id, reward));
-    c.executionCtx.waitUntil(
-      notifyCourseReviewers(c.env, target.type, target.id, target.code, user.id)
-    );
   } else {
     c.executionCtx.waitUntil(
       notifyAdmins(

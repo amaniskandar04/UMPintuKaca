@@ -105,7 +105,14 @@ The course catalogue is bundled with the Worker as a generated module (`apps/api
 
 Each course carries pre-normalised search text, computed once when the module loads, so ranking never re-normalises names per query. `getFaculties()` and `getDimensions()` are cached per isolate for ten minutes because both were previously re-read on every app open; the faculty list also canonicalises casing and abbreviations at query time, since reseeding rewrites those values from dumps that disagree.
 
-**Deploying code-only changes:** `npm run deploy` always re-runs all five seed files. For a change that doesn't touch data, deploy the Worker and Pages app directly instead, which costs zero D1 reads:
+**Deploying code-only changes:** `npm run deploy` only ships code. It applies pending migrations, then seeds the catalogue **only if the `courses` table is empty** (or when you pass `--seed`), so a normal deploy costs zero D1 writes. When the seed data itself changes, run `npm run deploy:seed`:
+
+```powershell
+npm run deploy        # code only; seeds only on a brand-new database
+npm run deploy:seed   # code plus all five seed files
+```
+
+Without the script, the equivalent direct commands are:
 
 ```powershell
 npx wrangler deploy -c apps/api/wrangler.production.toml
@@ -253,7 +260,7 @@ npm run db:seed:places:remote -w @um-reviews/api
 - Create or reuse the D1 database and Pages project.
 - Patch the D1 database ID in `wrangler.toml`.
 - Generate production secrets if `deploy.env` does not have them.
-- Deploy the Worker, upload secrets, apply migrations, and seed courses, programmes, clubs, and campus places.
+- Deploy the Worker, upload secrets, apply migrations, and seed the catalogue the first time (later deploys skip seeding unless you run `npm run deploy:seed`).
 - Build and deploy the Mini App with the correct API URL.
 - Set the Telegram webhook, menu button, commands, and descriptions.
 - Print the Google OAuth redirect URI you need to add.
@@ -467,6 +474,7 @@ The app supports dark, light, ocean, cutesy, and gold-premium themes. Dark and l
 - `bans`: posting restrictions.
 - `audit_log`: moderation actions.
 - `rate_limits`: fixed-window counters.
+- `user_activity`: one row per user per day (Malaysia time) for the admin dashboard. The first app open of the day writes one row; later opens are a primary-key lookup. Pruned after 90 days by the nightly job.
 
 ## Known limitations and next steps
 

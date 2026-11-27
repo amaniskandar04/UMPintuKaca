@@ -2,6 +2,7 @@ import type {
   AdminQueueDto,
   AdminReportDto,
   AdminReviewDto,
+  AdminStatsDto,
   AuthorBadgeDto,
   CourseDetailDto,
   CourseAnswerDto,
@@ -35,6 +36,7 @@ import type { CourseRow, DimensionRow, EntityRow, ProgramRow, ReviewRow, StatsRo
 import { searchItems } from "../lib/search";
 import { COURSE_BY_ID, COURSE_INDEX, type CourseEntry } from "../lib/course-index";
 import { getAuthorAchievements } from "../lib/rewards";
+import { dayStartIso, shiftDay, statsDay } from "../lib/activity";
 
 /**
  * Canonical faculty expression.
@@ -1218,6 +1220,179 @@ export async function getAdminQueue(db: D1Database): Promise<AdminQueueDto> {
       users: stats?.users ?? 0
     }
   };
+}
+
+const ADMIN_STATS_TTL_MS = 60 * 1000;
+const ADMIN_STATS_SERIES_DAYS = 14;
+let adminStatsCache: { at: number; value: AdminStatsDto } | null = null;
+
+/**
+ * Admin dashboard numbers.
+ *
+ * Everything here is a read. The only write this feature adds is the daily
+ * activity row recorded at sign-in (see lib/activity.ts).
+ *
+ * The queries are chosen so each one touches an index rather than a table:
+ * "today" filters use the created_at indexes added in migration 0014, the
+ * activity series uses the user_activity primary key, and the catalogue totals
+ * come from the Worker's bundled course index instead of D1.
+ */
+export async function getAdminStats(db: D1Database): Promise<AdminStatsDto> {
+  const now = Date.now();
+  if (adminStatsCache && now - adminStatsCache.at < ADMIN_STATS_TTL_MS) {
+    return adminStatsCache.value;
+  }
+
+  const today = statsDay(now);
+  const dayStart = dayStartIso(today);
+  const seriesStart = dayStartIso(shiftDay(today, -(ADMIN_STATS_SERIES_DAYS - 1)));
+  const weekStart = dayStartIso(shiftDay(today, -6));
+  const monthStart = dayStartIso(shiftDay(today, -29));
+
+  const results = await db.batch([
+    db.prepare("SELECT COUNT(*) AS n FROM user_activity WHERE day = ?").bind(today),
+    db.prepare("SELECT COUNT(*) AS n FROM users WHERE created_at >= ?").bind(dayStart),
+    db.prepare("SELECT COUNT(*) AS n FROM users WHERE verified_at >= ?").bind(dayStart),
+    db.prepare(
+      "SELECT status, COUNT(*) AS n FROM reviews WHERE created_at >= ? AND deleted_at IS NULL GROUP BY status"
+    ).bind(dayStart),
+    db.prepare("SELECT COUNT(*) AS n FROM reports WHERE created_at >= ?").bind(dayStart),
+    db.prepare("SELECT COUNT(*) AS n FROM course_questions WHERE created_at >= ? AND deleted_at IS NULL").bind(
+      dayStart
+    ),
+    db.prepare("SELECT COUNT(*) AS n FROM course_answers WHERE created_at >= ? AND deleted_at IS NULL").bind(dayStart),
+    db.prepare(
+      `SELECT
+         SUM(CASE WHEN deleted_at IS NULL THEN 1 ELSE 0 END) AS accounts,
+         SUM(CASE WHEN verified_at IS NOT NULL AND deleted_at IS NULL THEN 1 ELSE 0 END) AS verified,
+         SUM(CASE WHEN deleted_at IS NOT NULL OR status = 'deleted' THEN 1 ELSE 0 END) AS deleted
+       FROM users`
+    ),
+    db.prepare("SELECT COUNT(DISTINCT user_id) AS n FROM bans WHERE until IS NULL OR until > ?").bind(
+      new Date(now).toISOString()
+    ),
+    db.prepare(
+      `SELECT
+         SUM(CASE WHEN status = 'published' THEN 1 ELSE 0 END) AS published,
+         SUM(CASE WHEN status = 'pending' THEN 1 ELSE 0 END) AS pending,
+         SUM(CASE WHEN status = 'hidden' THEN 1 ELSE 0 END) AS hidden,
+         SUM(CASE WHEN created_at >= ? THEN 1 ELSE 0 END) AS last7,
+         SUM(CASE WHEN created_at >= ? THEN 1 ELSE 0 END) AS last30
+       FROM reviews WHERE deleted_at IS NULL`
+    ).bind(weekStart, monthStart),
+    db.prepare(
+      `SELECT COUNT(*) AS contributors, SUM(CASE WHEN n >= 2 THEN 1 ELSE 0 END) AS repeat_contributors
+       FROM (SELECT user_id, COUNT(*) AS n FROM reviews
+             WHERE status = 'published' AND deleted_at IS NULL GROUP BY user_id)`
+    ),
+    db.prepare(
+      `SELECT target_type AS type, COUNT(*) AS reviews, COUNT(DISTINCT target_id) AS targets
+       FROM reviews WHERE status = 'published' AND deleted_at IS NULL GROUP BY target_type`
+    ),
+    db.prepare(
+      `SELECT (SELECT COUNT(*) FROM programs) AS programs,
+              (SELECT COUNT(*) FROM entities WHERE type = 'club' AND active = 1) AS clubs,
+              (SELECT COUNT(*) FROM entities WHERE type = 'place' AND active = 1) AS places`
+    ),
+    db.prepare("SELECT day, COUNT(*) AS n FROM user_activity WHERE day >= ? GROUP BY day").bind(
+      shiftDay(today, -(ADMIN_STATS_SERIES_DAYS - 1))
+    ),
+    db.prepare(
+      `SELECT substr(datetime(created_at, '+8 hours'), 1, 10) AS day, COUNT(*) AS n
+       FROM users WHERE created_at >= ? GROUP BY day`
+    ).bind(seriesStart),
+    db.prepare(
+      `SELECT substr(datetime(created_at, '+8 hours'), 1, 10) AS day, COUNT(*) AS n
+       FROM reviews WHERE created_at >= ? AND deleted_at IS NULL GROUP BY day`
+    ).bind(seriesStart)
+  ]);
+
+  const rowsOf = <T>(index: number): T[] => (results[index]?.results ?? []) as T[];
+  const firstOf = <T>(index: number): T | null => rowsOf<T>(index)[0] ?? null;
+  const countOf = (index: number): number => Number(firstOf<{ n: number }>(index)?.n ?? 0);
+
+  const todayByStatus = new Map(
+    rowsOf<{ status: string; n: number }>(3).map((row) => [row.status, Number(row.n)])
+  );
+  const userTotals = firstOf<{ accounts: number | null; verified: number | null; deleted: number | null }>(7);
+  const reviewTotals = firstOf<{
+    published: number | null;
+    pending: number | null;
+    hidden: number | null;
+    last7: number | null;
+    last30: number | null;
+  }>(9);
+  const contributorTotals = firstOf<{ contributors: number | null; repeat_contributors: number | null }>(10);
+  const typeRows = rowsOf<{ type: string; reviews: number; targets: number }>(11);
+  const catalogue = firstOf<{ programs: number; clubs: number; places: number }>(12);
+
+  const byType = new Map(
+    typeRows.map((row) => [row.type, { reviews: Number(row.reviews), targets: Number(row.targets) }])
+  );
+
+  const toSeriesMap = (index: number) =>
+    new Map(rowsOf<{ day: string; n: number }>(index).map((row) => [row.day, Number(row.n)]));
+  const activityByDay = toSeriesMap(13);
+  const signupsByDay = toSeriesMap(14);
+  const reviewsByDay = toSeriesMap(15);
+
+  const series = Array.from({ length: ADMIN_STATS_SERIES_DAYS }, (_, index) => {
+    const day = shiftDay(today, index - (ADMIN_STATS_SERIES_DAYS - 1));
+    return {
+      day,
+      activeUsers: activityByDay.get(day) ?? 0,
+      signups: signupsByDay.get(day) ?? 0,
+      reviews: reviewsByDay.get(day) ?? 0
+    };
+  });
+
+  const pendingToday = todayByStatus.get("pending") ?? 0;
+  const hiddenToday = todayByStatus.get("hidden") ?? 0;
+
+  const stats: AdminStatsDto = {
+    day: today,
+    today: {
+      activeUsers: countOf(0),
+      signups: countOf(1),
+      verified: countOf(2),
+      reviews: pendingToday + hiddenToday + (todayByStatus.get("published") ?? 0),
+      pendingReviews: pendingToday,
+      hiddenReviews: hiddenToday,
+      reports: countOf(4),
+      questions: countOf(5),
+      answers: countOf(6)
+    },
+    totals: {
+      accounts: Number(userTotals?.accounts ?? 0),
+      verified: Number(userTotals?.verified ?? 0),
+      deleted: Number(userTotals?.deleted ?? 0),
+      banned: countOf(8),
+      publishedReviews: Number(reviewTotals?.published ?? 0),
+      pendingReviews: Number(reviewTotals?.pending ?? 0),
+      hiddenReviews: Number(reviewTotals?.hidden ?? 0),
+      reviews7d: Number(reviewTotals?.last7 ?? 0),
+      reviews30d: Number(reviewTotals?.last30 ?? 0),
+      contributors: Number(contributorTotals?.contributors ?? 0),
+      repeatContributors: Number(contributorTotals?.repeat_contributors ?? 0)
+    },
+    coverage: {
+      courses: COURSE_INDEX.length,
+      coursesReviewed: byType.get("course")?.targets ?? 0,
+      programs: Number(catalogue?.programs ?? 0),
+      programsReviewed: byType.get("program")?.targets ?? 0,
+      clubs: Number(catalogue?.clubs ?? 0),
+      clubsReviewed: byType.get("club")?.targets ?? 0,
+      places: Number(catalogue?.places ?? 0),
+      placesReviewed: byType.get("place")?.targets ?? 0
+    },
+    reviewsByType: typeRows
+      .map((row) => ({ type: row.type as TargetType, count: Number(row.reviews) }))
+      .sort((left, right) => right.count - left.count),
+    series
+  };
+
+  adminStatsCache = { at: now, value: stats };
+  return stats;
 }
 
 export async function logAudit(

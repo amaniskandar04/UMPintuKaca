@@ -11,7 +11,7 @@ database_id = "07ba00b8-691b-4f38-b47c-ad92e350b412"
 migrations_dir = "migrations"
 
 [triggers]
-crons = ["0 3 * * *"]
+crons = ["0 3 * * *", "*/2 * * * *"]
 
 [vars]
 ENVIRONMENT = "development"
@@ -20,3 +20,4 @@ WEB_APP_URL = "http://localhost:5173"
 BOT_USERNAME = ""
 ALLOWED_EMAIL_DOMAINS = "siswa.um.edu.my"
 AUTO_HIDE_REPORT_THRESHOLD = "3"
+BROADCAST_BATCH_SIZE = "25"

@@ -14,6 +14,7 @@ import { RewardsPage } from "./pages/RewardsPage";
 import { VerifyPage } from "./pages/VerifyPage";
 import { AdminPage } from "./pages/AdminPage";
 import { AdminRewardsPage } from "./pages/AdminRewardsPage";
+import { AdminBroadcastPage } from "./pages/AdminBroadcastPage";
 import { SettingsPage } from "./pages/SettingsPage";
 import { PrivacyPage } from "./pages/PrivacyPage";
 import { GuidelinesPage } from "./pages/GuidelinesPage";
@@ -42,6 +43,7 @@ export default function App() {
             <Route path="/verify" element={<VerifyPage />} />
             <Route path="/admin" element={<AdminPage />} />
             <Route path="/admin/rewards" element={<AdminRewardsPage />} />
+            <Route path="/admin/broadcast" element={<AdminBroadcastPage />} />
             <Route path="/settings" element={<SettingsPage />} />
             <Route path="/privacy" element={<PrivacyPage />} />
             <Route path="/guidelines" element={<GuidelinesPage />} />

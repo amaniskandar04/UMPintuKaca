@@ -404,6 +404,64 @@ export interface AdminQueueDto {
   };
 }
 
+export interface BroadcastDto {
+  id: string;
+  message: string;
+  status: "queued" | "sending" | "sent";
+  recipientCount: number;
+  sentCount: number;
+  failedCount: number;
+  skippedCount: number;
+  createdAt: string;
+  finishedAt: string | null;
+}
+
+export interface AdminBroadcastDto {
+  audience: number;
+  broadcasts: BroadcastDto[];
+}
+
+export interface AdminStatsDto {
+  /** Today's date in Malaysia time (UTC+8), YYYY-MM-DD. */
+  day: string;
+  today: {
+    activeUsers: number;
+    signups: number;
+    verified: number;
+    reviews: number;
+    pendingReviews: number;
+    hiddenReviews: number;
+    reports: number;
+    questions: number;
+    answers: number;
+  };
+  totals: {
+    accounts: number;
+    verified: number;
+    deleted: number;
+    banned: number;
+    publishedReviews: number;
+    pendingReviews: number;
+    hiddenReviews: number;
+    reviews7d: number;
+    reviews30d: number;
+    contributors: number;
+    repeatContributors: number;
+  };
+  coverage: {
+    courses: number;
+    coursesReviewed: number;
+    programs: number;
+    programsReviewed: number;
+    clubs: number;
+    clubsReviewed: number;
+    places: number;
+    placesReviewed: number;
+  };
+  reviewsByType: { type: TargetType; count: number }[];
+  series: { day: string; activeUsers: number; signups: number; reviews: number }[];
+}
+
 export interface ConfigDto {
   environment: string;
   devBypass: boolean;
@@ -490,6 +548,11 @@ export const AdminReviewActionSchema = z.object({
 export const AdminReportResolveSchema = z.object({
   action: z.enum(["dismiss", "action_taken"]),
   note: z.string().trim().max(500).optional()
+});
+
+export const BroadcastSchema = z.object({
+  message: z.string().trim().min(1).max(3000),
+  test: z.boolean().optional()
 });
 
 export const BanSchema = z.object({
