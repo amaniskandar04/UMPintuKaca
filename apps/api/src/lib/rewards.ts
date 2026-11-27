@@ -10,7 +10,7 @@ import {
   type RewardTheme,
   type RewardsDto,
   type RewardsLeaderboardDto
-} from "@um-reviews/shared";
+} from "@pintukaca/shared";
 import type { BadgeRow, Env, UserRewardRow } from "../env";
 import { AppError } from "./errors";
 import { notifyUser } from "./notify";

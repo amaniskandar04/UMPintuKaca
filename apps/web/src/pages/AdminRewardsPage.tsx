@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from "react";
-import type { RewardsLeaderboardDto } from "@um-reviews/shared";
+import type { RewardsLeaderboardDto } from "@pintukaca/shared";
 import { api } from "../lib/api";
 import { useAuth } from "../context/AuthContext";
 import { EmptyState, ErrorState, PageHeader, Spinner } from "../components/ui";

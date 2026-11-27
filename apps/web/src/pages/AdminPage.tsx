@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import type { AdminQueueDto, AdminReviewDto, AdminStatsDto } from "@um-reviews/shared";
+import type { AdminQueueDto, AdminReviewDto, AdminStatsDto } from "@pintukaca/shared";
 import { api } from "../lib/api";
 import { targetPath } from "../lib/format";
 import { useAuth } from "../context/AuthContext";

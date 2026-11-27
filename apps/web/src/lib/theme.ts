@@ -1,4 +1,4 @@
-import { REWARD_THEMES, type RewardTheme } from "@um-reviews/shared";
+import { REWARD_THEMES, type RewardTheme } from "@pintukaca/shared";
 import { getTelegram } from "./telegram";
 
 interface ThemePalette {

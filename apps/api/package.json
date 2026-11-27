@@ -1,5 +1,5 @@
 {
-  "name": "@um-reviews/api",
+  "name": "@pintukaca/api",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -23,7 +23,7 @@
     "db:seed:places:remote": "wrangler d1 execute um_reviews --remote --file=seed/places.seed.sql"
   },
   "dependencies": {
-    "@um-reviews/shared": "*",
+    "@pintukaca/shared": "*",
     "grammy": "^1.30.0",
     "hono": "^4.6.0",
     "jose": "^5.9.0"

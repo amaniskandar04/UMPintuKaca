@@ -1,6 +1,6 @@
 import { Hono } from "hono";
 import type { ContentfulStatusCode } from "hono/utils/http-status";
-import { InitSchema } from "@um-reviews/shared";
+import { InitSchema } from "@pintukaca/shared";
 import type { AppEnv, UserRow } from "../env";
 import { authMiddleware } from "../middleware";
 import {

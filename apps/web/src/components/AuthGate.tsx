@@ -8,7 +8,7 @@ export function AuthGate({ children }: { children: ReactNode }) {
   const [busy, setBusy] = useState(false);
   const [localError, setLocalError] = useState<string | null>(null);
 
-  if (status === "loading") return <LoadingScreen label="Starting UM Reviews" />;
+  if (status === "loading") return <LoadingScreen label="Starting PintuKaca" />;
 
   if (status === "error") {
     return (
@@ -54,7 +54,7 @@ export function AuthGate({ children }: { children: ReactNode }) {
             <IconShield size={26} />
           </div>
           <div>
-            <h1 className="text-xl font-bold">UM Reviews</h1>
+            <h1 className="text-xl font-bold">PintuKaca</h1>
             <p className="mt-2 text-sm leading-relaxed text-[var(--tg-hint)]">
               This is a development session outside Telegram. Use a local admin account to test the app.
             </p>

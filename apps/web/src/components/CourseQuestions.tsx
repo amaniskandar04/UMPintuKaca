@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import type { CourseQuestionDto } from "@um-reviews/shared";
+import type { CourseQuestionDto } from "@pintukaca/shared";
 import { api } from "../lib/api";
 import { useAuth } from "../context/AuthContext";
 import { formatMonth } from "../lib/format";

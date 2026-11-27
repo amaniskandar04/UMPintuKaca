@@ -1,5 +1,5 @@
 import { Hono } from "hono";
-import { UpdateRewardsSchema } from "@um-reviews/shared";
+import { UpdateRewardsSchema } from "@pintukaca/shared";
 import type { AppEnv } from "../env";
 import { authMiddleware } from "../middleware";
 import { getUserRewards, updateRewardPreferences } from "../lib/rewards";

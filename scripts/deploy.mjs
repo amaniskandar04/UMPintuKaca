@@ -226,7 +226,7 @@ async function getWorkersSubdomain(token, accountId, vars) {
   }
 
   for (let attempt = 0; attempt < 3; attempt += 1) {
-    const candidate = `um-reviews-${randomSuffix(3)}`;
+    const candidate = `pintukaca-${randomSuffix(3)}`;
     try {
       await cf(`/accounts/${accountId}/workers/subdomain`, token, {
         method: "PUT",
@@ -270,7 +270,7 @@ async function ensureD1(token, accountId, vars) {
 }
 
 async function ensurePagesProject(token, accountId, vars) {
-  const requested = clean(vars.CLOUDFLARE_PAGES_PROJECT) || "um-reviews";
+  const requested = clean(vars.CLOUDFLARE_PAGES_PROJECT) || "pintukaca";
   const projects = await cf(`/accounts/${accountId}/pages/projects`, token);
   const existing = Array.isArray(projects) ? projects.find((project) => project.name === requested) : null;
   if (existing) {
@@ -398,8 +398,8 @@ async function main() {
     }
   }
 
-  const workerName = clean(vars.CLOUDFLARE_WORKER_NAME) || "um-reviews-api";
-  const pagesProject = clean(vars.CLOUDFLARE_PAGES_PROJECT) || "um-reviews";
+  const workerName = clean(vars.CLOUDFLARE_WORKER_NAME) || "pintukaca-api";
+  const pagesProject = clean(vars.CLOUDFLARE_PAGES_PROJECT) || "pintukaca";
   const dbName = clean(vars.D1_DATABASE_NAME) || "um_reviews";
   assertName(workerName, "CLOUDFLARE_WORKER_NAME");
   assertName(pagesProject, "CLOUDFLARE_PAGES_PROJECT");
@@ -548,7 +548,7 @@ async function main() {
   await telegram(botToken, "setChatMenuButton", {
     menu_button: {
       type: "web_app",
-      text: "UM Reviews",
+      text: "PintuKaca",
       web_app: { url: pagesUrl }
     }
   });
@@ -556,7 +556,7 @@ async function main() {
 
   await telegram(botToken, "setMyCommands", {
     commands: [
-      { command: "start", description: "Open UM Reviews" },
+      { command: "start", description: "Open PintuKaca" },
       { command: "app", description: "Open the review app" },
       { command: "myreviews", description: "Open your reviews" },
       { command: "rewards", description: "Open your points and badges" },
@@ -571,7 +571,7 @@ async function main() {
   console.log("Telegram commands set.");
 
   await telegram(botToken, "setMyShortDescription", {
-    short_description: "Anonymous course, programme, and club reviews for UM students."
+    short_description: "Anonymous course, programme, club and campus reviews for Universiti Malaya students."
   });
   await telegram(botToken, "setMyDescription", {
     description:

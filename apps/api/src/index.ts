@@ -72,7 +72,7 @@ app.onError((error, c) => {
   return c.json({ error: "Internal server error", ...(ray ? { ray } : {}) }, 500);
 });
 
-app.get("/", (c) => c.json({ name: "UM Reviews API", ok: true }));
+app.get("/", (c) => c.json({ name: "PintuKaca API", ok: true }));
 app.get("/api/health", (c) => c.json({ ok: true, environment: c.env.ENVIRONMENT }));
 
 app.route("/api/auth", auth);

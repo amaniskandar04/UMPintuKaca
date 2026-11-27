@@ -1,5 +1,5 @@
 import { Hono } from "hono";
-import { AnswerSchema, QuestionSchema } from "@um-reviews/shared";
+import { AnswerSchema, QuestionSchema } from "@pintukaca/shared";
 import type { AppEnv } from "../env";
 import { authMiddleware, optionalAuthMiddleware, requireVerified } from "../middleware";
 import { makeAlias } from "../lib/alias";
@@ -33,7 +33,7 @@ async function notifyCourseReviewersAboutQuestion(
 
   await Promise.allSettled(
     rows.results.map((row) =>
-      notifyUser(env, row.user_id, `New question on ${code}, a course you reviewed. Open UM Reviews to reply.`)
+      notifyUser(env, row.user_id, `New question on ${code}, a course you reviewed. Open PintuKaca to reply.`)
     )
   );
 }
@@ -153,7 +153,7 @@ qa.post("/questions/:id/answers", authMiddleware, requireVerified, async (c) => 
         notifyUser(
           c.env,
           question.user_id,
-          `Someone answered your question on ${question.code}. Open UM Reviews to read it.`
+          `Someone answered your question on ${question.code}. Open PintuKaca to read it.`
         )
       );
     }

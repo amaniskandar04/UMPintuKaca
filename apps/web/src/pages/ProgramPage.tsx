@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import type { ProgramDetailDto, ReviewDto } from "@um-reviews/shared";
+import type { ProgramDetailDto, ReviewDto } from "@pintukaca/shared";
 import { api } from "../lib/api";
 import { cn, formatAverage, pluralize } from "../lib/format";
 import { useAuth } from "../context/AuthContext";

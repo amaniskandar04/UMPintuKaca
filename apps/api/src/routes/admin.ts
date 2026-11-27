@@ -7,7 +7,7 @@ import {
   RewardAdjustmentSchema,
   type BroadcastDto,
   type TargetType
-} from "@um-reviews/shared";
+} from "@pintukaca/shared";
 import type { AppEnv, ReviewRow } from "../env";
 import { authMiddleware, requireAdmin } from "../middleware";
 import { AppError } from "../lib/errors";

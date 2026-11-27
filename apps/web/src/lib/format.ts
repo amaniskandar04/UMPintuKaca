@@ -1,4 +1,4 @@
-import type { TargetType } from "@um-reviews/shared";
+import type { TargetType } from "@pintukaca/shared";
 
 export function cn(...values: Array<string | false | null | undefined>): string {
   return values.filter(Boolean).join(" ");

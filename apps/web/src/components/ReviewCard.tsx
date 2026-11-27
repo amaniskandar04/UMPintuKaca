@@ -1,5 +1,5 @@
 import { useState } from "react";
-import type { ReviewDto } from "@um-reviews/shared";
+import type { ReviewDto } from "@pintukaca/shared";
 import { api } from "../lib/api";
 import { useAuth } from "../context/AuthContext";
 import { cn, formatMonth } from "../lib/format";

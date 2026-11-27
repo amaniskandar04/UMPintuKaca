@@ -9,7 +9,7 @@ import {
   type MyReviewDto,
   type ProgramDetailDto,
   type TargetType
-} from "@um-reviews/shared";
+} from "@pintukaca/shared";
 import { api } from "../lib/api";
 import { cn } from "../lib/format";
 import { useAuth } from "../context/AuthContext";

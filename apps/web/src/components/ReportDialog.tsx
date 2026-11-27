@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { REPORT_REASONS } from "@um-reviews/shared";
+import { REPORT_REASONS } from "@pintukaca/shared";
 import { api } from "../lib/api";
 import { Modal } from "./ui";
 

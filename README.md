@@ -1,4 +1,4 @@
-# UM Reviews
+# PintuKaca
 
 An anonymous course, programme, and club review app for Universiti Malaya students, delivered as a Telegram Mini App with a Telegram bot.
 
@@ -6,7 +6,7 @@ Students verify once with their `@siswa.um.edu.my` Google account, then rate cou
 
 This repository is an MVP scaffold. The API, database schema, moderation flow, admin queue, and Mini App are implemented and verified locally. Google OAuth and Telegram deployment require your own credentials.
 
-UM Reviews is an independent student project. It is not affiliated with or endorsed by Universiti Malaya. Reviews are student opinions, not official information.
+PintuKaca is an independent student project. It is not affiliated with or endorsed by Universiti Malaya. Reviews are student opinions, not official information.
 
 ## What is included
 
@@ -116,7 +116,7 @@ Without the script, the equivalent direct commands are:
 
 ```powershell
 npx wrangler deploy -c apps/api/wrangler.production.toml
-npx wrangler pages deploy apps/web/dist --project-name um-reviews --branch main
+npx wrangler pages deploy apps/web/dist --project-name pintukaca --branch main
 ```
  `getFaculties()` still lists faculties from the `targets` table.
 
@@ -150,7 +150,7 @@ node scripts/set-webhook.mjs https://your-worker.workers.dev/telegram/webhook
 
 6. Set `WEB_APP_URL` to the HTTPS URL of the Mini App.
 7. Set `BOT_USERNAME` to your bot username without `@`.
-8. In BotFather, configure the menu button or use the bot's existing **Open UM Reviews** button. The bot sends a `web_app` button when `WEB_APP_URL` starts with `https://`.
+8. In BotFather, configure the menu button or use the bot's existing **Open PintuKaca** button. The bot sends a `web_app` button when `WEB_APP_URL` starts with `https://`.
 
 The bot commands are `/start`, `/app`, `/help`, `/myreviews`, `/rewards`, `/privacy`, `/guidelines`, `/report`, `/feedback`, and `/deleteaccount`.
 
@@ -245,12 +245,12 @@ Web (`apps/web/.env` or build environment):
 Remote database commands are available inside `apps/api`:
 
 ```powershell
-npm run db:migrate:remote -w @um-reviews/api
-npm run db:seed:remote -w @um-reviews/api
-npm run db:seed:courses:s2:remote -w @um-reviews/api
-npm run db:seed:programs:remote -w @um-reviews/api
-npm run db:seed:clubs:remote -w @um-reviews/api
-npm run db:seed:places:remote -w @um-reviews/api
+npm run db:migrate:remote -w @pintukaca/api
+npm run db:seed:remote -w @pintukaca/api
+npm run db:seed:courses:s2:remote -w @pintukaca/api
+npm run db:seed:programs:remote -w @pintukaca/api
+npm run db:seed:clubs:remote -w @pintukaca/api
+npm run db:seed:places:remote -w @pintukaca/api
 ```
 
 ## One-command deployment
@@ -292,8 +292,8 @@ GOOGLE_CLIENT_SECRET=...
 Optional values default to:
 
 ```env
-CLOUDFLARE_WORKER_NAME=um-reviews-api
-CLOUDFLARE_PAGES_PROJECT=um-reviews
+CLOUDFLARE_WORKER_NAME=pintukaca-api
+CLOUDFLARE_PAGES_PROJECT=pintukaca
 D1_DATABASE_NAME=um_reviews
 D1_LOCATION=apac
 ALLOWED_EMAIL_DOMAINS=siswa.um.edu.my
@@ -364,7 +364,7 @@ npx wrangler deploy
 cd ../web
 $env:VITE_API_BASE_URL = "https://your-worker.workers.dev"
 npm run build
-npx wrangler pages deploy dist --project-name um-reviews
+npx wrangler pages deploy dist --project-name pintukaca
 ```
 
 7. Update the Worker variables:

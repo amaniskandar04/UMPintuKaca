@@ -5,7 +5,7 @@ import {
   REWARD_THEME_LEVELS,
   type RewardTheme,
   type RewardsDto
-} from "@um-reviews/shared";
+} from "@pintukaca/shared";
 import { api } from "../lib/api";
 import { useAuth } from "../context/AuthContext";
 import { cn, formatMonth } from "../lib/format";

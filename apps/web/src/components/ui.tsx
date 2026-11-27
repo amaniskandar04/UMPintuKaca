@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
 import { useNavigate } from "react-router-dom";
-import type { ReviewStatus } from "@um-reviews/shared";
+import type { ReviewStatus } from "@pintukaca/shared";
 import { cn } from "../lib/format";
 import { IconAlert, IconChevronLeft, IconStar } from "./icons";
 

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import type { ReviewAccessDto } from "@um-reviews/shared";
+import type { ReviewAccessDto } from "@pintukaca/shared";
 import { IconLock, IconPlus } from "./icons";
 
 interface LockedReviewsProps {

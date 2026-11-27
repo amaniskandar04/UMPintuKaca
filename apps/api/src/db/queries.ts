@@ -25,13 +25,13 @@ import type {
   TargetType,
   UserDto,
   WouldTakeAgainDto
-} from "@um-reviews/shared";
+} from "@pintukaca/shared";
 import {
   REVIEW_EDIT_WINDOW_DAYS,
   REWARD_THEMES,
   unlockedRewardThemes,
   type RewardTheme
-} from "@um-reviews/shared";
+} from "@pintukaca/shared";
 import type { CourseRow, DimensionRow, EntityRow, ProgramRow, ReviewRow, StatsRow, UserRow } from "../env";
 import { searchItems } from "../lib/search";
 import { COURSE_BY_ID, COURSE_INDEX, type CourseEntry } from "../lib/course-index";

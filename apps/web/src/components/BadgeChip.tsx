@@ -1,4 +1,4 @@
-import type { AuthorBadgeDto } from "@um-reviews/shared";
+import type { AuthorBadgeDto } from "@pintukaca/shared";
 import type { ComponentType } from "react";
 import {
   IconCheck,

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import type { RewardsDto } from "@um-reviews/shared";
+import type { RewardsDto } from "@pintukaca/shared";
 import { api } from "../lib/api";
 import { useAuth } from "../context/AuthContext";
 import { confirmAction, haptic } from "../lib/telegram";
@@ -140,7 +140,7 @@ export function SettingsPage() {
       </div>
 
       <p className="mt-5 px-2 text-center text-[11px] leading-relaxed text-[var(--tg-hint)]">
-        UM Reviews is an independent student project. It is not affiliated with Universiti Malaya. Reviews are student
+        PintuKaca is an independent student project. It is not affiliated with Universiti Malaya. Reviews are student
         opinions, not official information.
       </p>
     </div>

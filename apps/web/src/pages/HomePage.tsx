@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
-import { PROGRAM_LEVELS, type CategoryDto, type CourseDto, type EntityDto, type ProgramDto, type ReviewAccessDto } from "@um-reviews/shared";
+import { PROGRAM_LEVELS, type CategoryDto, type CourseDto, type EntityDto, type ProgramDto, type ReviewAccessDto } from "@pintukaca/shared";
 import { api } from "../lib/api";
 import { cn, facultyLabel, formatAverage, targetPath } from "../lib/format";
 import { useAuth } from "../context/AuthContext";
@@ -136,8 +136,8 @@ export function HomePage() {
               <IconStar size={18} className="fill-current" />
             </span>
             <div className="leading-tight">
-              <p className="hero-title text-lg font-extrabold tracking-tight">UM Reviews</p>
-              <p className="text-[11px] font-medium text-white/75">Glassdoor for UM students</p>
+              <p className="hero-title text-lg font-extrabold tracking-tight">PintuKaca</p>
+              <p className="text-[11px] font-medium text-white/75">Reviews for Universiti Malaya students</p>
             </div>
           </div>
           {user?.verified ? (

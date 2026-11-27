@@ -9,7 +9,7 @@ import {
   type ReviewStatus,
   type ScoreDto,
   type TargetType
-} from "@um-reviews/shared";
+} from "@pintukaca/shared";
 import type { AppEnv, ReviewRow } from "../env";
 import { authMiddleware, requireVerified } from "../middleware";
 import { makeAlias } from "../lib/alias";

@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import type { MyReviewDto } from "@um-reviews/shared";
+import type { MyReviewDto } from "@pintukaca/shared";
 import { api } from "../lib/api";
 import { targetPath, targetTypeLabel } from "../lib/format";
 import { confirmAction } from "../lib/telegram";

@@ -12,7 +12,7 @@ function appUrl(env: Env, path = ""): string {
 function appKeyboard(env: Env, path = ""): InlineKeyboard | undefined {
   const url = appUrl(env, path);
   if (!url.startsWith("https://")) return undefined;
-  return new InlineKeyboard().webApp("Open UM Reviews", url);
+  return new InlineKeyboard().webApp("Open PintuKaca", url);
 }
 
 function sendApp(ctx: Context, env: Env, text: string, path = ""): Promise<unknown> {
@@ -25,7 +25,7 @@ function createBot(env: Env): Bot {
 
   bot.command("start", async (ctx) => {
     const text = [
-      "Welcome to UM Reviews.",
+      "Welcome to PintuKaca.",
       "",
       "An anonymous space for Universiti Malaya students to rate courses, degree programmes, and clubs.",
       "",
@@ -37,12 +37,12 @@ function createBot(env: Env): Bot {
   });
 
   bot.command("app", async (ctx) => {
-    await sendApp(ctx, env, "Open UM Reviews to browse and write reviews.");
+    await sendApp(ctx, env, "Open PintuKaca to browse and write reviews.");
   });
 
   bot.command("help", async (ctx) => {
     const text = [
-      "UM Reviews commands",
+      "PintuKaca commands",
       "",
       "/app - open the review app",
       "/myreviews - open your reviews",

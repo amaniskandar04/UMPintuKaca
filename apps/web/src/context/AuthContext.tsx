@@ -1,5 +1,5 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type ReactNode } from "react";
-import type { ConfigDto, UserDto } from "@um-reviews/shared";
+import type { ConfigDto, UserDto } from "@pintukaca/shared";
 import { api, getToken, setAuthRefreshHandler, setToken } from "../lib/api";
 import { applyAppTheme } from "../lib/theme";
 import { getTelegram, openExternal } from "../lib/telegram";

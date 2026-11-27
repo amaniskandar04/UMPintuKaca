@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import type { AdminBroadcastDto, BroadcastDto } from "@um-reviews/shared";
+import type { AdminBroadcastDto, BroadcastDto } from "@pintukaca/shared";
 import { api } from "../lib/api";
 import { useAuth } from "../context/AuthContext";
 import {
@@ -146,7 +146,7 @@ export function AdminBroadcastPage() {
                   className="input min-h-[140px] resize-y"
                   value={message}
                   onChange={(event) => setMessage(event.target.value.slice(0, MAX_MESSAGE))}
-                  placeholder="Subject registration is open. Open UM Reviews to see updated course reviews before you pick."
+                  placeholder="Subject registration is open. Open PintuKaca to see updated course reviews before you pick."
                   maxLength={MAX_MESSAGE}
                 />
                 <div className="mt-1 flex items-center justify-between text-[11px] text-[var(--tg-hint)]">

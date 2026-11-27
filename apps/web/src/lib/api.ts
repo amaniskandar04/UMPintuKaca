@@ -23,7 +23,7 @@ import type {
   RewardsLeaderboardDto,
   TargetType,
   UserDto
-} from "@um-reviews/shared";
+} from "@pintukaca/shared";
 
 const configuredBase = (import.meta.env.VITE_API_BASE_URL || "").trim();
 const API_BASE = configuredBase.replace(/\/$/, "");

@@ -3,7 +3,7 @@ import { PageHeader } from "../components/ui";
 export function PrivacyPage() {
   return (
     <div>
-      <PageHeader title="Privacy" subtitle="How UM Reviews handles identity and anonymity." back />
+      <PageHeader title="Privacy" subtitle="How PintuKaca handles identity and anonymity." back />
       <div className="space-y-4 text-sm leading-relaxed">
         <section className="card space-y-2">
           <h2 className="font-semibold">What we store</h2>
@@ -60,7 +60,7 @@ export function PrivacyPage() {
         </section>
 
         <section className="card space-y-2">
-          <h2 className="font-semibold">Not affiliated with UM</h2>
+          <h2 className="font-semibold">Not affiliated with Universiti Malaya</h2>
           <p className="text-[var(--tg-hint)]">
             This is an independent student project. It is not operated or endorsed by Universiti Malaya. Reviews are
             student opinions and may be inaccurate.
